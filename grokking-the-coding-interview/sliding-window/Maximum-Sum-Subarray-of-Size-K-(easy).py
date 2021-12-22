@@ -19,7 +19,7 @@ def max_sub_array_of_size_k(k, arr):
         s += arr[winEnd]
         if winEnd >= k - 1:
             M = max(M, s)
-            s -= arr[winEnd - k + 1]
+            s -= arr[winEnd - k + 1]  # in the if statement
     return M
 
 
