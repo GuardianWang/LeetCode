@@ -34,6 +34,11 @@ def smallest_subarray_with_given_sum(s, arr):
             window_sum -= arr[win_start]
             win_start += 1
     return smallest_len
+"""
+Time complexity:
+for loop: win_end increases N times
+while loop: win_start increases at most N times
+"""
 
 
 def main():
