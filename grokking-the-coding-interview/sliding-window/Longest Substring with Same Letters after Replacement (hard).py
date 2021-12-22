@@ -36,6 +36,11 @@ def length_of_longest_substring(str1, k):
       if win_len - max_freq > k:
         # because we only need the max length,
         # we can simply keep the max length ever
+        # win_len - max_current >= win_len - max_freq > k
+        # win_len and max_freq remain the same until 
+        # new max_freq appears, i.e., max_current
+        # win_len - max_current = win_len - max_freq <= k
+
         c2freq[str1[win_start]] -= 1
         win_start += 1
       else:
