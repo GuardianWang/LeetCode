@@ -24,26 +24,16 @@ def smallest_subarray_with_given_sum(s, arr):
     window_sum = 0
     win_start = 0
     win_end = 0
-    smallest_sum = float('inf')
+    smallest_len = float('inf')
     # window [win_start, win_end)
-    while win_end < len(arr):
+    for win_end in range(len(arr)):
         # extend 
-        while window_sum < s:
-            window_sum += arr[win_end]
-            win_end += 1
-        
-        smallest_sum = min(smallest_sum, window_sum)
-
-        # shirink
-        while window_sum >= s:
-            print(window_sum, win_start, win_end)
-            smallest_sum = min(smallest_sum, window_sum)
+        window_sum += arr[win_end]
+        while window_sum >= s:  # one while is enough, like a combination of if and for
+            smallest_len = min(smallest_len, win_end - win_start + 1)
             window_sum -= arr[win_start]
             win_start += 1
-            # win_start <= win_end
-
-        
-    return smallest_sum
+    return smallest_len
 
 
 def main():
