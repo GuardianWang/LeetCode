@@ -21,18 +21,14 @@ Explanation: Longest substrings with distinct characters are "abc" & "cde".
 def non_repeat_substring(str1):
     win_start = 0
     max_len = 0
-    c2freq = dict()
+    c2endid = dict()
     for win_end, c in enumerate(str1):
-        if c not in c2freq:
-            c2freq[c] = 1
-            max_len = max(max_len, win_end - win_start + 1)
-        else:
-            c2freq[c] += 1
-            while c2freq[c] > 1:
-                c2freq[str1[win_start]] -= 1
-                if c2freq[str1[win_start]] == 0:
-                    del c2freq[str1[win_start]]
-                win_start += 1
+        if c in c2endid:
+            # if index is outside of the window, it will not have any influence
+            # by using max()
+            win_start = max(win_start, c2endid[c] + 1)
+        c2endid[c] = win_end
+        max_len = max(max_len, win_end - win_start + 1)
     return max_len
 
 
