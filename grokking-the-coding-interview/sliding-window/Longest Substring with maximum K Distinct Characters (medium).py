@@ -36,8 +36,8 @@ def longest_substring_with_k_distinct(str1, k):
 
         if len(char2freq) <= k:
             max_len = max(max_len, win_end - win_start + 1)
-
-        while len(char2freq) > k:
+        else:
+            # only keep track of the longest ever window
             char2freq[str1[win_start]] -= 1
             if char2freq[str1[win_start]] == 0:
                 del char2freq[str1[win_start]]
