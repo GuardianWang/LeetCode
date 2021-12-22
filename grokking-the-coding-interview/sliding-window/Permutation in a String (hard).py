@@ -40,21 +40,25 @@ def find_permutation(s, pattern):
 
     win_start = 0
     p_freq = dict()
+    remain = len(pattern)  # sum of absolute frequency
     for c in pattern:
         if c not in p_freq:
             p_freq[c] = 0
         p_freq[c] += 1
-    s_freq = dict()
+
     for win_end, c in enumerate(s):
-        if c not in s_freq:
-            s_freq[c] = 0
-        s_freq[c] += 1
+        if c in p_freq:
+            if p_freq[c] > 0:
+                remain -= 1
+            p_freq[c] -= 1 
+
         if win_end >= len(pattern) - 1:  # 0-indexed
-            if s_freq == p_freq:
+            if remain == 0:
                 return True
-            s_freq[s[win_start]] -= 1
-            if s_freq[s[win_start]] == 0:
-                del s_freq[s[win_start]]
+            if s[win_start] in p_freq:
+                if p_freq[s[win_start]] >= 0:
+                    remain += 1
+                p_freq[s[win_start]] += 1
             win_start += 1  # increase win_start at the end, increase win_end at the beginning
             
     return False 
@@ -72,7 +76,7 @@ main()
 
 
 """
-Time O(MN)
+Time O(M + N): decrease the remaining count instead of checking equality between dicts 
 Space O(M)
 """
 
