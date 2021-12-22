@@ -26,18 +26,22 @@ Explanation: The longest substring with no more than '10' distinct characters is
 def longest_substring_with_k_distinct(str1, k):
     if k >= len(str1):
         return len(str1)
-    char2endid = dict()
+    char2freq = dict()
     win_start = 0
     max_len = 0
-    for win_end in range(len(str1)):
-        char2endid[str1[win_end]] = win_end
-        if len(char2endid) > k:
-            win_start = char2endid[str1[win_start]] + 1
-            char_to_del = [k for k, v in char2endid.items() if v < win_start]
-            for c in char_to_del:
-                del char2endid[c]
-        else:
+    for win_end, char_end in enumerate(str1):
+        if char_end not in char2freq:
+            char2freq[char_end] = 0
+        char2freq[char_end] += 1
+
+        if len(char2freq) <= k:
             max_len = max(max_len, win_end - win_start + 1)
+
+        while len(char2freq) > k:
+            char2freq[str1[win_start]] -= 1
+            if char2freq[str1[win_start]] == 0:
+                del char2freq[str1[win_start]]
+            win_start += 1
 
     return max_len
 
@@ -51,5 +55,7 @@ def main():
 main()
 
 """
-Time O(NK): need to iterate K chars to find which to delete
+Time O(N): move win_start one by one
 Space O(K)
+"""
+
