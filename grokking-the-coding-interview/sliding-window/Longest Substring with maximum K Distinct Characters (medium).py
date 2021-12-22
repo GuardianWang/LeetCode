@@ -50,3 +50,6 @@ def main():
 
 main()
 
+"""
+Time O(NK): need to iterate K chars to find which to delete
+Space O(K)
