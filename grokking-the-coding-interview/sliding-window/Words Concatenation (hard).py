@@ -29,8 +29,10 @@ def find_word_concatenation(str1, words):
     res = []
     for win_start, win_end in enumerate(range(sum_len - 1, len(str1))):
         w2freq_copy = w2freq.copy()
-        for l in range(win_start, win_end, 3):
-            r = l + 3
+        # ends at win_end - (w_len - 1) + w_len
+        # especially when w_len == 1
+        for l in range(win_start, win_end + 1, w_len):
+            r = l + w_len
             w = str1[l: r]
             if w in w2freq_copy:
                 if w2freq_copy[w] == 0:
