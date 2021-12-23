@@ -19,6 +19,7 @@ def search_triplets(arr):
         return []
     arr.sort()
     res = []
+    # skip duplicated value
     last_n1 = float('inf')
     for i in range(len(arr) - 2):
         if arr[i] == last_n1:
@@ -56,4 +57,9 @@ def main():
 
 main()
 
+
+"""
+Time O(N^2)
+Space O(N^2) for output and O(N) for sorting
+"""
 
