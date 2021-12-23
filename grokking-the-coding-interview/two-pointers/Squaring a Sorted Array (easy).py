@@ -43,6 +43,6 @@ main()
 
 """
 Time O(N)
-Space O(1)
+Space O(N)
 """
 
