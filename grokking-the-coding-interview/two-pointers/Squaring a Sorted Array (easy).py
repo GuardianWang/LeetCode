@@ -1,4 +1,5 @@
 """
+LC 977
 Given a sorted array, create a new array containing squares of all the numbers of the input array in the sorted order.
 
 Example 1:
@@ -12,41 +13,23 @@ Output: [0, 1, 1, 4, 9]
 """
 
 def make_squares(arr):
-    if len(arr) == 0:
-        return []
-    elif len(arr) == 1:
+    if len(arr) == 1:
         return [arr[0] ** 2]
-
-    # min abs value
-    min_id = 0
-    min_val = float('inf')
-    for i, v in enumerate(arr):
-        if abs(v) < min_val:
-            min_id = i
-            min_val = abs(v) 
-        if i > 0 and abs(arr[i - 1]) <= v:
-            break
-
-    # two pointers
-    if min_id == len(arr) - 1:  
-        l, r = min_id - 1, min_id
-    elif min_id == 0:
-        l, r = min_id, min_id + 1
-    elif abs(arr[min_id - 1]) < abs(arr[min_id + 1]):
-        l, r = min_id - 1, min_id
-    else:
-        l, r = min_id, min_id + 1
-
-    # construct result
-    res = []
-    while l >= 0 or r < len(arr):
-        if r >= len(arr) or abs(arr[l]) < abs(arr[r]):
-            res.append(arr[l] ** 2)
-            l -= 1
+    
+    # from max to min
+    res = [0 for _ in arr]
+    l, r = 0, len(arr) - 1
+    p_place = r
+    while l <= r:
+        if abs(arr[l]) < abs(arr[r]):
+            res[p_place] = arr[r] ** 2
+            p_place -= 1
+            r -= 1
         else:
-            res.append(arr[r] ** 2)
-            r += 1
-    return res
+            res[p_place] = arr[l] ** 2
+            p_place -= 1
+            l += 1
+    return res 
 
 
 def main():
