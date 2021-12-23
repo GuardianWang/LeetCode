@@ -20,6 +20,7 @@ def triplet_with_smaller_sum(arr, target):
     arr.sort()
     cnt = 0
     for i in range(len(arr) - 2):
+        # Early stop
         if arr[i] > target / 3:
             break
         j, k = i + 1, len(arr) - 1
