@@ -1,4 +1,5 @@
 """
+LC 340
 Given a string, find the length of the longest substring in it with no more than K  characters.
 
 Example 1:
