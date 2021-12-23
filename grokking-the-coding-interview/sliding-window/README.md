@@ -2,7 +2,17 @@
 
 ## Problems
 
-1. 
+1. [Maximum Sum Subarray of Size K (easy)](Maximum-Sum-Subarray-of-Size-K-(easy).py)
+2. [Smallest Subarray with a given sum (easy)]()
+2. [Longest Substring with maximum K Distinct Characters (medium)]()
+2. [Fruits into Baskets (medium)]()
+2. [Longest Substring with Distinct Characters (hard)]()
+2. [Longest Substring with Same Letters after Replacement (hard)]()
+2. [Longest Subarray with Ones after Replacement (hard)]()
+2. [Permutation in a String (hard)]()
+2. [String Anagrams (hard)]()
+2. [Smallest Window containing Substring (hard)]()
+2. [Words Concatenation (hard)]()
 
 ## Pattern
 
