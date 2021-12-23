@@ -4,15 +4,25 @@
 
 1. [Maximum Sum Subarray of Size K (easy)](Maximum-Sum-Subarray-of-Size-K-(easy).py)
 2. [Smallest Subarray with a given sum (easy)](Smallest-Subarray-with-a-given-sum-(easy).py)
-2. [Longest Substring with maximum K Distinct Characters (medium)](Longest-Substring-with-maximum-K-Distinct-Characters-(medium).py)
-2. [Fruits into Baskets (medium)](Fruits-into-Baskets-(medium).py)
+[[LC209](https://leetcode.com/problems/minimum-size-subarray-sum)]
+3. [Longest Substring with maximum K Distinct Characters (medium)](Longest-Substring-with-maximum-K-Distinct-Characters-(medium).py)
+[[LC340](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)]
+4. [Fruits into Baskets (medium)](Fruits-into-Baskets-(medium).py)
+[[LC904](https://leetcode.com/problems/fruit-into-baskets)]
 2. [Longest Substring with Distinct Characters (hard)](Longest-Substring-with-Distinct-Characters-(hard).py)
+[[LC3](https://leetcode.com/problems/longest-substring-without-repeating-characters)]
 2. [Longest Substring with Same Letters after Replacement (hard)](Longest-Substring-with-Same-Letters-after-Replacement-(hard).py)
+[[LC424](https://leetcode.com/problems/longest-repeating-character-replacement)]
 2. [Longest Subarray with Ones after Replacement (hard)](Longest-Subarray-with-Ones-after-Replacement-(hard).py)
+[[LC1004](https://leetcode.com/problems/max-consecutive-ones-iii)]
 2. [Permutation in a String (hard)](Permutation-in-a-String-(hard).py)
+[[LC567](https://leetcode.com/problems/permutation-in-string)]
 2. [String Anagrams (hard)](String-Anagrams-(hard).py)
+[[LC438](https://leetcode.com/problems/find-all-anagrams-in-a-string)]
 2. [Smallest Window containing Substring-(hard)](Smallest-Window-containing-Substring-(hard).py)
+[[LC76](https://leetcode.com/problems/minimum-window-substring)]
 2. [Words Concatenation (hard)](Words-Concatenation-(hard).py)
+[[LC30](https://leetcode.com/problems/substring-with-concatenation-of-all-words)]
 
 ## Pattern
 
