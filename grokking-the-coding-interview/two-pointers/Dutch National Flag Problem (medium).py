@@ -16,23 +16,36 @@ Output: [0, 0, 1, 2, 2, 2,]
 
 
 def dutch_flag_sort(arr):
-    p_place = 0
-    for target in [0, 1]:
-        for p_iter in range(p_place, len(arr)):
-            if arr[p_iter] == target:
-                arr[p_place], arr[p_iter] = arr[p_iter], arr[p_place]
-                p_place += 1
+    l, r = 0, len(arr) - 1
+    # l: next place to put 0
+    # r: next place to put 2
+    # 1s are within [l, r]
+    i = 0
+    while i <= r:  # not <
+        if arr[i] == 0:
+            swap(arr, l, i)
+            l += 1
+            i += 1  # make sure l <= i
+        elif arr[i] == 2:
+            swap(arr, r, i)
+            r -= 1
+        else:
+            i += 1
     return arr
 
 
-def main():
-  arr = [1, 0, 2, 1, 0]
-  dutch_flag_sort(arr)
-  print(arr)
+def swap(arr, i, j):
+    arr[i], arr[j] = arr[j], arr[i]
 
-  arr = [2, 2, 0, 1, 2, 0]
-  dutch_flag_sort(arr)
-  print(arr)
+
+def main():
+    arr = [1, 0, 2, 1, 0]
+    dutch_flag_sort(arr)
+    print(arr)
+
+    arr = [2, 2, 0, 1, 2, 0]
+    dutch_flag_sort(arr)
+    print(arr)
 
 
 main()
