@@ -18,6 +18,7 @@ Input: Fruit=['A', 'B', 'C', 'B', 'B', 'C']
 Output: 5
 Explanation: We can put 3 'B' in one basket and two 'C' in the other basket. 
 This can be done if we start with the second letter: ['B', 'C', 'B', 'B', 'C']
+LC 904
 """
 
 def fruits_into_baskets(fruits):
