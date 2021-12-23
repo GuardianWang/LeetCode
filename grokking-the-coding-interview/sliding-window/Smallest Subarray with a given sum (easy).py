@@ -33,7 +33,7 @@ def smallest_subarray_with_given_sum(s, arr):
             smallest_len = min(smallest_len, win_end - win_start + 1)
             window_sum -= arr[win_start]
             win_start += 1
-    return smallest_len
+    return smallest_len if smallest_len < float('inf') else 0
 """
 Time complexity:
 for loop: win_end increases N times
