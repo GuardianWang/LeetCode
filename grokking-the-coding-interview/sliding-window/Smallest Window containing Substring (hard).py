@@ -22,26 +22,32 @@ Explanation: No substring in the given string has all characters of the pattern.
 
 def find_substring(str1, pattern):
     win_start = 0
-    pset = set(pattern)
+    p_freq = dict()
+    for c in pattern:
+        if c not in p_freq:
+            p_freq[c] = 0
+        p_freq[c] += 1
+    remains = len(pattern)  # sum of absolute value of frequency
+
     min_len = float('inf')
     min_str = ""
     c2freq = dict()
     for win_end, c in enumerate(str1):
-        if c in pset:
-            if c not in c2freq:
-                c2freq[c] = 0
-            c2freq[c] += 1
+        if c in p_freq:
+            if p_freq[c] > 0:
+                remains -= 1
+            p_freq[c] -= 1
 
-        while len(c2freq) == len(pset):
+        while remains == 0:
             win_len = win_end - win_start + 1
             if win_len < min_len:
                 min_len = win_len
                 min_str = str1[win_start: win_end + 1]
             lchar = str1[win_start]
-            if lchar in pset:
-                c2freq[lchar] -= 1
-                if c2freq[lchar] == 0:
-                    del c2freq[lchar]
+            if lchar in p_freq:
+                if p_freq[lchar] >= 0:
+                    remains += 1
+                p_freq[lchar] += 1
             win_start += 1
     return min_str 
         
