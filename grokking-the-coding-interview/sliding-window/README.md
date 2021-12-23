@@ -3,16 +3,16 @@
 ## Problems
 
 1. [Maximum Sum Subarray of Size K (easy)](Maximum-Sum-Subarray-of-Size-K-(easy).py)
-2. [Smallest Subarray with a given sum (easy)]()
-2. [Longest Substring with maximum K Distinct Characters (medium)]()
-2. [Fruits into Baskets (medium)]()
-2. [Longest Substring with Distinct Characters (hard)]()
-2. [Longest Substring with Same Letters after Replacement (hard)]()
-2. [Longest Subarray with Ones after Replacement (hard)]()
-2. [Permutation in a String (hard)]()
-2. [String Anagrams (hard)]()
-2. [Smallest Window containing Substring (hard)]()
-2. [Words Concatenation (hard)]()
+2. [Smallest Subarray with a given sum (easy)](Smallest-Subarray-with-a-given-sum-(easy).py)
+2. [Longest Substring with maximum K Distinct Characters (medium)](Longest-Substring-with-maximum-K-Distinct-Characters-(medium).py)
+2. [Fruits into Baskets (medium)](Fruits-into-Baskets-(medium).py)
+2. [Longest Substring with Distinct Characters (hard)](Longest-Substring-with-Distinct-Characters-(hard).py)
+2. [Longest Substring with Same Letters after Replacement (hard)](Longest-Substring-with-Same-Letters-after-Replacement-(hard).py)
+2. [Longest Subarray with Ones after Replacement (hard)](Longest-Subarray-with-Ones-after-Replacement-(hard).py)
+2. [Permutation in a String (hard)](Permutation-in-a-String-(hard).py)
+2. [String Anagrams (hard)](String-Anagrams-(hard).py)
+2. [Smallest Window containing Substring-(hard)](Smallest-Window-containing-Substring-(hard).py)
+2. [Words Concatenation (hard)](Words-Concatenation-(hard).py)
 
 ## Pattern
 
