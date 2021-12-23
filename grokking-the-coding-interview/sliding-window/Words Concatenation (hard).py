@@ -15,15 +15,43 @@ Explanation: The only substring containing both the words is "catfox".
 
 
 def find_word_concatenation(str1, words):
-    sum_len = sum(map(len, words))
-    for win_end, c in enumerate(words):
+    remains = len(words)
+    w_len = len(words[0])
+    sum_len = remains * w_len
+    w2freq = dict()
+    for w in words:
+        if w not in w2freq:
+            w2freq[w] = 0
+        w2freq[w] += 1
 
+
+    res = []
+    for win_start, win_end in enumerate(range(sum_len - 1, len(str1))):
+        w2freq_copy = w2freq.copy()
+        for l in range(win_start, win_end, 3):
+            r = l + 3
+            w = str1[l: r]
+            if w in w2freq_copy:
+                if w2freq_copy[w] == 0:
+                    break
+                else:
+                    w2freq_copy[w] -= 1
+            else:
+                break
+        else:
+            res.append(win_start)
+    return res
 
 
 def main():
-  print(find_word_concatenation("catfoxcat", ["cat", "fox"]))
-  print(find_word_concatenation("catcatfoxfox", ["cat", "fox"]))
+  print(find_word_concatenation("catfoxcat", ["cat", "fox"]))  # [0, 3]
+  print(find_word_concatenation("catcatfoxfox", ["cat", "fox"]))  # [3]
 
 
 main()
+
+
+"""
+Time O()
+"""
 
