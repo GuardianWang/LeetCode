@@ -1,4 +1,5 @@
 """
+LC 844
 Given two strings containing backspaces (identified by the character ‘#’), check if the two strings are equal.
 
 Example 1:
