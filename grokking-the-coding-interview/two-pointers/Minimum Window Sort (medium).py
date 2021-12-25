@@ -33,18 +33,13 @@ def shortest_window_sort(arr):
     if m == float('inf'):
         return 0
 
-    l, r = -1, len(arr)
-    for i in range(len(arr) - 1):
-        if arr[i] <= arr[i + 1] and arr[i] <= m:
-            l = i
-        else:
-            break
-    for i in range(len(arr) - 1, 0, -1):
-        if M <= arr[i] and arr[i - 1] <= arr[i]:
-            r = i
-        else:
-            break
-    return r - l - 1
+    l, r = 0, len(arr) - 1
+    while l < len(arr) and arr[l] <= m:
+        l += 1
+
+    while r > 0 and M <= arr[r]:
+        r -= 1
+    return r - l + 1
 
 
 def main():
@@ -61,4 +56,3 @@ main()
 Time O(N)
 Space O(1)
 """
-
