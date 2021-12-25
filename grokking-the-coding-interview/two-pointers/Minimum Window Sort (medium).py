@@ -34,7 +34,7 @@ def shortest_window_sort(arr):
         return 0
 
     l, r = 0, len(arr) - 1
-    while l < len(arr) and arr[l] <= m:
+    while l < len(arr) and arr[l] <= m:  # while is if + break
         l += 1
 
     while r > 0 and M <= arr[r]:
