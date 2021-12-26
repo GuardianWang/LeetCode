@@ -3,29 +3,29 @@
 ## Problems
 
 1. [Comparing Strings containing Backspaces (medium)](Comparing-Strings-containing-Backspaces-(medium).py)
-[[LC ]()]
+[[LC844]()]
 1. [Dutch National Flag Problem (medium)](Dutch-National-Flag-Problem-(medium).py)
-[[LC ]()]
+[[LC75]()]
 1. [Minimum Window Sort (medium)](Minimum-Window-Sort-(medium).py)
-[[LC ]()]
+[[LC581]()]
 1. [Pair with Target Sum (easy)](Pair-with-Target-Sum-(easy).py)
-[[LC ]()]
+[[LC167]()]
 1. [Quadruple Sum to Target (medium)](Quadruple-Sum-to-Target-(medium).py)
-[[LC ]()]
+[[LC18]()]
 1. [Remove Duplicates (easy)](Remove-Duplicates-(easy).py)
-[[LC ]()]
+[[LC26]()]
 1. [Remove Element (easy)](Remove-Element-(easy).py)
-[[LC ]()]
+[[LC27]()]
 1. [Squaring a Sorted Array (easy)](Squaring-a-Sorted-Array-(easy).py)
-[[LC ]()]
+[[LC977]()]
 1. [Subarrays with Product Less than a Target (medium)](Subarrays-with-Product-Less-than-a-Target-(medium).py)
-[[LC ]()]
+[[LC713]()]
 1. [Triplet Sum Close to Target (medium)](Triplet-Sum-Close-to-Target-(medium).py)
-[[LC ]()]
+[[LC16]()]
 1. [Triplet Sum to Zero (medium)](Triplet-Sum-to-Zero-(medium).py)
-[[LC ]()]
+[[LC15]()]
 1. [Triplets with Smaller Sum (medium)](Triplets-with-Smaller-Sum-(medium).py)
-[[LC ]()]
+[[LC259]()]
 
 ## Pattern
 
