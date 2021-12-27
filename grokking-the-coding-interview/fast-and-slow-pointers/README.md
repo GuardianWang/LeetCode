@@ -3,28 +3,27 @@
 ## Problems
 
 1. [Cycle in a Circular Array (hard)](Cycle-in-a-Circular-Array-(hard).py)
-[[LC]()]
+[[LC457]()]
 
 1. [Happy Number (medium)](Happy-Number-(medium).py)
-[[LC]()]
+[[LC202]()]
 
 1. [LinkedList Cycle (easy)](LinkedList-Cycle-(easy).py)
-[[LC]()]
+[[LC141]()]
 
 1. [LinkedList Cycle Length (easy)](LinkedList-Cycle-Length-(easy).py)
-[[LC]()]
 
 1. [Middle of the LinkedList (easy)](Middle-of-the-LinkedList-(easy).py)
-[[LC]()]
+[[LC](876)]
 
 1. [Palindrome LinkedList (medium)](Palindrome-LinkedList-(medium).py)
-[[LC]()]
+[[LC](234)]
 
 1. [Rearrange a LinkedList (medium)](Rearrange-a-LinkedList-(medium).py)
-[[LC]()]
+[[LC](143)]
 
 1. [Start of LinkedList Cycle (medium)](Start-of-LinkedList-Cycle-(medium).py)
-[[LC]()]
+[[LC](142)]
 
 ## Pattern
 
