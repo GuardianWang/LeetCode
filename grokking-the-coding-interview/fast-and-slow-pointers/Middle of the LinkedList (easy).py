@@ -27,13 +27,10 @@ class Node:
 
 def find_middle_of_linked_list(head):
     slow, fast = head, head 
-    while fast.next is not None and fast.next.next is not None:
+    while fast is not None and fast.next is not None:
         slow = slow.next 
         fast = fast.next.next 
-    if fast.next is None:
-        return slow
-    else:
-        return slow.next
+    return slow
 
 
 def main():
