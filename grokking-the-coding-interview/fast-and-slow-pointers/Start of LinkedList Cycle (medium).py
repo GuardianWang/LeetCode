@@ -20,8 +20,11 @@ def find_cycle_start(head):
     slow, fast = head, head 
     # find a node in cycle
     while True:
-        slow = slow.next 
-        fast = fast.next.next 
+        try:
+            slow = slow.next 
+            fast = fast.next.next 
+        except:
+            return None
         if slow is fast:
             break
     # length of cycle
