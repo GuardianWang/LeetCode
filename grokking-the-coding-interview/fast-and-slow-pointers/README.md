@@ -45,10 +45,12 @@ while head is not None and head.next is not None:
 
 ## Types
 
-- exist cycle: `slow` moves by 1, `fast` by 2
+- cycle: existence, length, start
 - middle node: after breaking while, `slow` is the middle or second middle point
 - left and right half: first reverse the right half and start from the right end
 
 ## Tricks
 
 - can use `if slow sis not fast:`
+- slow fast pointers first find a point within the cycle, then count the length of the cycle,
+  then start from head and find the start of the cycle
