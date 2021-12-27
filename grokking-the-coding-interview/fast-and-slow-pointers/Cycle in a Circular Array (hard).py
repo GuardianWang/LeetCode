@@ -28,6 +28,8 @@ def circular_array_loop_exists(arr):
     slow, fast = 0, 0
     
     visited = set()
+    # this is guaranteed to have cycles,
+    # but need to check if cycle is legal
     for i in range(len(arr)):  # can start anywhere
         if i in visited:
             continue
