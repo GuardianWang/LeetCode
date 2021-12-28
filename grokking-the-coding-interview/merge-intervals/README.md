@@ -9,6 +9,7 @@
 [[LC57](https://leetcode.com/problems/insert-interval/)]
 1. [Intervals Intersection (medium)]()
 [[LC986](https://leetcode.com/problems/interval-list-intersections/)]
+1. [Conflicting Appointments (medium)]()
 
 
 1. []()
