@@ -35,17 +35,22 @@ class Interval:
 def find_employee_free_time(schedule):     
     heap = []
     rest = []
-    # all working hours 
-    work = [t for w in schedule for t in w]
-    work.sort(key=lambda x: x.start)
-    last_work = work[0]
-    for i in range(1, len(work)):
-        if work[i].start <= last_work.end:
-            last_work.end = max(last_work.end, work[i].end)
+    # use heap to do k-way merge sort 
+    for i, worker in enumerate(schedule):
+        heappush(heap, (worker[0].start, i, 0, worker[0]))
+    last_work = heap[0][-1]
+    while heap:
+        start, i, j, work_time = heap[0]
+        if j + 1 < len(schedule[i]):
+            heapreplace(heap, (schedule[i][j + 1].start,
+                               i, j + 1, schedule[i][j + 1]))
         else:
-            rest.append(Interval(last_work.end, work[i].start))
-            last_work = work[i]
-
+            heappop(heap)
+        if last_work.end < start:
+            rest.append(Interval(last_work.end, start))
+            last_work = work_time
+        else:
+            last_work.end = max(work_time.end, last_work.end)
     return rest
 
 
@@ -77,7 +82,7 @@ main()
 
 
 """
-Time O(NlogN)
+Time O(NlogK)
 Space O(N)
 """
 
