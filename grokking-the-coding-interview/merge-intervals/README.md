@@ -19,8 +19,5 @@
 [[link](https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/)]
 1. [Maximum CPU Load (hard)]()
 [[link](https://www.geeksforgeeks.org/maximum-cpu-load-from-the-given-list-of-jobs/)]
-
-1. []()
-[[LC]()]
-
-[[LC435](https://leetcode.com/problems/non-overlapping-intervals/)]
+1. [Employee Free Time (hard)]()
+[[LC759](https://leetcode.com/problems/employee-free-time/)]
