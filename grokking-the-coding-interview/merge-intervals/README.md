@@ -11,6 +11,8 @@
 [[LC986](https://leetcode.com/problems/interval-list-intersections/)]
 1. [Conflicting Appointments (medium)]()
 1. [Non-overlapping Intervals]()
+1. [Minimum Meeting Rooms (hard)]()
+[[LC253](https://leetcode.com/problems/meeting-rooms-ii/)]
 
 
 1. []()
