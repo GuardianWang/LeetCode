@@ -18,7 +18,7 @@ def findMaxGuests(intervals):
   return p
 
 
-print(findMaxGuests([[1, 4], [2, 5], [10, 12], [5, 9], [5, 12]]))
+print(findMaxGuests([[1, 4], [2, 5], [10, 12], [5, 9], [5, 12]]))  # 5
 
 
 """
