@@ -17,7 +17,8 @@
 [[link](https://www.geeksforgeeks.org/find-the-point-where-maximum-intervals-overlap/)]
 1. [minimum number of platforms]()
 [[link](https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/)]
-
+1. [Maximum CPU Load (hard)]()
+[[link](https://www.geeksforgeeks.org/maximum-cpu-load-from-the-given-list-of-jobs/)]
 
 1. []()
 [[LC]()]
