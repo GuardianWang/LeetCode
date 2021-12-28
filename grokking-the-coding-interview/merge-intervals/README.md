@@ -13,6 +13,9 @@
 1. [Non-overlapping Intervals]()
 1. [Minimum Meeting Rooms (hard)]()
 [[LC253](https://leetcode.com/problems/meeting-rooms-ii/)]
+1. [point where maximum intervals overlap]()
+[[link](https://www.geeksforgeeks.org/find-the-point-where-maximum-intervals-overlap/)]
+
 
 
 1. []()
