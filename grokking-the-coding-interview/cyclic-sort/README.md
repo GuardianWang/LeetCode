@@ -10,8 +10,8 @@
 1. [Find the Duplicate Number (easy)]()
 1. [Find all Duplicate Numbers (easy)]()
 [[LC442](https://leetcode.com/problems/find-all-duplicates-in-an-array/)]
-1. []()
-[[]()]
+1. [Find the Corrupt Pair (easy)]()
+[[link](https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/)]
 1. []()
 [[]()]
 1. []()
