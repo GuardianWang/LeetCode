@@ -18,24 +18,16 @@ Output: 4
 
 
 def find_first_smallest_missing_positive(nums):
-    # although nums[i] is not bounded, 
-    # the answer is bounded by [1, len(nums) + 1]
-    # len(nums) + 1 when all len(nums) appear
+    for i, n in enumerate(nums):
+        j = nums[i] - 1
+        # only deal with legal indices
+        while 0 < n <= len(nums) and n != nums[j]:
+            nums[i], nums[j] = nums[j], nums[i]
+            n = nums[i]
+            j = n - 1
 
-    # set negative to 0 to make sure when adding M to
-    # this position, value >= M
     for i, n in enumerate(nums):
-        if n < 0:
-            nums[i] = 0
-        elif nums[i] > len(nums):
-            nums[i] = len(nums) + 1
-    M = len(nums) + 2
-    print(nums)
-    for i, n in enumerate(nums):
-        if 0 < n % M <= len(nums):
-            nums[n % M - 1] += M
-    for i, n in enumerate(nums):
-        if n < M:
+        if i != n - 1:
             return i + 1
     return len(nums) + 1
 
