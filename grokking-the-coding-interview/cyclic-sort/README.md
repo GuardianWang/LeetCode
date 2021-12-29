@@ -12,8 +12,8 @@
 [[LC442](https://leetcode.com/problems/find-all-duplicates-in-an-array/)]
 1. [Find the Corrupt Pair (easy)]()
 [[link](https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/)]
-1. []()
-[[]()]
+1. [Find the Smallest Missing Positive Number (medium)]()
+[[LC41](https://leetcode.com/problems/first-missing-positive/submissions/)]
 1. []()
 [[]()]
 1. []()
