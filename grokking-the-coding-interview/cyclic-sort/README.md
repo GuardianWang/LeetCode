@@ -2,19 +2,19 @@
 
 # Problems
 
-1. [Cyclic Sort (easy)]()
-1. [Find the Missing Number (easy)]()
+1. [Cyclic Sort (easy)](Cyclic-Sort-(easy).py)
+1. [Find the Missing Number (easy)](Find-the-Missing-Number-(easy).py)
 [[LC268](https://leetcode.com/problems/missing-number/)]
-1. [Find all Missing Numbers (easy)]()
+1. [Find all Missing Numbers (easy)](Find-all-Missing-Numbers-(easy).py)
 [[LC448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)]
-1. [Find the Duplicate Number (easy)]()
-1. [Find all Duplicate Numbers (easy)]()
+1. [Find the Duplicate Number (easy)](Find-the-Duplicate-Number-(easy).py)
+1. [Find all Duplicate Numbers (easy)](Find-all-Duplicate-Numbers-(easy).py)
 [[LC442](https://leetcode.com/problems/find-all-duplicates-in-an-array/)]
-1. [Find the Corrupt Pair (easy)]()
+1. [Find the Corrupt Pair (easy)](Find-the-Corrupt-Pair-(easy).py)
 [[link](https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/)]
-1. [Find the Smallest Missing Positive Number (medium)]()
+1. [Find the Smallest Missing Positive Number (medium)](Find-the-Smallest-Missing-Positive-Number-(medium).py)
 [[LC41](https://leetcode.com/problems/first-missing-positive/submissions/)]
-1. [Find the First K Missing Positive Numbers (hard)]()
+1. [Find the First K Missing Positive Numbers (hard)](Find-the-First-K-Missing-Positive-Numbers-(hard).py)
 
 ## Pattern
 
