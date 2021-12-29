@@ -21,9 +21,17 @@ Output: 4
 def find_missing_numbers(nums):
     # mark 
     for i, n in enumerate(nums):
-        # don't forget module
-        nums[n % len(nums) - 1] += len(nums)
-    return [i + 1 for i, n in enumerate(nums) if n <= len(nums)]
+
+        # i = nums[i] - 1 = nums[j] - 1
+        # stop when 
+        # 1. don't move -> nums[i] - 1 = nums[j] - 1
+        # 2. meet duplicate -> nums[i] = nums[j]
+        j = n - 1  # id of next
+        while n != nums[j]:
+            nums[i], nums[j] = nums[j], nums[i]
+            n = nums[i]
+            j = n - 1
+    return [i + 1 for i, n in enumerate(nums) if i != n -1]
 
 
 def main():
