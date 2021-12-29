@@ -13,15 +13,15 @@ Output: 7
 
 
 def find_missing_number(nums):
-    # x ^ x = 0
-    # 0 ^ x = x
-    # (1 ^ 2 ^ 3 ... n) ^ (1 ^ 2 ^ 3 ... n) = 
-    # cancel appeared values 
-    # = missing value
-    x = len(nums)
     for i, n in enumerate(nums):
-        x = x ^ i ^ n 
-    return x
+        while n < len(nums) and i != n:
+            nums[i], nums[n] = nums[n], nums[i]
+            n = nums[i]
+    
+    for i, n in enumerate(nums):
+        if i != n:
+            return i
+    return len(nums)
 
 
 def main():
