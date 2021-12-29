@@ -14,9 +14,4 @@
 [[link](https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/)]
 1. [Find the Smallest Missing Positive Number (medium)]()
 [[LC41](https://leetcode.com/problems/first-missing-positive/submissions/)]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
+1. [Find the First K Missing Positive Numbers (hard)]()
