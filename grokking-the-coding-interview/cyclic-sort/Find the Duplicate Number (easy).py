@@ -17,12 +17,33 @@ Output: 4
 
 
 def find_duplicate(nums):
-    M = len(nums)
-    for i, n in enumerate(nums):
-        nums[n % M] += M
-    for i, n in enumerate(nums):
-        if n > 2 * M:
-            return i
+    # don't modify nums
+    # duplicates will form a cycle of length < len(nums)
+    # a1 will point to b, b goes to a2, a2 points to b again
+    # duplicate number will be at the start of cycle as id
+
+    # two pointers
+    slow, fast = 0, 0
+    while True:
+        slow = nums[slow]
+        fast = nums[nums[fast]]
+        if slow == fast:
+            break 
+    # length 
+    cnt = 0
+    while True:
+        slow = nums[slow]
+        cnt += 1
+        if slow == fast:
+            break 
+    # start 
+    slow, fast = 0, 0
+    for _ in range(cnt):
+        fast = nums[fast]
+    while slow != fast:
+        slow = nums[slow]
+        fast = nums[fast]
+    return slow
 
 
 def main():
