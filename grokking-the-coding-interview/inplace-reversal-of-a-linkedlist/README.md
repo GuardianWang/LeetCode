@@ -2,8 +2,8 @@
 
 ## Problems
 
-1. []()
-[[]()]
+1. [Reverse a LinkedList (easy)]()
+[[LC206](https://leetcode.com/problems/reverse-linked-list/)]
 1. []()
 [[]()]
 1. []()
