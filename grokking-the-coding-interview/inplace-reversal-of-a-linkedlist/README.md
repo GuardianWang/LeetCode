@@ -11,16 +11,5 @@
 1. [Reverse every K-element Sub-list (medium)]()
 [[LC25](https://leetcode.com/problems/reverse-nodes-in-k-group/)]
 1. [Reverse alternating K-element Sub-list (medium)]()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
+1. [Rotate a LinkedList (medium)]()
+[[LC61](https://leetcode.com/problems/rotate-list/)]
