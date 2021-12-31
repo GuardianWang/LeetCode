@@ -68,3 +68,8 @@ while head:
 1. reverse the whole list
 2. reverse a sub-list
 3. rotate: rotate k to the right, then the first `len - k` nodes remain the same
+
+## Tricks
+
+- In the reverse alternating k element problems, `reverse_sublist()` returns the end
+of the reversed value to make sure time complexity is O(N)
