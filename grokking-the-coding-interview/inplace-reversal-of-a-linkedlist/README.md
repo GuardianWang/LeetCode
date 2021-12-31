@@ -10,7 +10,7 @@
 1. [Reverse by size (medium)]()
 1. [Reverse every K-element Sub-list (medium)]()
 [[LC25](https://leetcode.com/problems/reverse-nodes-in-k-group/)]
-1. []()
+1. [Reverse alternating K-element Sub-list (medium)]()
 [[]()]
 1. []()
 [[]()]
