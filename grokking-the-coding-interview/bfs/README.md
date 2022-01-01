@@ -16,8 +16,8 @@
 [[LC111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)]
 1. [Maximum Depth of Binary Tree (easy)]()
 [[LC104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)]
-1. []()
-[[]()]
+1. [Level Order Successor (easy)]()
+[[link](https://www.geeksforgeeks.org/level-order-successor-of-a-node-in-binary-tree/)]
 1. []()
 [[]()]
 1. []()
