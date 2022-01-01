@@ -14,26 +14,28 @@ class TreeNode:
 cnt = 0
 def count_paths(root, s):
   global cnt 
-  count_p(root, s, [])
+  sum2freq = {0: 1}  # sentinel
+  count_p(root, s, 0, sum2freq)
   return cnt 
 
 
-def count_p(root, s, sums):
+def count_p(root, s, cur_sum, sum2freq):
   global cnt
   if not root:
     return 
-  # add root.val 
-  sums.append(0)
-  for i in range(len(sums)):
-    sums[i] += root.val 
-    if sums[i] == s:
-      cnt += 1
-  
-  count_p(root.left, s, sums)
-  count_p(root.right, s, sums)
-  sums.pop()
-  for i in range(len(sums)):
-    sums[i] -= root.val 
+  cur_sum += root.val
+  pre_sum = cur_sum - s
+  if pre_sum in sum2freq:
+    cnt += sum2freq[pre_sum]
+  if cur_sum not in sum2freq:
+    sum2freq[cur_sum] = 0
+  sum2freq[cur_sum] += 1
+
+  count_p(root.left, s, cur_sum, sum2freq)
+  count_p(root.right, s, cur_sum, sum2freq)
+  sum2freq[cur_sum] -= 1
+  if sum2freq[cur_sum] == 0:
+    del sum2freq[cur_sum]
 
 
 def main():
@@ -51,7 +53,7 @@ main()
 
 
 """
-Time O(N^2) O(NlogN)
+Time O(N)
 Space O(N)
 """
 
