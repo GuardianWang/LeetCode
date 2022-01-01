@@ -26,6 +26,82 @@
 1. [Left View of a Binary Tree (easy)](Left-View-of-a-Binary-Tree-(easy).py)
 [[link](https://www.techiedelight.com/print-left-view-of-binary-tree)]
 
+## Pattern
+
+- tree
+- depth/level order
+- connect siblings
+
+## Pipeline
+
+### traverse level by length
+```python
+from collections import deque
+
+
+if not root:
+	return None 
+level = deque([root])
+while level:
+	l = len(level)  # size of a level
+	# traverse a level
+	for i in range(l):
+		node = level.popleft()
+		if i == 0:
+			# the first in this level
+		if i == l - 1:
+			# the last in this level
+		if node.left:
+			level.append(node.left)
+		if node.right:
+			level.append(node.right)
+
+```
+
+### traverse next level in O(1) space with sibling pointer
+```python
+if not root:
+	return None 
+# `start` and `end` are two side nodes in the same level
+start = root
+end = root 
+while start:
+	it = iter_next_level(start)
+	left_sibling = next(it, None)
+	next_level_start = left_sibling
+
+	right_sibling = None
+	for right_sibling in it:
+		left_sibling.next = right_sibling
+		left_sibling = right_sibling
+	# `right_sibling` becomes the end ndoe in the next level
+	end.next = next_level_start  # `next_end` is at the same level as `start`
+
+	start, end = next_level_start, right_sibling
+
+	return root
+
+
+def iter_next_level(node):
+	# node is the start of a level
+	while node:
+		if node.left:
+			yield node.left
+		if node.right:
+			yield node.right
+		node = node.next
+```
+
+## Types
+
+1. traversal order by depth: count depth
+1. smallest/largest depth: count depth
+1. level statistics: keep level nodes
+1. siblings: use iterator
+
+## Tricks
+
+- use iterator for sibling traversal
 
 ## Resources 
 
