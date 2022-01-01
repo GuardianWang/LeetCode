@@ -13,8 +13,8 @@
 [[129](https://leetcode.com/problems/sum-root-to-leaf-numbers/)]
 1. [Path With Given Sequence (medium)]()
 [[LC1430](https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/)]
-1. []()
-[[]()]
+1. [Count Paths for a Sum (medium)]()
+[[LC437](https://leetcode.com/problems/path-sum-iii/)]
 1. []()
 [[]()]
 1. []()
