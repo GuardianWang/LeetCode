@@ -1,4 +1,5 @@
 """
+LC 1602
 Given a binary tree and a node, find the level order successor of the given node in the tree. The level order successor is the node that appears right after the given node in the level order traversal.
 """
 from collections import deque
@@ -27,6 +28,8 @@ def find_successor(root, key):
         # the current level
         if n.val == key:
             return level.popleft()
+        # Note:
+        # In lc, cannot go to the next level
 
 
 def main():
