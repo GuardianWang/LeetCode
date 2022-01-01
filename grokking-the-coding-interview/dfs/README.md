@@ -17,8 +17,8 @@
 [[LC437](https://leetcode.com/problems/path-sum-iii/)]
 1. [Tree Diameter (medium)]()
 [[LC543](https://leetcode.com/problems/diameter-of-binary-tree/)]
-1. []()
-[[]()]
+1. [Path with Maximum Sum (hard)]()
+[[LC124](https://leetcode.com/problems/binary-tree-maximum-path-sum/)]
 1. []()
 [[]()]
 1. []()
