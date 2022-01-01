@@ -13,9 +13,9 @@
 1. [Find Largest Value in Each Tree Row (medium)]()
 [[LC515](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)]
 1. [Minimum Depth of a Binary Tree (easy)]()
-[[]()]
-1. []()
-[[]()]
+[[LC111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)]
+1. [Maximum Depth of Binary Tree (easy)]()
+[[LC104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)]
 1. []()
 [[]()]
 1. []()
