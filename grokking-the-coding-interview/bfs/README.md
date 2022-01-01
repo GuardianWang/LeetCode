@@ -23,12 +23,8 @@
 1. [Connect All Level Order Siblings (medium)]()
 1. [Right View of a Binary Tree (easy)]()
 [[LC199](https://leetcode.com/problems/binary-tree-right-side-view/)]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
+1. [Left View of a Binary Tree (easy)]()
+[[link](https://www.techiedelight.com/print-left-view-of-binary-tree)]
 
 
 ## Resources 
