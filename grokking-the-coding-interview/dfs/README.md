@@ -19,9 +19,36 @@
 [[LC543](https://leetcode.com/problems/diameter-of-binary-tree/)]
 1. [Path with Maximum Sum (hard)]()
 [[LC124](https://leetcode.com/problems/binary-tree-maximum-path-sum/)]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
+
+## Pattern
+
+- tree
+- the state of `node` depends on `node.left` and `node.right`
+
+## Pipeline
+```python
+def dfs(node):
+  if node is None:
+    return
+  # do sth with node.val
+
+  if node.left is None and node.right is None:
+    # leaf, base condition
+  l = dfs(node.left)
+  r = dfs(node.right )
+  return # combine l and r
+```
+
+## Types
+
+1. path sum
+  - root to leaf
+  - leaf to leaf
+  - subpath, from root to leaf
+  - subpath, any
+
+## Tricks
+
+- during the conquer phase, choose best of
+  1. each branch
+  2. concatenation of each branch and the current node
