@@ -30,22 +30,31 @@ class TreeNode:
 def connect_level_order_siblings(root):
     if root is None:
         return None 
-    level = deque([root])
-    while level:
-        l = len(level)
-        for i in range(l):
-            n = level.popleft()
-            if i != l - 1:
-                n.next = level[0]
-            if n.left:
-                level.append(n.left)
-            if n.right:
-                level.append(n.right)
-    return root
-    
+    # because we can use .next to traverse each level 
+    # space can be O(1)
+    start = root 
+    while start:
+      # connect the next level 
+      next_iter = iter_next_level(start)
+      prev = next(next_iter, None)
+      next_start = prev
+      for sibling in next_iter:
+        prev.next = sibling 
+        prev = sibling 
+      start = next_start
+
+
+def iter_next_level(start):
+  while start:
+    if start.left:
+      yield start.left 
+    if start.right:
+      yield start.right
+    start = start.next 
+
 
 def main():
-  # 13 
+  # 12 
   # 7 1 
   # 9 10 5 
   root = TreeNode(12)
@@ -65,6 +74,6 @@ main()
 
 """
 Time O(N)
-Space O(N)
+Space O(1)
 """
 
