@@ -19,7 +19,7 @@
 1. [Level Order Successor (easy)]()
 [[LC1602](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)]
 1. [Connect Level Order Siblings (medium)]()
-[[LC116](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)]
+[[LC117](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)]
 1. []()
 [[]()]
 1. []()
