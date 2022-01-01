@@ -15,8 +15,8 @@
 [[LC1430](https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/)]
 1. [Count Paths for a Sum (medium)]()
 [[LC437](https://leetcode.com/problems/path-sum-iii/)]
-1. []()
-[[]()]
+1. [Tree Diameter (medium)]()
+[[LC543](https://leetcode.com/problems/diameter-of-binary-tree/)]
 1. []()
 [[]()]
 1. []()
