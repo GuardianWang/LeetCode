@@ -8,8 +8,8 @@
 [[LC107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)]
 1. [Zigzag Traversal (medium)]()
 [[LC103](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)]
-1. []()
-[[]()]
+1. [Level Averages in a Binary Tree (easy)]()
+[[LC637](https://leetcode.com/problems/average-of-levels-in-binary-tree/)]
 1. []()
 [[]()]
 1. []()
