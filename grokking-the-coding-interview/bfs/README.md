@@ -12,7 +12,7 @@
 [[LC637](https://leetcode.com/problems/average-of-levels-in-binary-tree/)]
 1. [Find Largest Value in Each Tree Row (medium)]()
 [[LC515](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)]
-1. []()
+1. [Minimum Depth of a Binary Tree (easy)]()
 [[]()]
 1. []()
 [[]()]
