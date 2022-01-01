@@ -21,8 +21,8 @@
 1. [Connect Level Order Siblings (medium)]()
 [[LC117](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)]
 1. [Connect All Level Order Siblings (medium)]()
-1. []()
-[[]()]
+1. [Right View of a Binary Tree (easy)]()
+[[LC199](https://leetcode.com/problems/binary-tree-right-side-view/)]
 1. []()
 [[]()]
 1. []()
