@@ -29,3 +29,8 @@
 [[]()]
 1. []()
 [[]()]
+
+
+## Resources 
+
+- [tree views and traversal](https://leetcode.com/discuss/general-discussion/1094690/views-and-traversal-of-binary-tree-important-topics-must-read)
