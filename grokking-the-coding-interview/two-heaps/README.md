@@ -2,13 +2,13 @@
 
 ## Problems
 
-1. [Find the Median of a Number Stream (medium)]()
+1. [Find the Median of a Number Stream (medium)](Find-the-Median-of-a-Number-Stream-(medium).py)
 [[LC295](https://leetcode.com/problems/find-median-from-data-stream/)]
-1. [Sliding Window Median (hard)]()
+1. [Sliding Window Median (hard)](Sliding-Window-Median-(hard).py)
 [[LC480](https://leetcode.com/problems/sliding-window-median/)]
-1. [Maximize Capital (hard)]()
+1. [Maximize Capital (hard)](Maximize-Capital-(hard).py)
 [[LC502](https://leetcode.com/problems/ipo/)]
-1. [Next Interval (hard)]()
+1. [Next Interval (hard)](Next-Interval-(hard).py)
 [[LC436](https://leetcode.com/problems/find-right-interval/)]
 
 ## Pattern
