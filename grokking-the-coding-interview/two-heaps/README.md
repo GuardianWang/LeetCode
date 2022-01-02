@@ -8,28 +8,8 @@
 [[LC480](https://leetcode.com/problems/sliding-window-median/)]
 1. [Maximize Capital (hard)]()
 [[LC502](https://leetcode.com/problems/ipo/)]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
+1. [Next Interval (hard)]()
+[[LC436](https://leetcode.com/problems/find-right-interval/)]
 
 ## Resources
 
