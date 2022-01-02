@@ -6,8 +6,8 @@
 [[LC295](https://leetcode.com/problems/find-median-from-data-stream/)]
 1. [Sliding Window Median (hard)]()
 [[LC480](https://leetcode.com/problems/sliding-window-median/)]
-1. []()
-[[]()]
+1. [Maximize Capital (hard)]()
+[[LC502](https://leetcode.com/problems/ipo/)]
 1. []()
 [[]()]
 1. []()
