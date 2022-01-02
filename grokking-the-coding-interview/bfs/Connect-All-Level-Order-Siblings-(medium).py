@@ -21,33 +21,33 @@ class TreeNode:
 def connect_all_siblings(root):
     if root is None:
         return
-    start = root 
+    start = root
     last_level_end = root
     while start:
         it = iter_level(start)
         prev = next(it, None)
-        next_start = prev 
+        next_start = prev
         sibling = None
         for sibling in it:
             prev.next = sibling
             prev = sibling
         last_level_end.next = next_start
         start = next_start
-        last_level_end = sibling
-    return root 
+        last_level_end = prev
+    return root
 
 
 def iter_level(start):
     while start:
         if start.left:
-            yield start.left 
+            yield start.left
         if start.right:
             yield start.right
-        start = start.next 
+        start = start.next
 
 
 def main():
-  # 12 7 1 9 10 5 
+  # 12 7 1 9 10 5
   root = TreeNode(12)
   root.left = TreeNode(7)
   root.right = TreeNode(1)
@@ -65,4 +65,3 @@ main()
 Time O(N)
 Space O(1)
 """
-

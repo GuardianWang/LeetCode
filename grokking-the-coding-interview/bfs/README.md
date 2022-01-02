@@ -40,7 +40,7 @@ from collections import deque
 
 
 if not root:
-	return None 
+	return None
 level = deque([root])
 while level:
 	l = len(level)  # size of a level
@@ -61,10 +61,10 @@ while level:
 ### traverse next level in O(1) space with sibling pointer
 ```python
 if not root:
-	return None 
+	return None
 # `start` and `end` are two side nodes in the same level
 start = root
-end = root 
+end = root
 while start:
 	it = iter_next_level(start)
 	left_sibling = next(it, None)
@@ -74,10 +74,11 @@ while start:
 	for right_sibling in it:
 		left_sibling.next = right_sibling
 		left_sibling = right_sibling
-	# `right_sibling` becomes the end ndoe in the next level
+	# `left_sibling becomes the end node in the next level
+	# `right_sibling may not because it can be None even if next level is not empty (e.g., only 1 node in the next level)
 	end.next = next_level_start  # `next_end` is at the same level as `start`
 
-	start, end = next_level_start, right_sibling
+	start, end = next_level_start, left_sibling
 
 	return root
 
@@ -103,6 +104,6 @@ def iter_next_level(node):
 
 - use iterator for sibling traversal
 
-## Resources 
+## Resources
 
 - [tree views and traversal](https://leetcode.com/discuss/general-discussion/1094690/views-and-traversal-of-binary-tree-important-topics-must-read)
