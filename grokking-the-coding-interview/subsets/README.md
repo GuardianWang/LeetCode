@@ -2,8 +2,8 @@
 
 ## Problems
 
-1. []()
-[[]()]
+1. [Subsets (easy)]()
+[[LC78](https://leetcode.com/problems/subsets/)]
 1. []()
 [[]()]
 1. []()
