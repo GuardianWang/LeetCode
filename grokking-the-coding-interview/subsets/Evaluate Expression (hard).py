@@ -18,20 +18,20 @@ from collections import deque
 def diff_ways_to_evaluate_expression(expr):
     nums = re.findall(r"\d+", expr)
     ops = re.findall(r"\+|\-|\*", expr)
-    return list(map(int, find_expr(nums, ops)))
+    # dp to save time for recursion
+    # bottom-up
+    # dp[a][b] is all possible values from the a-th number to the b-th number 
+    dp = [[[] for _ in range(len(nums))] for _ in range(len(nums))]
+    # init dp[n][n]
+    for i, num in enumerate(nums):
+        dp[i][i].append(num)
+    for step in range(1, len(nums)):
+        for i in range(len(nums) - step):
+            j = i + step 
+            for m in range(i, j):
+                dp[i][j].extend(calculate(dp[i][m], dp[m + 1][j], ops[m])) 
 
-
-def find_expr(nums, ops):
-    # dfs
-    if not ops:
-        return nums
-
-    values = []
-    for i in range(len(ops)):
-        values_l = find_expr(nums[:i + 1], ops[:i])
-        values_r = find_expr(nums[i + 1:], ops[i + 1:])
-        values.extend(calculate(values_l, values_r, ops[i]))
-    return values
+    return list(map(int, dp[0][len(nums) - 1]))
 
 
 def calculate(values_l, values_r, op):
@@ -50,5 +50,5 @@ main()
 
 
 """
-Time/Space > O(3^N), maybe O(N!)
+Time/Space Catalan(N)
 """
