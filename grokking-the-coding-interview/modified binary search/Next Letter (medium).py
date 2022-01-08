@@ -26,14 +26,14 @@ def search_next_letter(letters, key):
     if key >= letters[-1]:
         return letters[0]
     l, r = 0, len(letters) - 1
-    while l < r:
+    while l <= r:
         m = (l + r) >> 1
         if key < letters[m]:
-            r = m
+            r = m - 1
         else:
             l = m + 1
-    return letters[l] if key < letters[l] else letters[l + 1]
-
+    return letters[l]
+    
 
 def main():
   print(search_next_letter(['a', 'c', 'f', 'h'], 'f'))
