@@ -14,8 +14,8 @@
 [[LC22](https://leetcode.com/problems/generate-parentheses/)]
 1. [Unique Generalized Abbreviations (hard).py]()
 [[LC320](https://leetcode.com/problems/generalized-abbreviation/)]
-1. []()
-[[]()]
+1. [Evaluate Expression (hard).py]()
+[[LC241](https://leetcode.com/problems/different-ways-to-add-parentheses/)]
 1. []()
 [[]()]
 1. []()
