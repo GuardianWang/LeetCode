@@ -22,6 +22,14 @@ def count_trees(n):
     return dp[-1]
 
 
+def math_way(n):
+    # Time O(N)
+    # Space O(1)
+    c = 1
+    for i in range(1, n):
+        c *= (4 * i + 2) / (i + 2)
+    return int(c)
+
 def main():
   print("Total trees: " + str(count_trees(2)))
   print("Total trees: " + str(count_trees(3)))
