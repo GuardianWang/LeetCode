@@ -20,16 +20,16 @@ def diff_ways_to_evaluate_expression(expr):
     ops = re.findall(r"\+|\-|\*", expr)
     # dp to save time for recursion
     # bottom-up
-    # dp[a][b] is all possible values from the a-th number to the b-th number 
+    # dp[a][b] is all possible values from the a-th number to the b-th number
     dp = [[[] for _ in range(len(nums))] for _ in range(len(nums))]
     # init dp[n][n]
     for i, num in enumerate(nums):
         dp[i][i].append(num)
     for step in range(1, len(nums)):
         for i in range(len(nums) - step):
-            j = i + step 
+            j = i + step
             for m in range(i, j):
-                dp[i][j].extend(calculate(dp[i][m], dp[m + 1][j], ops[m])) 
+                dp[i][j].extend(calculate(dp[i][m], dp[m + 1][j], ops[m]))
 
     return list(map(int, dp[0][len(nums) - 1]))
 
@@ -50,5 +50,5 @@ main()
 
 
 """
-Time/Space Catalan(N)
+Time/Space O(N * Catalan(N))
 """
