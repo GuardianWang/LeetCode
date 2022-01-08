@@ -67,3 +67,5 @@ dp[i] = f(dp[0], ..., dp[i - 1])
 
 - the n-th Catalan number is bounded by 4^n / (n sqrt(n))
 - C1 = 1, Cn+1 = ((4n + 2) / (n + 2)) Cn
+- re.findall(p, s) returns a list
+- str.swapcase(), str.upper(), str.lower(), str.isalpha(), str.isdigit()
