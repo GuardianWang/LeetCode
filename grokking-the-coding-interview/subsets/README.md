@@ -8,8 +8,8 @@
 [[LC90](https://leetcode.com/problems/subsets-ii/)]
 1. [Permutations (medium)]()
 [[LC46](https://leetcode.com/problems/permutations/)]
-1. []()
-[[]()]
+1. [String Permutations by changing case (medium).py]()
+[[LC784]()https://leetcode.com/problems/letter-case-permutation/]
 1. []()
 [[]()]
 1. []()
