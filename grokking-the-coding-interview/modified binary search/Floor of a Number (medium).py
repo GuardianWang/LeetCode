@@ -32,10 +32,9 @@ def search_floor_of_a_number(arr, key):
         m = (l + r) >> 1
         if key < arr[m]:
             r = m - 1
-        elif key > arr[m]:
-            l = m + 1
         else:
-            return m
+            l = m + 1
+
     return r
 
 

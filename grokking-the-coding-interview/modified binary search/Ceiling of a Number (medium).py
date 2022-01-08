@@ -26,9 +26,7 @@ def search_ceiling_of_a_number(arr, key):
     l, r = 0, len(arr) - 1
     while l <= r:
         m = (l + r) >> 1
-        if key == arr[m]:
-            return m
-        elif key < arr[m]:
+        if key < arr[m]:
             r = m - 1
         else:
             l = m + 1
