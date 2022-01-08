@@ -30,6 +30,8 @@ def search_ceiling_of_a_number(arr, key):
             r = m - 1
         else:
             l = m + 1
+    # r - l == 1
+    # when key == arr[m], r = m - 1 and l = m
     return l
 
 
