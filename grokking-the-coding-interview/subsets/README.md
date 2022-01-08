@@ -12,8 +12,8 @@
 [[LC784](https://leetcode.com/problems/letter-case-permutation/)]
 1. [Balanced Parentheses (hard).py]()
 [[LC22](https://leetcode.com/problems/generate-parentheses/)]
-1. []()
-[[]()]
+1. [Unique Generalized Abbreviations (hard).py]()
+[[LC320](https://leetcode.com/problems/generalized-abbreviation/)]
 1. []()
 [[]()]
 1. []()
