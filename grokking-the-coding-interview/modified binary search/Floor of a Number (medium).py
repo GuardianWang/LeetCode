@@ -34,6 +34,9 @@ def search_floor_of_a_number(arr, key):
             r = m - 1
         else:
             l = m + 1
+    # when l == r
+    # if key < arr[m], will pick m - 1, i.e., r
+    # when key == arr[m], change l instead of r
     # l = r + 1
     # when key == arr[m], l = m + 1 and r = m
     return r

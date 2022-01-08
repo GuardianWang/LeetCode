@@ -26,10 +26,13 @@ def search_ceiling_of_a_number(arr, key):
     l, r = 0, len(arr) - 1
     while l <= r:
         m = (l + r) >> 1
-        if key < arr[m]:
+        if key <= arr[m]:
             r = m - 1
         else:
             l = m + 1
+    # when l == r
+    # if key < arr[m], will pick m, i.e., l
+    # when key == arr[m], change r instead of l
     # l = r + 1
     # when key == arr[m], r = m - 1 and l = m
     return l
