@@ -8,8 +8,8 @@
 [[LC136](https://leetcode.com/problems/single-number/)]
 1. [Two Single Numbers (medium)]()
 [[LC260](https://leetcode.com/problems/single-number-iii/)]
-1. []()
-[[]()]
+1. [Complement of Base 10 Number (medium)]()
+[[LC1009](https://leetcode.com/problems/complement-of-base-10-integer/)]
 1. []()
 [[]()]
 1. []()
