@@ -107,3 +107,7 @@ while l < r:
 ## Tricks
 
 - skip repeated number first
+
+## Resources
+
+- [bisect](https://docs.python.org/3/library/bisect.html)
