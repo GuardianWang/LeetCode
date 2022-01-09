@@ -14,8 +14,8 @@
 [[LC34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)]
 1. [Search in a Sorted Infinite Array (medium)]()
 [[LC702](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)]
-1. []()
-[[]()]
+1. [Minimum Difference Element (medium)]()
+[[LC658](https://leetcode.com/problems/find-k-closest-elements/)]
 1. []()
 [[]()]
 1. []()
