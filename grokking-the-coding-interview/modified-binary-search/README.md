@@ -20,8 +20,8 @@
 [[LC852](https://leetcode.com/problems/peak-index-in-a-mountain-array/)]
 1. [Search Bitonic Array (medium)]()
 [[LC1095](https://leetcode.com/problems/find-in-mountain-array/)]
-1. []()
-[[]()]
+1. [Search in Rotated Array (medium)]()
+[[LC33](https://leetcode.com/problems/search-in-rotated-sorted-array/)]
 1. []()
 [[]()]
 1. []()
