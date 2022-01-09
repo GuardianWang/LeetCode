@@ -16,8 +16,8 @@
 [[LC702](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)]
 1. [Minimum Difference Element (medium)]()
 [[LC658](https://leetcode.com/problems/find-k-closest-elements/)]
-1. []()
-[[]()]
+1. [Bitonic Array Maximum (easy)]()
+[[LC852](https://leetcode.com/problems/peak-index-in-a-mountain-array/)]
 1. []()
 [[]()]
 1. []()
