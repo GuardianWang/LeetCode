@@ -22,6 +22,8 @@ def find_range(arr, key):
             r = m - 1
         else:
             l = m + 1
+    # when l == r and key < arr[m], want m - 1, i.e. r
+    # when key == arr[m], change l
     if arr[r] != key:
         return [-1, -1]
     right = r
@@ -33,6 +35,8 @@ def find_range(arr, key):
             r = m - 1
         else:
             l = m + 1
+    # when l == r and key < arr[m], want m, i.e. l
+    # when key == arr[m], change r
     return [l, right]
 
 
