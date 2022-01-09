@@ -12,8 +12,8 @@
 [[LC744](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)]
 1. [Number Range (medium)]()
 [[LC34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)]
-1. []()
-[[]()]
+1. [Search in a Sorted Infinite Array (medium)]()
+[[LC702](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)]
 1. []()
 [[]()]
 1. []()
