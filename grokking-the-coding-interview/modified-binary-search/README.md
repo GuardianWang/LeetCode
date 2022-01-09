@@ -24,8 +24,8 @@
 [[LC33](https://leetcode.com/problems/search-in-rotated-sorted-array/)]
 1. [Search in Rotated Sorted Array II]()
 [[LC81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)]
-1. []()
-[[]()]
+1. [Rotation Count (medium)]()
+[[LC153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)]
 1. []()
 [[]()]
 1. []()
