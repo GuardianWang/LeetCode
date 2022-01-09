@@ -2,31 +2,31 @@
 
 ## Problems
 
-1. [Order-agnostic Binary Search (easy)]()
+1. [Order-agnostic Binary Search (easy)](Order-agnostic-Binary-Search-(easy).py)
 [[LC704](https://leetcode.com/problems/binary-search/)]
-1. [Ceiling of a Number (medium)]()
+1. [Ceiling of a Number (medium)](Ceiling-of-a-Number-(medium).py)
 [[LC35](https://leetcode.com/problems/search-insert-position/)]
-1. [Floor of a Number (medium)]()
+1. [Floor of a Number (medium)](Floor-of-a-Number-(medium).py)
 [[link](https://www.geeksforgeeks.org/floor-in-a-sorted-array/)]
-1. [Next Letter (medium)]()
+1. [Next Letter (medium)](Next-Letter-(medium).py)
 [[LC744](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)]
-1. [Number Range (medium)]()
+1. [Number Range (medium)](Number-Range-(medium).py)
 [[LC34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)]
-1. [Search in a Sorted Infinite Array (medium)]()
+1. [Search in a Sorted Infinite Array (medium)](Search-in-a-Sorted-Infinite-Array-(medium).py)
 [[LC702](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)]
-1. [Minimum Difference Element (medium)]()
+1. [Minimum Difference Element (medium)](Minimum-Difference-Element-(medium).py)
 [[LC658](https://leetcode.com/problems/find-k-closest-elements/)]
-1. [Bitonic Array Maximum (easy)]()
+1. [Bitonic Array Maximum (easy)](Bitonic-Array-Maximum-(easy).py)
 [[LC852](https://leetcode.com/problems/peak-index-in-a-mountain-array/)]
-1. [Search Bitonic Array (medium)]()
+1. [Search Bitonic Array (medium)](Search-Bitonic-Array-(medium).py)
 [[LC1095](https://leetcode.com/problems/find-in-mountain-array/)]
-1. [Search in Rotated Array (medium)]()
+1. [Search in Rotated Array (medium)](Search-in-Rotated-Array-(medium).py)
 [[LC33](https://leetcode.com/problems/search-in-rotated-sorted-array/)]
-1. [Search in Rotated Sorted Array II]()
+1. [Search in Rotated Sorted Array II](Search-in-Rotated-Sorted-Array-II.py)
 [[LC81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)]
-1. [Rotation Count (medium)]()
+1. [Rotation Count (medium)](Rotation-Count-(medium).py)
 [[LC153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)]
-1. [Rotation Count II (medium)]()
+1. [Rotation Count II (medium)](Rotation-Count-II-(medium).py)
 [[LC154](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)]
 
 ## Pattern
