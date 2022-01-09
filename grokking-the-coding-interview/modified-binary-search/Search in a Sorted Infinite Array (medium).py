@@ -43,7 +43,10 @@ def search_in_infinite_array(reader, key):
     l, r = 0, 1
     max_val = (1 << 31) - 1
     while reader.get(r) < max_val:
+        if key > reader.get(r):
+            l = r
         r *= 2 
+        
 
     # find key 
     while l <= r:
