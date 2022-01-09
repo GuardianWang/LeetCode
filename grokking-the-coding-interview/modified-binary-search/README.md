@@ -18,8 +18,8 @@
 [[LC658](https://leetcode.com/problems/find-k-closest-elements/)]
 1. [Bitonic Array Maximum (easy)]()
 [[LC852](https://leetcode.com/problems/peak-index-in-a-mountain-array/)]
-1. []()
-[[]()]
+1. [Search Bitonic Array (medium)]()
+[[LC1095](https://leetcode.com/problems/find-in-mountain-array/)]
 1. []()
 [[]()]
 1. []()
