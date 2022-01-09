@@ -25,11 +25,13 @@ def search_rotated_array(arr, key):
       r = m - 1
   idx = find_val(arr, key, 0, l)
   if idx == -1:
-    idx = find_val(arr, key, l, len(arr) - 1)
+    idx = find_val(arr, key, l + 1, len(arr) - 1)
   return idx
 
 
 def find_val(arr, key, l, r):
+  if l > r:
+    return -1
   while l < r:
     m = r - (r - l >> 1)
     if key < arr[m]:

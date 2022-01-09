@@ -22,8 +22,8 @@
 [[LC1095](https://leetcode.com/problems/find-in-mountain-array/)]
 1. [Search in Rotated Array (medium)]()
 [[LC33](https://leetcode.com/problems/search-in-rotated-sorted-array/)]
-1. []()
-[[]()]
+1. [Search in Rotated Sorted Array II]()
+[[LC81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)]
 1. []()
 [[]()]
 1. []()
