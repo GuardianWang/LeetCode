@@ -19,8 +19,8 @@
 [[LC658](https://leetcode.com/problems/find-k-closest-elements/)]
 1. [Maximum Distinct Elements (medium)]()
 [[LC1481](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)]
-1. []()
-[[]()]
+1. [Sum of Elements (medium)]()
+[[link](https://www.geeksforgeeks.org/sum-elements-k1th-k2th-smallest-elements/)]
 1. []()
 [[]()]
 1. []()
