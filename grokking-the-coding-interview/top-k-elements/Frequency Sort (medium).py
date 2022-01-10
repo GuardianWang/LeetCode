@@ -20,9 +20,23 @@ def sort_character_by_frequency(s):
       freqs[c] += 1
   # sort 
   freqs = [(c, f) for c, f in freqs.items()]
-  freqs.sort(key=lambda x: -x[1])
+  freqs = bucket_sort(freqs)
   # reconstruct
   return "".join([c * f for c, f in freqs])
+
+
+def bucket_sort(freqs):
+  # Time O(N)
+  # Space O(N)
+  buckets = [[] for _ in range(1 + max(map(lambda x: x[1], freqs)))]
+  for c, f in freqs:
+    buckets[f].append(c)
+  freqs = []
+  for i in range(len(buckets) - 1, -1, -1):
+    x = buckets[i]
+    if len(x) > 0:
+      freqs.extend([(c, i) for c in x])
+  return freqs
 
 
 def main():
@@ -37,7 +51,7 @@ main()
 
 
 """
-Time O(NlogN)
+Time O(N)
 Space O(N)
 """
 
