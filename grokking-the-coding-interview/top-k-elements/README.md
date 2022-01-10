@@ -9,8 +9,8 @@
 [[LC973](https://leetcode.com/problems/k-closest-points-to-origin/)]
 1. [Connect Ropes (easy)]()
 [[LC1167](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)]
-1. []()
-[[]()]
+1. [Top 'K' Frequent Numbers (medium)]()
+[[LC347](https://leetcode.com/problems/top-k-frequent-elements/)]
 1. []()
 [[]()]
 1. []()
