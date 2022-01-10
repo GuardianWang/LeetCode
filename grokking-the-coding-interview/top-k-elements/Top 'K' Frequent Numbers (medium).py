@@ -14,18 +14,21 @@ from heapq import *
 
 
 def find_k_frequent_numbers(nums, k):
-  nums.sort()
-  nums.append(nums[-1] + 1)  # make sure go through the last value
+  # save freq in dict 
+  freqs = {}
+  for n in nums:
+    if n not in freqs:
+      freqs[n] = 1
+    else:
+      freqs[n] += 1
+
   h = []
   l = 0
-  for r, n in enumerate(nums):
-    if nums[l] != n:
-      freq = r - l
-      if len(h) < k:
-        heappush(h, (freq, nums[l]))
-      elif freq > h[0][0]:
-        heapreplace(h, (freq, nums[l]))
-      l = r
+  for n, freq in freqs.items():
+    if len(h) < k:
+      heappush(h, (freq, n))
+    elif freq > h[0][0]:
+      heapreplace(h, (freq, n))
 
   return [x[1] for x in h]
 
@@ -43,7 +46,7 @@ main()
 
 
 """
-Time O(NlogN)
-Space O(N): sort
+Time O(NlogK)
+Space O(N)
 """
 
