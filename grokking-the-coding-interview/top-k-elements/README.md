@@ -3,8 +3,8 @@
 ## Problems
 
 1. [Top 'K' Numbers (easy)]()
-1. []()
-[[]()]
+1. [Kth Smallest Number (easy)]()
+[[LC215](https://leetcode.com/problems/kth-largest-element-in-an-array/)]
 1. []()
 [[]()]
 1. []()
