@@ -13,8 +13,8 @@
 [[LC347](https://leetcode.com/problems/top-k-frequent-elements/)]
 1. [Frequency Sort (medium)]()
 [[LC451](https://leetcode.com/problems/sort-characters-by-frequency/)]
-1. []()
-[[]()]
+1. [Kth Largest Number in a Stream (medium)]()
+[[LC703](https://leetcode.com/problems/kth-largest-element-in-a-stream/)]
 1. []()
 [[]()]
 1. []()
