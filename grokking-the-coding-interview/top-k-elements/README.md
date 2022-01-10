@@ -15,8 +15,8 @@
 [[LC451](https://leetcode.com/problems/sort-characters-by-frequency/)]
 1. [Kth Largest Number in a Stream (medium)]()
 [[LC703](https://leetcode.com/problems/kth-largest-element-in-a-stream/)]
-1. []()
-[[]()]
+1. ['K' Closest Numbers (medium)]()
+[[LC658](https://leetcode.com/problems/find-k-closest-elements/)]
 1. []()
 [[]()]
 1. []()
