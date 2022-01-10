@@ -17,8 +17,8 @@
 [[LC703](https://leetcode.com/problems/kth-largest-element-in-a-stream/)]
 1. ['K' Closest Numbers (medium)]()
 [[LC658](https://leetcode.com/problems/find-k-closest-elements/)]
-1. []()
-[[]()]
+1. [Maximum Distinct Elements (medium)]()
+[[LC1481](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)]
 1. []()
 [[]()]
 1. []()
