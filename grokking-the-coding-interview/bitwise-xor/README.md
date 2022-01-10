@@ -10,7 +10,5 @@
 [[LC260](https://leetcode.com/problems/single-number-iii/)]
 1. [Complement of Base 10 Number (medium)]()
 [[LC1009](https://leetcode.com/problems/complement-of-base-10-integer/)]
-1. []()
-[[]()]
-1. []()
-[[]()]
+1. [Flipping an Image (easy)]()
+[[LC832](https://leetcode.com/problems/flipping-an-image/)]
