@@ -11,8 +11,8 @@
 [[LC1167](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)]
 1. [Top 'K' Frequent Numbers (medium)]()
 [[LC347](https://leetcode.com/problems/top-k-frequent-elements/)]
-1. []()
-[[]()]
+1. [Frequency Sort (medium)]()
+[[LC451](https://leetcode.com/problems/sort-characters-by-frequency/)]
 1. []()
 [[]()]
 1. []()
