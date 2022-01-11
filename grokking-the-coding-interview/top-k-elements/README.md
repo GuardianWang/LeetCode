@@ -21,8 +21,8 @@
 [[LC1481](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)]
 1. [Sum of Elements (medium)]()
 [[link](https://www.geeksforgeeks.org/sum-elements-k1th-k2th-smallest-elements/)]
-1. []()
-[[]()]
+1. [Rearrange String (hard)]()
+[[LC767](https://leetcode.com/problems/reorganize-string/)]
 1. []()
 [[]()]
 1. []()
