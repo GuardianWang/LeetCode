@@ -10,7 +10,7 @@
 [[LC378](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)]
 1. [Smallest Number Range (Hard)]()
 [[LC632](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)]
-1. []()
-[[]()]
+1. [K Pairs with Largest Sums (Hard)]()
+[[LC373](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)]
 1. []()
 [[]()]
