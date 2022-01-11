@@ -11,7 +11,7 @@ Input: [a, b, a], K=3
 Output: 5
 Explanation: a -> b -> idle -> idle -> a
 """
-from collections import deque 
+from collections import deque
 from heapq import *
 
 
@@ -21,7 +21,7 @@ def schedule_tasks(tasks, k):
   if k == 0:
     return len(tasks)
 
-  # count 
+  # count
   freqs = {}
   for task in tasks:
     if task in freqs:
@@ -30,7 +30,7 @@ def schedule_tasks(tasks, k):
       freqs[task] = 1
   freqs = [[-f, t, -1] for t, f in freqs.items()]
   heapify(freqs)
-  # arrange 
+  # arrange
   prevs = deque()
   cnt = 0
   while freqs or prevs:
@@ -38,9 +38,9 @@ def schedule_tasks(tasks, k):
       top = heappop(freqs)
       top[0] += 1
       if top[0]:
-        top[2] = cnt 
+        top[2] = cnt
         prevs.append(top)
-    if not freqs and prevs:  # jump to the next task 
+    if not freqs and prevs:  # jump to the next task
       heappush(freqs, prevs.popleft())
       cnt = freqs[0][2] + k
     elif prevs and cnt - prevs[0][2] >= k:
@@ -62,7 +62,7 @@ main()
 
 
 """
-Time O(NlogN)
-Space O(N)
+#letters is O(1)
+Time O(N)
+Space O(1)
 """
-

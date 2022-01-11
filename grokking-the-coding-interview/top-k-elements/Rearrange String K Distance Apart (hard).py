@@ -18,7 +18,7 @@ Input: "aappa", K=3
 Output: ""
 Explanation: We cannot find an arrangement of the string where any two 'a' are 3 distance apart.
 """
-from collections import deque 
+from collections import deque
 from heapq import *
 
 
@@ -68,7 +68,7 @@ main()
 
 
 """
-Time O(NlogN)
-Space O(N)
+#letters is O(1)
+Time O(N)
+Space O(1)
 """
-

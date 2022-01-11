@@ -58,6 +58,7 @@ main()
 
 
 """
-Time O(NlogN)
-Space O(N)
+#letters is O(1)
+Time O(N)
+Space O(1)
 """
