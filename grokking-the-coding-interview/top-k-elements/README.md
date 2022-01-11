@@ -27,19 +27,5 @@
 [[LC358](https://leetcode.com/problems/rearrange-string-k-distance-apart/)]
 1. [Scheduling Tasks (hard)]()
 [[LC621](https://leetcode.com/problems/task-scheduler/)]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
+1. [Frequency Stack (hard)]()
+[[LC895](https://leetcode.com/problems/maximum-frequency-stack/)]
