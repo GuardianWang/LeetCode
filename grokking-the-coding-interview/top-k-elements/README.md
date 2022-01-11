@@ -48,5 +48,6 @@ maintain a max heap for min k values
 
 - quickselect/partition
 - to sort by **frequency**, use bucket sort to have O(N) time 
+- count with [collections.defaultdict(int)](https://docs.python.org/3/library/collections.html#collections.defaultdict)
 - [collections.Counter](https://docs.python.org/3/library/collections.html#collections.Counter) Note: this is sorted, so O(NlogN) time by default
 - push a tuple to the heap to sort by multiple keys
