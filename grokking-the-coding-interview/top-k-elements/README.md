@@ -25,8 +25,8 @@
 [[LC767](https://leetcode.com/problems/reorganize-string/)]
 1. [Rearrange String K Distance Apart (hard)]()
 [[LC358](https://leetcode.com/problems/rearrange-string-k-distance-apart/)]
-1. []()
-[[]()]
+1. [Scheduling Tasks (hard)]()
+[[LC621](https://leetcode.com/problems/task-scheduler/)]
 1. []()
 [[]()]
 1. []()
