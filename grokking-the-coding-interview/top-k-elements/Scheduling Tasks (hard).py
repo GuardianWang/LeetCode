@@ -28,27 +28,15 @@ def schedule_tasks(tasks, k):
       freqs[task] += 1
     else:
       freqs[task] = 1
-  freqs = [[-f, t, -1] for t, f in freqs.items()]
-  heapify(freqs)
-  # arrange
-  prevs = deque()
-  cnt = 0
-  while freqs or prevs:
-    if freqs:
-      top = heappop(freqs)
-      top[0] += 1
-      if top[0]:
-        top[2] = cnt
-        prevs.append(top)
-    if not freqs and prevs:  # jump to the next task
-      heappush(freqs, prevs.popleft())
-      cnt = freqs[0][2] + k
-    elif prevs and cnt - prevs[0][2] >= k:
-      heappush(freqs, prevs.popleft())
+  freqs = list(freqs.values())
+  max_f = max(freqs)
+  n_max = freqs.count(max_f)
+  # only consider the most frequent tasks
+  # if gaps are needed, gaps happend for 1 of the most frequent tasks
+  # the tail has n_max tasks 
+  # the front has max_f - 1 groups, k + 1 values in each
 
-    cnt += 1
-
-  return cnt
+  return max(len(tasks), n_max + (k + 1) * (max_f - 1))
 
 
 def main():
