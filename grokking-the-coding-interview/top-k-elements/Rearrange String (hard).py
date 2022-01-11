@@ -24,14 +24,14 @@ def rearrange_string(s):
       freqs[c] += 1
     else:
       freqs[c] = 1
-  # arrange 
+  # arrange
   # max heap, first deal with letters that often appears
   h = [[-f, c] for c, f in freqs.items()]
   heapify(h)
   res = []
   prev = None
-  while h:
-      if len(h) == 1 and prev is None and h[0][0] < -1:
+  for _ in range(len(s)):
+      if not h:
           return ""
 
       top = heappop(h)
@@ -61,4 +61,3 @@ main()
 Time O(NlogN)
 Space O(N)
 """
-
