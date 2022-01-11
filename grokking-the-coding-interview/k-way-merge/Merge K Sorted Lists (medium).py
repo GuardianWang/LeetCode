@@ -18,23 +18,36 @@ class ListNode:
 
 
 def merge_lists(lists):
-  # init
-  # i are distinct, so won't compare ll
-  h = [(ll.val, i, ll) for i, ll in enumerate(lists) if ll]
-  heapify(h)
-  # merge 
-  sent = ListNode(0)  # sentinel
-  res = sent
-  while h:
-    n, i, node = h[0]
-    res.next = node
-    node = node.next
-    res = res.next
-    if node:
-      heapreplace(h, (node.val, i, node))
+  if not lists:
+    return None 
+
+  step = 1
+  while step < len(lists):
+    for start in range(0, len(lists) - step, 2 * step):
+      lists[start] = merge2(lists[start], lists[start + step])
+    step *= 2
+
+  return lists[0]
+
+
+def merge2(node1, node2):
+  head = ListNode(0)
+  res = head
+  while node1 and node2:
+    if node1.val < node2.val:
+      res.next = node1 
+      node1 = node1.next 
     else:
-      heappop(h)
-  return sent.next
+      res.next = node2 
+      node2 = node2.next 
+    res = res.next
+
+  if node1:
+    res.next = node1 
+  elif node2:
+    res.next = node2
+    
+  return head.next 
 
 
 def main():
@@ -61,7 +74,7 @@ main()
 
 
 """
-Time O(NlogK)
-Space O(K): heap
+Time O(NlogK): logK level
+Space O(1)
 """
 
