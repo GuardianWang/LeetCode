@@ -23,8 +23,8 @@
 [[link](https://www.geeksforgeeks.org/sum-elements-k1th-k2th-smallest-elements/)]
 1. [Rearrange String (hard)]()
 [[LC767](https://leetcode.com/problems/reorganize-string/)]
-1. []()
-[[]()]
+1. [Rearrange String K Distance Apart (hard)]()
+[[LC358](https://leetcode.com/problems/rearrange-string-k-distance-apart/)]
 1. []()
 [[]()]
 1. []()
