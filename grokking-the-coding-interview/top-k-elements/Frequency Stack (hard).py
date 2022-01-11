@@ -15,21 +15,31 @@ from heapq import *
 
 class FrequencyStack:
   def __init__(self):
-    self.stack = []
+    # the i-th occurrences are saved in the same stack 
+    # if i is a key (i > 1), then i - 1 is also a key
+    self.f2stack = {}
     self.n2freqs = {}
-    self.cnt = 0
+    self.max = -float('inf')
 
   def push(self, num):
     if num in self.n2freqs:
       self.n2freqs[num] += 1
     else:
       self.n2freqs[num] = 1
-    heappush(self.stack, [-self.n2freqs[num], -self.cnt, num])
-    self.cnt += 1
+    self.max = max(self.max, self.n2freqs[num])
+    if self.n2freqs[num] in self.f2stack:
+        self.f2stack[self.n2freqs[num]].append(num)
+    else:
+        self.f2stack[self.n2freqs[num]] = [num]
 
   def pop(self):
-    n = heappop(self.stack)[2]
+    n = self.f2stack[self.max].pop()
     self.n2freqs[n] -= 1
+    if not self.n2freqs[n]:
+        del self.n2freqs[n]
+    if not self.f2stack[self.max]:
+        del self.f2stack[self.max]
+        self.max -= 1
     return n
 
 
@@ -55,7 +65,7 @@ main()
 
 
 """
-Time O(logN)
+Time O(1)
 Space O(N)
 """
 
