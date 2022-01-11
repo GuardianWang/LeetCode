@@ -8,8 +8,8 @@
 [[link](https://leetcode.com/discuss/interview-question/727705/google-phone-given-n-sorted-arrays-find-k-smallest-elements)]
 1. [Kth Smallest Number in a Sorted Matrix (Hard)]()
 [[LC378](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)]
-1. []()
-[[]()]
+1. [Smallest Number Range (Hard)]()
+[[LC632](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)]
 1. []()
 [[]()]
 1. []()
