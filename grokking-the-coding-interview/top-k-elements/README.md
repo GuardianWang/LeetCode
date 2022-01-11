@@ -29,3 +29,24 @@
 [[LC621](https://leetcode.com/problems/task-scheduler/)]
 1. [Frequency Stack (hard)](Frequency-Stack-(hard).py)
 [[LC895](https://leetcode.com/problems/maximum-frequency-stack/)]
+
+## Pattern
+
+- max/min k values
+
+## Pipeline
+
+- maintain a min heap for max k values or 
+maintain a max heap for min k values
+
+## Types
+
+1. top k values
+1. arrange letters: also maintain a deque of letters to be pushed to heap
+
+## Tricks
+
+- quickselect/partition
+- to sort by **frequency**, use bucket sort to have O(N) time 
+- [collections.Counter](https://docs.python.org/3/library/collections.html#collections.Counter) Note: this is sorted, so O(NlogN) time by default
+- push a tuple to the heap to sort by multiple keys
