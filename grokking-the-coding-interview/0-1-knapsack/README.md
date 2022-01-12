@@ -2,18 +2,18 @@
 
 ## Problems
 
-1. [01 Knapsack (medium)]()
+1. [01 Knapsack (medium)](01-Knapsack-(medium).py)
 [[link](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)]
-1. [Equal Subset Sum Partition (medium)]()
+1. [Equal Subset Sum Partition (medium)](Equal-Subset-Sum-Partition-(medium).py)
 [[LC416](https://leetcode.com/problems/partition-equal-subset-sum/)]
-1. [Subset Sum (medium)]()
+1. [Subset Sum (medium)](Subset-Sum-(medium).py)
 [[link](https://www.geeksforgeeks.org/subset-sum-problem-dp-25/)]
-1. [Minimum Subset Sum Difference (hard)]()
+1. [Minimum Subset Sum Difference (hard)](Minimum-Subset-Sum-Difference-(hard).py)
 [[LC1049](https://leetcode.com/problems/last-stone-weight-ii/
 )]
-1. [Count of Subset Sum (hard)]()
+1. [Count of Subset Sum (hard)](Count-of-Subset-Sum-(hard).py)
 [[link](https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x/)]
-1. [Target Sum (hard)]()
+1. [Target Sum (hard)](Target-Sum-(hard).py)
 [[LC494](https://leetcode.com/problems/target-sum/)]
 
 ## Pattern
