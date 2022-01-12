@@ -20,9 +20,8 @@ between the sum of numbers is '92'. Here are the two subsets: {1, 3, 4} & {100}.
 def can_partition(nums):
   num_sum = sum(nums)
   s = num_sum >> 1
-  prev = [False] * (s + 1)
-  prev[0] = True
-  cur = prev.copy()
+  dp = [False] * (s + 1)
+  dp[0] = True
   M = 0
   for n in nums:
     if n > s:
@@ -30,14 +29,13 @@ def can_partition(nums):
     elif n == s:
       return num_sum - 2 * s
 
-    for i in range(n, len(cur)):
-      cur[i] = prev[i] or prev[i - n]
-      if cur[i]:
+    for i in range(s, n - 1, -1):
+      dp[i] = dp[i] or dp[i - n]
+      if dp[i]:
         M = max(M, i)
 
-    if cur[s]:
+    if dp[s]:
       return num_sum - 2 * s
-    prev = cur.copy()
 
   return num_sum - 2 * M
 
