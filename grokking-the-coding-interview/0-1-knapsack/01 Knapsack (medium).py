@@ -1,8 +1,8 @@
 """
-Given the weights and profits of ‘N’ items, we are asked to put these items in a knapsack which has a capacity ‘C’. 
-The goal is to get the maximum profit out of the items in the knapsack. 
+Given the weights and profits of ‘N’ items, we are asked to put these items in a knapsack which has a capacity ‘C’.
+The goal is to get the maximum profit out of the items in the knapsack.
 Each item can only be selected once, as we don’t have multiple quantities of any item.
-Let’s take the example of Merry, who wants to carry some fruits in the knapsack to get maximum profit. 
+Let’s take the example of Merry, who wants to carry some fruits in the knapsack to get maximum profit.
     Here are the weights and profits of the fruits:
 Items: { Apple, Orange, Banana, Melon }
 Weights: { 2, 3, 1, 4 }
@@ -18,23 +18,21 @@ This shows that Banana + Melon is the best combination as it gives us the maximu
 def solve_knapsack(profits, weights, capacity):
   ans = -1
   # only allow 1 item, 0-C capacity
-  prev = [0] * (capacity + 1)
-  cur = prev.copy()
+  dp = [0] * (capacity + 1)
   # allow one more item
   for p, w in zip(profits, weights):
     if w > capacity:
       continue
-    for i in range(w, len(cur)):  # starting from index w, we can add this item
+    for i in range(capacity, w - 1, -1):  # starting from index w, we can add this item
       # w/ or w/o this item
-      cur[i] = max(prev[i], prev[i - w] + p)
-    print(cur)
-    ans = max(ans, cur[-1])  # cur is increasing
-    prev = cur.copy()
+      dp[i] = max(dp[i], dp[i - w] + p)
+    ans = max(ans, dp[-1])  # cur is increasing
 
-  return ans 
+  return ans
 
 
 def main():
+  # 22 17
   print(solve_knapsack([1, 6, 10, 16], [1, 2, 3, 5], 7))
   print(solve_knapsack([1, 6, 10, 16], [1, 2, 3, 5], 6))
 
@@ -43,7 +41,6 @@ main()
 
 
 """
-Time O(NC): don't need to sort by weight 
+Time O(NC): don't need to sort by weight
 Space O(C)
 """
-
