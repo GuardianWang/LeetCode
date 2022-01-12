@@ -8,8 +8,9 @@
 [[LC416](https://leetcode.com/problems/partition-equal-subset-sum/)]
 1. [Subset Sum (medium)]()
 [[link](https://www.geeksforgeeks.org/subset-sum-problem-dp-25/)]
-1. []()
-[[]()]
+1. [Minimum Subset Sum Difference (hard)]()
+[[LC1049](https://leetcode.com/problems/last-stone-weight-ii/
+)]
 1. []()
 [[]()]
 1. []()
