@@ -13,17 +13,9 @@
 )]
 1. [Count of Subset Sum (hard)]()
 [[link](https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x/)]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
+1. [Target Sum (hard)]()
+[[LC494](https://leetcode.com/problems/target-sum/)]
 
 ## Resources
 
-- [more problems](https://leetcode.com/discuss/study-guide/1308617/Dynamic-Programming-Patterns)
+- [more dp problems](https://leetcode.com/discuss/study-guide/1308617/Dynamic-Programming-Patterns)
