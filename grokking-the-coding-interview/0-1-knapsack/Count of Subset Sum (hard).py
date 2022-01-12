@@ -18,16 +18,14 @@ def count_subsets(num, s):
   elif num_sum == s:
     return 1
 
-  prev = [0] * (s + 1)
-  prev[0] = 1  # empty
-  cur = prev.copy()
+  dp = [0] * (s + 1)
+  dp[0] = 1  # empty
   for n in num:
     if n > s:
       continue
-    for i in range(n, len(cur)):
-      cur[i] = prev[i] + prev[i - n]
-    prev = cur.copy()
-  return cur[-1]
+    for i in range(s, n - 1, -1):
+      dp[i] += dp[i - n]
+  return dp[-1]
 
 
 def main():
