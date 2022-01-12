@@ -11,8 +11,8 @@
 1. [Minimum Subset Sum Difference (hard)]()
 [[LC1049](https://leetcode.com/problems/last-stone-weight-ii/
 )]
-1. []()
-[[]()]
+1. [Count of Subset Sum (hard)]()
+[[link](https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x/)]
 1. []()
 [[]()]
 1. []()
