@@ -20,20 +20,18 @@ def can_partition(nums, s):
   elif s == num_sum:
     return True
 
-  prev = [False] * (s + 1)
-  prev[0] = True
-  cur = prev.copy()
+  dp = [False] * (s + 1)
+  dp[0] = True
 
   for n in nums:
     if n > s:
       continue
     elif n == s:
       return True
-    for i in range(n, len(cur)):
-      cur[i] = prev[i] or prev[i - n]
-    if cur[s]:
+    for i in range(s, n - 1, -1):
+      dp[i] = dp[i] or dp[i - n]
+    if dp[s]:
       return True
-    prev = cur.copy()
   return False
 
 

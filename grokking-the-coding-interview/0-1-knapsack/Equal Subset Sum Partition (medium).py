@@ -15,19 +15,17 @@ def can_partition(nums):
   if s % 2 == 1:
     return False
   half = s // 2
-  prev = [False] * (half + 1)
-  prev[0] = True  # empty set
-  cur = prev.copy()
+  dp = [False] * (half + 1)
+  dp[0] = True  # empty set
   for n in nums:
     if n > half:
       continue
     elif n == half:
       return True
-    for i in range(n, len(cur)):
-      cur[i] = prev[i] or prev[i - n]
-    if cur[-1]:
+    for i in range(half, n - 1, -1):
+      dp[i] = dp[i] or dp[i - n]
+    if dp[-1]:
       return True
-    prev = cur.copy()
   return False
 
 
