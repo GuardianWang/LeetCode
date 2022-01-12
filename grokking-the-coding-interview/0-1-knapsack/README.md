@@ -4,8 +4,8 @@
 
 1. [01 Knapsack (medium)]()
 [[link](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)]
-1. []()
-[[]()]
+1. [Equal Subset Sum Partition (medium)]()
+[[LC416](https://leetcode.com/problems/partition-equal-subset-sum/)]
 1. []()
 [[]()]
 1. []()
