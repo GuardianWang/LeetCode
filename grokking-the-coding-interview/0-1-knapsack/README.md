@@ -16,6 +16,30 @@
 1. [Target Sum (hard)]()
 [[LC494](https://leetcode.com/problems/target-sum/)]
 
+## Pattern
+
+- subset sum <= target
+
+## Pipeline
+
+```python
+dp = [init] * l
+dp[0] = default
+for n in nums:
+  for i in range(len(dp) - 1, n - 1, -1):
+    dp[i] = f(dp[i], dp[i - n])
+```
+
+## Types
+
+1. number of subsets
+1. existence of subset
+1. max weight of subset
+
+## Tricks
+
+- use 1 list and iterate backward to save space
+
 ## Resources
 
 - [more dp problems](https://leetcode.com/discuss/study-guide/1308617/Dynamic-Programming-Patterns)
