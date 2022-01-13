@@ -13,15 +13,9 @@
 1. [Alien Dictionary (hard)]()
 [[LC269](https://leetcode.com/problems/alien-dictionary/)]
 1. [Reconstructing a Sequence (hard)]()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
-1. []()
-[[]()]
+[[LC444](https://leetcode.com/problems/sequence-reconstruction/)]
+1. [Minimum Height Trees (hard)]()
+[[LC310](https://leetcode.com/problems/minimum-height-trees/)]
 
 ## Tricks
 
