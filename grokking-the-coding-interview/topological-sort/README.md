@@ -10,8 +10,8 @@
 [[LC210](https://leetcode.com/problems/course-schedule-ii/)]
 1. [All Tasks Scheduling Orders (hard)]()
 [[LC1916](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/)]
-1. []()
-[[]()]
+1. [Alien Dictionary (hard)]()
+[[LC269](https://leetcode.com/problems/alien-dictionary/)]
 1. []()
 [[]()]
 1. []()
@@ -32,3 +32,4 @@ When p is a prime number, x^(p-1) and 1 mod(p) by Fermat's little theorem, so x^
 ## Resources
 
 - [Fermat's little theorem](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem)
+- [more problems](https://leetcode.com/tag/topological-sort/)
