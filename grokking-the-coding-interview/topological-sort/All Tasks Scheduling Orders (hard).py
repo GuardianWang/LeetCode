@@ -32,6 +32,7 @@ Output:
 13) [1, 3, 2, 0, 4, 5]
 """
 from collections import defaultdict, deque
+from math import comb
 
 
 def print_orders(tasks, prerequisites):
@@ -78,6 +79,26 @@ def build_map(prerequisites):
         node2children[from_node].append(to_node)
         node2in_deg[to_node] += 1
     return node2children, node2parent, node2in_deg
+
+
+def count_permutation(node2children, order, n):
+    mod = int(1e9 + 7)
+    # applicable when one node has only 1 parent (tree)
+    dp = [1] * n
+    sz = dp.copy()
+    for i in range(-2, -len(order) - 1, -1):
+        # in the same subgroup, one is not the other's child 
+        for node in order[i]:
+            init_sz = 0
+            for child in node2children[node]:
+                # multinomial distribution
+                # sum(nums)!/(n1!n2!...) = 
+                # comb(n1, n1) * comb(sum(nums[:2]), n2) * ...
+                init_sz += sz[child]
+                dp[node] *= dp[child] * comb(init_sz, sz[child])
+                dp[node] %= mod
+            sz[node] += init_sz
+    return dp[0]
 
 
 def main():
