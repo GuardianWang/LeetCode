@@ -12,7 +12,7 @@
 [[LC1916](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/)]
 1. [Alien Dictionary (hard)]()
 [[LC269](https://leetcode.com/problems/alien-dictionary/)]
-1. []()
+1. [Reconstructing a Sequence (hard)]()
 [[]()]
 1. []()
 [[]()]
@@ -26,6 +26,7 @@
 ## Tricks
 
 - `from collections import defaultdict`
+- can also group nodes at the same level
 - When calculating combinatorial, can pre-calculate factorial and factorial_inv and use modular inverse.
 When p is a prime number, x^(p-1) and 1 mod(p) by Fermat's little theorem, so x^-1 is **x^(p-2)**
 
