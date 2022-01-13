@@ -2,19 +2,19 @@
 
 ## Problems
 
-1. [Topological Sort (medium)]()
+1. [Topological Sort (medium)](Topological-Sort-(medium).py)
 [[link](https://www.geeksforgeeks.org/topological-sorting/)]
-1. [Tasks Scheduling (medium)]()
+1. [Tasks Scheduling (medium)](Tasks-Scheduling-(medium).py)
 [[LC207](https://leetcode.com/problems/course-schedule/)]
-1. [Tasks Scheduling Order (medium)]()
+1. [Tasks Scheduling Order (medium)](Tasks-Scheduling-Order-(medium).py)
 [[LC210](https://leetcode.com/problems/course-schedule-ii/)]
-1. [All Tasks Scheduling Orders (hard)]()
+1. [All Tasks Scheduling Orders (hard)](All-Tasks-Scheduling-Orders-(hard).py)
 [[LC1916](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/)]
-1. [Alien Dictionary (hard)]()
+1. [Alien Dictionary (hard)](Alien-Dictionary-(hard).py)
 [[LC269](https://leetcode.com/problems/alien-dictionary/)]
-1. [Reconstructing a Sequence (hard)]()
+1. [Reconstructing a Sequence (hard)](Reconstructing-a-Sequence-(hard).py)
 [[LC444](https://leetcode.com/problems/sequence-reconstruction/)]
-1. [Minimum Height Trees (hard)]()
+1. [Minimum Height Trees (hard)](Minimum-Height-Trees-(hard).py)
 [[LC310](https://leetcode.com/problems/minimum-height-trees/)]
 
 ## Pattern
