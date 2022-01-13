@@ -33,6 +33,8 @@ Output:
 """
 from collections import defaultdict, deque
 from math import comb
+from itertools import accumulate, chain
+from operator import mul
 
 
 def print_orders(tasks, prerequisites):
@@ -53,7 +55,6 @@ def print_orders(tasks, prerequisites):
         permute_subgroup(ans, subgroup, node2parent)
     if not ans[0]:
         ans.pop()
-    print(len(ans))
     print(ans)
 
 
@@ -83,20 +84,27 @@ def build_map(prerequisites):
 
 def count_permutation(node2children, order, n):
     mod = int(1e9 + 7)
+    factorial = list(chain([1], accumulate(range(1, n + 1), lambda x, y: mul(x, y) % mod)))
+    factorial_inv = chain([pow(factorial[-1], mod - 2, mod)], reversed(range(1, n + 1)))
+    factorial_inv = list(accumulate(factorial_inv, lambda x, y: mul(x, y) % mod))
+    factorial_inv.reverse()
+
     # applicable when one node has only 1 parent (tree)
     dp = [1] * n
     sz = dp.copy()
     for i in range(-2, -len(order) - 1, -1):
-        # in the same subgroup, one is not the other's child 
+        # in the same subgroup, one is not the other's child
         for node in order[i]:
             init_sz = 0
             for child in node2children[node]:
                 # multinomial distribution
-                # sum(nums)!/(n1!n2!...) = 
+                # sum(nums)!/(n1!n2!...) =
                 # comb(n1, n1) * comb(sum(nums[:2]), n2) * ...
                 init_sz += sz[child]
-                dp[node] *= dp[child] * comb(init_sz, sz[child])
+                dp[node] *= dp[child] * factorial_inv[sz[child]]
                 dp[node] %= mod
+            dp[node] *= factorial[init_sz]
+            dp[node] %= mod
             sz[node] += init_sz
     return dp[0]
 
@@ -121,4 +129,3 @@ main()
 """
 Time/Space O(V!V+E)
 """
-

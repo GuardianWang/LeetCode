@@ -26,3 +26,9 @@
 ## Tricks
 
 - `from collections import defaultdict`
+- When calculating combinatorial, can pre-calculate factorial and factorial_inv and use modular inverse.
+When p is a prime number, x^(p-1) and 1 mod(p) by Fermat's little theorem, so x^-1 is **x^(p-2)**
+
+## Resources
+
+- [Fermat's little theorem](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem)
