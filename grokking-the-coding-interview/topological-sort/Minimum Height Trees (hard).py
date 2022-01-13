@@ -7,13 +7,16 @@ Output:[1, 2]
 Explanation: Choosing '1' or '2' as roots give us MHTs. In the below diagram, we can see that the
 height of the trees with roots '1' or '2' is three which is minimum.
 """
-from collections import defaultdict
+from collections import defaultdict, deque
 
 
 def find_trees(nodes, edges):
+    if not edges:
+        return [0]
     node2children = build_map(edges)
+    leaves = deque([k for k, v in node2children.items() if len(v) == 1])
     while len(node2children) > 2:
-        remove_leaves(node2children)
+        remove_leaves(node2children, leaves)
     return list(node2children.keys())
 
 
@@ -25,10 +28,13 @@ def build_map(edges):
     return node2children
 
 
-def remove_leaves(node2children):
-    leaves = [k for k, v in node2children.items() if len(v) == 1]
-    for leaf in leaves:
-        node2children[node2children[leaf].pop()].remove(leaf)
+def remove_leaves(node2children, leaves):
+    for i in range(len(leaves)):
+        leaf = leaves.popleft()
+        parent = node2children[leaf].pop()
+        node2children[parent].remove(leaf)
+        if len(node2children[parent]) == 1:
+            leaves.append(parent)
         del node2children[leaf]
 
 
@@ -46,6 +52,7 @@ main()
 
 
 """
-Time O(V^2): find new leaves
+Time O(V): update new leaves from parent of previous leaves
 Space O(V): it's a tree
 """
+
