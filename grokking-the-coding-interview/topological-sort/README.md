@@ -6,8 +6,8 @@
 [[link](https://www.geeksforgeeks.org/topological-sorting/)]
 1. [Tasks Scheduling (medium)]()
 [[LC207](https://leetcode.com/problems/course-schedule/)]
-1. []()
-[[]()]
+1. [Tasks Scheduling Order (medium)]()
+[[LC210](https://leetcode.com/problems/course-schedule-ii/)]
 1. []()
 [[]()]
 1. []()
