@@ -17,6 +17,11 @@
 1. [Minimum Height Trees (hard)]()
 [[LC310](https://leetcode.com/problems/minimum-height-trees/)]
 
+## Pattern
+
+- prerequisite
+- some in-degree order  
+
 ## Tricks
 
 - `from collections import defaultdict`

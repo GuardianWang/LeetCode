@@ -11,6 +11,8 @@ from collections import defaultdict, deque
 
 
 def find_trees(nodes, edges):
+    # use leaves as root, depth is use neighbor of leaf as root + 1
+    # remove leaves iteratively
     if not edges:
         return [0]
     node2children = build_map(edges)
