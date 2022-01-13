@@ -8,8 +8,8 @@
 [[LC207](https://leetcode.com/problems/course-schedule/)]
 1. [Tasks Scheduling Order (medium)]()
 [[LC210](https://leetcode.com/problems/course-schedule-ii/)]
-1. []()
-[[]()]
+1. [All Tasks Scheduling Orders (hard)]()
+[[LC1916](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/)]
 1. []()
 [[]()]
 1. []()
