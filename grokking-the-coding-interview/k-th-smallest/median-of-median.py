@@ -16,28 +16,21 @@ Input: [5, 12, 11, -1, 12], K = 3
 Output: 11
 Explanation: The 3rd smallest number is '11', as the first two small numbers are [5, -1].
 """
-from random import randint  # inclusive
-
-
 def find_Kth_smallest_number(nums, k):
     l, r = 0, len(nums) - 1
     while l < r:
-        # l <= p < r
         p = partition(nums, l, r)
         if p < k - 1:
             l = p + 1
         else:
             r = p
-
     return nums[l]
 
 
 def partition(nums, l, r):
-    p = randint(l, r)
+    p  = mom(nums, l, r)
     swap(nums, p, r)
     for i in range(l, r):
-        # nums[j] < nums[r], j < l
-        # nums[j] >= nums[r], l= < j < i
         if nums[i] < nums[r]:
             swap(nums, l, i)
             l += 1
@@ -47,6 +40,28 @@ def partition(nums, l, r):
 
 def swap(nums, a, b):
     nums[a], nums[b] = nums[b], nums[a]
+
+
+def mom(nums, l, r):
+  n = high - low + 1
+  # if we have less than 5 elements, ignore the partitioning algorithm
+  if n < 5:
+    return nums[low]
+
+  # partition the given array into chunks of 5 elements
+  partitions = [nums[j:j+5] for j in range(low, high+1, 5)]
+
+  # for simplicity, lets ignore any partition with less than 5 elements
+  fullPartitions = [
+    partition for partition in partitions if len(partition) == 5]
+
+  # sort all partitions
+  sortedPartitions = [sorted(partition) for partition in fullPartitions]
+
+  # find median of all partations; the median of each partition is at index '2'
+  medians = [partition[2] for partition in sortedPartitions]
+
+  return partition(medians, 0, len(medians)-1)
 
 
 def main():
@@ -65,7 +80,6 @@ main()
 
 
 """
-Time O(N) ave O(N^2) worst
-Space O(1)
+Time O(N) 
+Space O(N)
 """
-
