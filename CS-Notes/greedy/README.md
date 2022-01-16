@@ -25,6 +25,16 @@
 1. [Partition Labels (Medium)]()
 [[LC763](https://leetcode.com/problems/partition-labels/description/)]
 
+## Pattern
+
+- maximum/Minimum
+
+## Types
+
+1. max number of intervals with the same intersection
+1. Stock
+1. subarray 
+
 ## Tricks
 
 - to find the intersection of multiple intervals, sort by end point and traverse from left to right
