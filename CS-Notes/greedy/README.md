@@ -20,8 +20,8 @@
 [[LC392](https://leetcode.com/problems/is-subsequence/description/)]
 1. [Non-decreasing Array (Medium)]()
 [[LC665](https://leetcode.com/problems/non-decreasing-array/description/)]
-1. []()
-[[LC]()]
+1. [Maximum Subarray (Easy)]()
+[[LC53](https://leetcode.com/problems/maximum-subarray/description/)]
 1. []()
 [[LC]()]
 1. []()
