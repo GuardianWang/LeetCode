@@ -8,8 +8,8 @@
 [[LC435](https://leetcode.com/problems/non-overlapping-intervals/)]
 1. [Minimum Number of Arrows to Burst Balloons (Medium)]()
 [[LC452](Minimum Number of Arrows to Burst Balloons (Medium))]
-1. []()
-[[LC]()]
+1. [Queue Reconstruction by Height(Medium)]()
+[[LC406](Minimum Number of Arrows to Burst Balloons (Medium))]
 1. []()
 [[LC]()]
 1. []()
