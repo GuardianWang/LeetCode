@@ -22,10 +22,8 @@
 [[LC665](https://leetcode.com/problems/non-decreasing-array/description/)]
 1. [Maximum Subarray (Easy)]()
 [[LC53](https://leetcode.com/problems/maximum-subarray/description/)]
-1. []()
-[[LC]()]
-1. []()
-[[LC]()]
+1. [Partition Labels (Medium)]()
+[[LC763](https://leetcode.com/problems/partition-labels/description/)]
 
 ## Tricks
 
