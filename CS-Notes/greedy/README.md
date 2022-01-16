@@ -16,8 +16,8 @@
 [[LC122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)]
 1. [Can Place Flowers (Easy)]()
 [[LC605](https://leetcode.com/problems/can-place-flowers/description/)]
-1. []()
-[[LC]()]
+1. [Is Subsequence (Medium)]()
+[[LC392](https://leetcode.com/problems/is-subsequence/description/)]
 1. []()
 [[LC]()]
 1. []()
