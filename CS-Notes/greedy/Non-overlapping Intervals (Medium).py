@@ -22,15 +22,12 @@ Explanation: You don't need to remove any of the intervals since they're already
 """
 class Solution:
     def eraseOverlapIntervals(self, intervals) -> int:
-        intervals.sort()
+        intervals.sort(key=lambda x: x[1])
         prev = 0
         cnt = 0
         for cur in range(1, len(intervals)):
             if intervals[cur][0] < intervals[prev][1]:
                 cnt += 1
-                if intervals[cur][1] < intervals[prev][1]:
-                    prev = cur  # keep smaller interval 
-                    # else, keep lefter interval
             else:
                 prev = cur 
         return cnt
