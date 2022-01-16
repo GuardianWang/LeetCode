@@ -7,9 +7,9 @@
 1. [Non-overlapping Intervals (Medium)]()
 [[LC435](https://leetcode.com/problems/non-overlapping-intervals/)]
 1. [Minimum Number of Arrows to Burst Balloons (Medium)]()
-[[LC452](Minimum Number of Arrows to Burst Balloons (Medium))]
+[[LC452](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)]
 1. [Queue Reconstruction by Height(Medium)]()
-[[LC406](Minimum Number of Arrows to Burst Balloons (Medium))]
+[[LC406](https://leetcode.com/problems/queue-reconstruction-by-height/description/)]
 1. [Best Time to Buy and Sell Stock (Easy)]()
 [[LC121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)]
 1. [Best Time to Buy and Sell Stock II (Easy)]()
