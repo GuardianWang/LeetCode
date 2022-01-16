@@ -10,8 +10,8 @@
 [[LC452](Minimum Number of Arrows to Burst Balloons (Medium))]
 1. [Queue Reconstruction by Height(Medium)]()
 [[LC406](Minimum Number of Arrows to Burst Balloons (Medium))]
-1. []()
-[[LC]()]
+1. [Best Time to Buy and Sell Stock (Easy)]()
+[[LC121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)]
 1. []()
 [[LC]()]
 1. []()
