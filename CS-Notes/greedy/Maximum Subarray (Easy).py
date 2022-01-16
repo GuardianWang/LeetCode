@@ -34,9 +34,25 @@ class Solution:
             M = max(M, cur)
         return M
 
+    def divide_conquer(self, nums, l, r):
+        # T(n) = 2T(n/2) + n
+        if r - l == 1:
+            return nums[l], nums[l], nums[l]
+        m = (l + r) >> 1
+        ll, lm, lr = self.divide_conquer(nums, l, m)
+        rl, rm, rr = self.divide_conquer(nums, m, r)
+
+        # overall max
+        mid = max(lm, rm, lr + rl)
+        # max starting from l
+        left = max(ll, sum(nums[l: m]) + rl)
+        # max ending at r - 1
+        right = max(rr, sum(nums[m: r]) + lr)
+        return left, mid, right
+
 
 """
-Time O(N)
-Space O(1)
+Time O(NlogN)
+Space O(logN)
 """
 
