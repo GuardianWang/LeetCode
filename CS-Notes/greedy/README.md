@@ -14,8 +14,8 @@
 [[LC121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)]
 1. [Best Time to Buy and Sell Stock II (Easy)]()
 [[LC122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)]
-1. []()
-[[LC]()]
+1. [Can Place Flowers (Easy)]()
+[[LC605](https://leetcode.com/problems/can-place-flowers/description/)]
 1. []()
 [[LC]()]
 1. []()
