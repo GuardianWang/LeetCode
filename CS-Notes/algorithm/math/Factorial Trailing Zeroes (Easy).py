@@ -24,29 +24,17 @@ Output: 0
 class Solution:
     def trailingZeroes(self, n: int) -> int:
         # in factorial, #5 <= #2
-        n2, n5 = 0, 0
-        for i in range(1, n + 1):
-            res = self.cnt_25(i)
-            n2 += res[0]
-            n5 += res[1]
-        return min(n2, n5)
+        cnt5 = 0
+        power_5 = 5
+        # count #num with factor 5^k
+        while power_5 <= n:
+            cnt5 += n // power_5
+            power_5 *= 5
+        return cnt5
 
-    def cnt_25(self, n):
-        if n < 2:
-            return 0, 0
-        n2 = 0
-        while n > 0 and n % 2 == 0:
-            n2 += 1
-            n >>= 1 
-        n5 = 0
-        while n > 0 and n % 5 == 0:
-            n5 += 1
-            n //=5
-        return n2, n5
-        
 
 """
-Time O(NlogN): armortized O(N)
+Time log(N)
 Space O(1)
 """
 

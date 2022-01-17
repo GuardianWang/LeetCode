@@ -3,7 +3,7 @@
 ## Problems
 
 1. [Count Primes (Easy)]()
-[[LC204](https://leetcode.com/problems/count-primes/)]
+[[LC204](https://leetcode.com/problems/count-primes/description/)]
 1. [Base 7 (Easy)]()
 [[LC504](https://leetcode.com/problems/base-7/description/)]
 1. [Convert a Number to Hexadecimal (Easy)]()
@@ -12,8 +12,8 @@
 [[LC168](https://leetcode.com/problems/excel-sheet-column-title/description/)]
 1. [Factorial Trailing Zeroes (Easy)]()
 [[LC172](https://leetcode.com/problems/factorial-trailing-zeroes/description/)]
-1. []()
-[[LC]()]
+1. [Add Binary (Easy)]()
+[[LC67](https://leetcode.com/problems/add-binary/description/)]
 1. []()
 [[LC]()]
 1. []()
@@ -35,4 +35,6 @@
 
 ## Tricks
 
-- chr() ascii to char; ord() char to ascii
+- `chr()` ascii to char; `ord()` char to ascii
+- `str.zfill(length)` to fill leading 0s
+- `itertools.zip_longest(a, b, fillvalue='')`
