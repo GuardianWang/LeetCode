@@ -14,8 +14,8 @@
 [[LC172](https://leetcode.com/problems/factorial-trailing-zeroes/description/)]
 1. [Add Binary (Easy)]()
 [[LC67](https://leetcode.com/problems/add-binary/description/)]
-1. []()
-[[LC]()]
+1. [Add Strings (Easy)]()
+[[LC415](https://leetcode.com/problems/add-strings/description/)]
 1. []()
 [[LC]()]
 1. []()
