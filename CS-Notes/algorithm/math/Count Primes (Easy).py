@@ -22,10 +22,6 @@ from math import ceil, sqrt
 
 
 def primes(hi):
-    prime_nums = []
-    for i in range(1, int(hi) + 1):
-        if is_prime(i):
-            prime_nums.append(i)
     def is_prime(n):
         if n <= 3:
             return 1
@@ -38,22 +34,14 @@ def primes(hi):
             elif n % p == 0:
                 return False
         return True
+    prime_nums = []
+    for i in range(2, int(hi)):
+        if is_prime(i):
+            prime_nums.append(i)
     return prime_nums
 
 
-def prime_nums(hi):
-    prime_nums_list = primes(hi)
-    nums = [0] * int(hi + 1)
-    j = 0
-    for i in range(len(nums)):
-        if j < len(prime_nums_list) and prime_nums_list[j] < i:
-            j += 1
-        nums[i] = j
-
-
 class Solution:
-    prime_nums_list = prime_nums(5e6)
-
     def countPrimes(self, n: int) -> int:
-        return prime_nums_list[n]
+        return len(primes(n))
 
