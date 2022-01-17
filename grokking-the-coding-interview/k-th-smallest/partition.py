@@ -21,15 +21,15 @@ from random import randint  # inclusive
 
 def find_Kth_smallest_number(nums, k):
     l, r = 0, len(nums) - 1
-    while l < r:
-        # l <= p < r
+    while l <= r:
+        # l <= p <= r
         p = partition(nums, l, r)
         if p < k - 1:
             l = p + 1
+        elif p > k - 1:
+            r = p - 1
         else:
-            r = p
-
-    return nums[l]
+            return nums[p]
 
 
 def partition(nums, l, r):
@@ -68,4 +68,3 @@ main()
 Time O(N) ave O(N^2) worst
 Space O(1)
 """
-
