@@ -18,8 +18,8 @@
 [[LC415](https://leetcode.com/problems/add-strings/description/)]
 1. [Minimum Moves to Equal Array Elements II (Medium)]()
 [[LC462](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/)]
-1. []()
-[[LC]()]
+1. [Majority Element (Easy)]()
+[[LC169](https://leetcode.com/problems/majority-element/description/)]
 1. []()
 [[LC]()]
 1. []()
