@@ -8,8 +8,8 @@
 [[LC504](https://leetcode.com/problems/base-7/description/)]
 1. [Convert a Number to Hexadecimal (Easy)]()
 [[LC405](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)]
-1. []()
-[[LC]()]
+1. [Excel Sheet Column Title (Easy)]()
+[[LC168]()]
 1. []()
 [[LC]()]
 1. []()
