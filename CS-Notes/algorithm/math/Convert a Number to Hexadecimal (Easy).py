@@ -6,7 +6,7 @@ All the letters in the answer string should be lowercase characters, and there s
 
 Note: You are not allowed to use any built-in library method to directly solve this problem.
 
- 
+
 
 Example 1:
 
@@ -24,17 +24,14 @@ class Solution:
         if num < 0:
             # 2's component
             num += (1 << 32)
-        base = 16
-        n2c = {x: str(x) for x in range(10)}
-        n2c.update({x: chr(ord('a') + x - 10) for x in range(10, base)})
+        n2c = "0123456789abcdef"
         res = []
         while num:
             res.append(n2c[num % base])
-            num //= base 
+            num >>= 4
         return "".join(reversed(res))
 
 
 """
 Time/Space O(logN)
 """
-
