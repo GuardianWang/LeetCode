@@ -22,8 +22,8 @@
 [[LC169](https://leetcode.com/problems/majority-element/description/)]
 1. [Valid Perfect Square (Easy)]()
 [[LC367](https://leetcode.com/problems/valid-perfect-square/description/)]
-1. []()
-[[LC]()]
+1. [Power of Three (Easy)]()
+[[LC326](https://leetcode.com/problems/power-of-three/description/)]
 1. []()
 [[LC]()]
 1. []()
@@ -38,3 +38,4 @@
 - `chr()` ascii to char; `ord()` char to ascii
 - `str.zfill(length)` to fill leading 0s
 - `itertools.zip_longest(a, b, fillvalue='')`
+- `int(str, base)` conver to base 10 number
