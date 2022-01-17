@@ -9,7 +9,7 @@
 1. [Convert a Number to Hexadecimal (Easy)]()
 [[LC405](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)]
 1. [Excel Sheet Column Title (Easy)]()
-[[LC168]()]
+[[LC168](https://leetcode.com/problems/excel-sheet-column-title/description/)]
 1. []()
 [[LC]()]
 1. []()
