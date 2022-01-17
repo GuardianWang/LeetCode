@@ -23,6 +23,7 @@ Output: 0
 """
 class Solution:
     def trailingZeroes(self, n: int) -> int:
+        # in factorial, #5 <= #2
         n2, n5 = 0, 0
         for i in range(1, n + 1):
             res = self.cnt_25(i)
@@ -45,7 +46,7 @@ class Solution:
         
 
 """
-Time O(NlogN):
+Time O(NlogN): armortized O(N)
 Space O(1)
 """
 
