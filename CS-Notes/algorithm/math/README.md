@@ -10,8 +10,8 @@
 [[LC405](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)]
 1. [Excel Sheet Column Title (Easy)]()
 [[LC168](https://leetcode.com/problems/excel-sheet-column-title/description/)]
-1. []()
-[[LC]()]
+1. [Factorial Trailing Zeroes (Easy)]()
+[[LC172](https://leetcode.com/problems/factorial-trailing-zeroes/description/)]
 1. []()
 [[LC]()]
 1. []()
