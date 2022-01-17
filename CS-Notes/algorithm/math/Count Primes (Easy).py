@@ -21,27 +21,27 @@ Output: 0
 from math import ceil, sqrt
 
 
-def primes(hi):
-    def is_prime(n):
-        if n <= 3:
-            return 1
-        if n % 2 == 0 or n % 3 == 0:
-            return 0
-        bound = int(ceil(sqrt(n)))
-        for p in prime_nums:
-            if p > bound:
-                break
-            elif n % p == 0:
-                return False
-        return True
-    prime_nums = []
-    for i in range(2, int(hi)):
-        if is_prime(i):
-            prime_nums.append(i)
-    return prime_nums
-
-
 class Solution:
     def countPrimes(self, n: int) -> int:
-        return len(primes(n))
+        if n <= 2:
+            return 0
+        elif n == 3:
+            return 1
+
+        nums = [1] * n  # 1 for prime
+        # mark the multiples of primes
+        for i in range(2, int(ceil(sqrt(n))) + 1):
+            if nums[i]:  # prime 
+                for multi in range(i * i, n, i):
+                    # i * k (k < i) has been marked
+                    nums[multi] = 0
+
+        return sum(nums) - 2  # exclude 0 and 1
+
+        
+"""
+\sum 1/p for p < n is loglogn
+Time O(N^0.5 loglogN)
+Space O(N)
+"""
 
