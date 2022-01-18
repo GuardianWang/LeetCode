@@ -28,6 +28,7 @@
 [[LC238](https://leetcode.com/problems/product-of-array-except-self/description/)]
 1. [Maximum Product of Three Numbers (Easy)](Maximum-Product-of-Three-Numbers-(Easy).py)
 [[LC628](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)]
+1. [greatest common denominator](gcd.py)
 
 ## Pipeline
 
