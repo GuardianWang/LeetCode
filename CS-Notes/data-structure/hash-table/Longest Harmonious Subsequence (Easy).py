@@ -28,10 +28,9 @@ from collections import defaultdict
 class Solution:
     def findLHS(self, nums) -> int:
         counter = defaultdict(int)
+        res = 0
         for n in nums:
             counter[n] += 1
-        res = 0
-        for n in counter.keys():
             if n + 1 in counter:
                 res = max(res, counter[n] + counter[n + 1])
             if n - 1 in counter:
