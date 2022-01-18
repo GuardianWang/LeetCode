@@ -28,10 +28,17 @@
 [[LC238](https://leetcode.com/problems/product-of-array-except-self/description/)]
 1. [Maximum Product of Three Numbers (Easy)]()
 [[LC628](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)]
-1. []()
-[[LC]()]
-1. []()
-[[LC]()]
+
+## Pipeline
+
+lcm = prod / gcd
+
+## Types
+
+- change Base
+- factor decomposition
+- string sum
+- power of n
 
 ## Tricks
 
@@ -39,3 +46,7 @@
 - `str.zfill(length)` to fill leading 0s
 - `itertools.zip_longest(a, b, fillvalue='')`
 - `int(str, base)` conver to base 10 number
+
+# Sources
+
+- [gcd](https://www.geeksforgeeks.org/gcd-in-python/)
