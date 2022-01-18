@@ -30,6 +30,10 @@
 [[LC628](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)]
 1. [greatest common denominator](gcd.py)
 
+## Pattern
+
+- base/factor/power
+
 ## Pipeline
 
 lcm = prod / gcd
