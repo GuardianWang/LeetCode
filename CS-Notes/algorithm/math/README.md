@@ -26,8 +26,8 @@
 [[LC326](https://leetcode.com/problems/power-of-three/description/)]
 1. [Product of Array Except Self (Medium)]()
 [[LC238](https://leetcode.com/problems/product-of-array-except-self/description/)]
-1. []()
-[[LC]()]
+1. [Maximum Product of Three Numbers (Easy)]()
+[[LC628](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)]
 1. []()
 [[LC]()]
 1. []()
