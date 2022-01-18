@@ -4,7 +4,7 @@ Given an integer array nums, move all 0's to the end of it while maintaining the
 
 Note that you must do this in-place without making a copy of the array.
 
- 
+
 
 Example 1:
 
@@ -22,15 +22,12 @@ class Solution:
         """
         # the first 0
         l = self.next0(nums, 0)
-        # the next non-0
-        r = self.next_non0(nums, l)
-        # swap 0 and number
-        for r in range(r, len(nums)):
+        for r in range(l + 1, len(nums)):
             if nums[r]:
+                # l <= i < r are 0
                 self.swap(nums, l, r)
-                # next 0
-                l = self.next0(nums, l)
-            
+                l += 1
+
     def next0(self, nums, start):
         while start < len(nums):
             if nums[start] == 0:
@@ -47,10 +44,9 @@ class Solution:
 
     def swap(self, nums, i, j):
         nums[i], nums[j] = nums[j], nums[i]
-        
+
 
 """
 Time O(N): #non-0 after the first 0
 Space O(1)
 """
-
