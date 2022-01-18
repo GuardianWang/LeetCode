@@ -24,8 +24,8 @@
 [[LC367](https://leetcode.com/problems/valid-perfect-square/description/)]
 1. [Power of Three (Easy)]()
 [[LC326](https://leetcode.com/problems/power-of-three/description/)]
-1. []()
-[[LC]()]
+1. [Product of Array Except Self (Medium)]()
+[[LC238](https://leetcode.com/problems/product-of-array-except-self/description/)]
 1. []()
 [[LC]()]
 1. []()
