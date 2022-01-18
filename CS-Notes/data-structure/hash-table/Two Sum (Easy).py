@@ -22,22 +22,14 @@ Example 3:
 Input: nums = [3,3], target = 6
 Output: [0,1]
 """
-from collections import defaultdict
-
-
 class Solution:
     def twoSum(self, nums, target: int):
-        n2i = defaultdict(list)
+        n2i = dict(zip(nums, range(len(nums))))
+        # if two same number occurs, will contain the last
         for i, n in enumerate(nums):
-            n2i[n].append(i)
-
-        for n in nums:
             n2 = target - n
-            if n2 in nums:
-                if n != n2:
-                    return [n2i[n][0], n2i[n2][0]]
-                if n == n2 and len(n2i[n]) > 1:
-                    return n2i[n][:2]
+            if n2 in nums and n2i[n2] != i:
+                return [i, n2i[n2]]
 
 
 """
