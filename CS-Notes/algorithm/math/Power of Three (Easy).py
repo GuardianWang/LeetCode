@@ -19,6 +19,9 @@ Example 3:
 Input: n = 9
 Output: true
 """
+from math import log 
+
+
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
         if n <= 0:
@@ -28,6 +31,12 @@ class Solution:
                 return False
             n //= 3
         return True
+
+    def mathsol(self, n):
+        if n <= 0:
+            return False 
+        l = log(n, 3)
+        return abs(round(l) - l) < 1e-11
 
 
 """
