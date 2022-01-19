@@ -12,8 +12,8 @@
 [[LC240](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)]
 1. [Kth Smallest Element in a Sorted Matrix ((Medium))]()
 [[LC378](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)]
-1. []()
-[[LC]()]
+1. [Set Mismatch (Easy)]()
+[[LC645](https://leetcode.com/problems/set-mismatch/description/)]
 1. []()
 [[LC]()]
 1. []()
