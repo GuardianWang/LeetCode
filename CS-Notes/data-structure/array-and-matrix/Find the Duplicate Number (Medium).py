@@ -6,7 +6,7 @@ There is only one repeated number in nums, return this repeated number.
 
 You must solve the problem without modifying the array nums and uses only constant extra space.
 
- 
+
 
 Example 1:
 
@@ -19,19 +19,25 @@ Output: 3
 """
 class Solution:
     def findDuplicate(self, nums) -> int:
-        M = len(nums)
-        for n in nums:
-            nums[n % M - 1] += M
-        M2 = 2 * M
-        for i, n in enumerate(nums):
-            if n > M2:
-                res = i + 1
-            nums[i] %= M
-        return res
+        slow, fast = 0, nums[0]
+        while nums[slow] != nums[fast]:
+            slow = nums[slow]
+            fast = nums[nums[fast]]
+        cnt = 1
+        slow = nums[slow]
+        while nums[slow] != nums[fast]:
+            slow = nums[slow]
+            cnt += 1
+        slow, fast = 0, 0
+        for _ in range(cnt):
+            fast = nums[fast]
+        while nums[slow] != nums[fast]:
+            slow = nums[slow]
+            fast = nums[fast]
+        return nums[slow]
 
 
 """
 Time O(N)
 Space O(1)
 """
-
