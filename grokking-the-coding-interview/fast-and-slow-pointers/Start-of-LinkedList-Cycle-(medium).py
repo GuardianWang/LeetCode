@@ -28,19 +28,10 @@ def find_cycle_start(head):
             return None
         if slow is fast:
             break
-    # length of cycle
-    cnt = 0
-    while True:
-        slow = slow.next 
-        cnt += 1
-        if slow is fast:
-            break 
-    # find cycle start
-    # fast will go through all nodes
-    # slow will go through non-cyclic nodes
-    slow, fast = head, head 
-    for _ in range(cnt):
-        fast = fast.next 
+    # https://leetcode.com/problems/linked-list-cycle-ii/solution/
+    # don't need length of cycle
+    # both start from head!
+    slow = head
     while slow is not fast:
         slow = slow.next 
         fast = fast.next 
