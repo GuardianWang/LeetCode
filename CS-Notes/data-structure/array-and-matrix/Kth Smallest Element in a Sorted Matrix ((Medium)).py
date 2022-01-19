@@ -22,6 +22,7 @@ class Solution:
     def kthSmallest(self, matrix, k: int) -> int:
         s, l = matrix[0][0], matrix[-1][-1]
         while s < l:
+            # the kth value is in between s and l
             m = (s + l) >> 1
             cnt, s1, l1 = self.count_le(matrix, m)
             if cnt < k:
@@ -49,7 +50,7 @@ class Solution:
 
 
 """
-Time O(Nlog(M-m))
+Time O(Nlog(M-m)), or O(N^3), e.g. each item is 4^t
 Space O(1)
 """
 
