@@ -8,6 +8,7 @@
 1. [Find all Missing Numbers (easy)](Find-all-Missing-Numbers-(easy).py)
 [[LC448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)]
 1. [Find the Duplicate Number (easy)](Find-the-Duplicate-Number-(easy).py)
+[[LC287](https://leetcode.com/problems/find-the-duplicate-number/)]
 1. [Find all Duplicate Numbers (easy)](Find-all-Duplicate-Numbers-(easy).py)
 [[LC442](https://leetcode.com/problems/find-all-duplicates-in-an-array/)]
 1. [Find the Corrupt Pair (easy)](Find-the-Corrupt-Pair-(easy).py)
