@@ -14,46 +14,19 @@ class Solution:
         if target < matrix[0][0] or target > matrix[-1][-1]:
             return False
 
-        row, col = 0, len(matrix[0]) - 1
-
+        row, col = 0, len(matrix[0]) - 1  # upper right
         while row < len(matrix) and col >= 0:
-            col = self.search_row(matrix, target, row, 0, col)
-            if matrix[row][col] == target:
-                return True
-            row += 1
-
-            if row >= len(matrix):
-                return False
-
-            row = self.search_col(matrix, target, col, row, len(matrix) - 1)
-            if matrix[row][col] == target:
-                return True
-            col -= 1
+            if matrix[row][col] < target:
+                row += 1
+            elif matrix[row][col] > target:
+                col -= 1
+            else:
+                return True 
         return False
-
-    def search_row(self, matrix, target, row, l, r):
-        # row binary search
-        while l < r:
-            m = l + ((r - l) >> 1)
-            if matrix[row][m] < target:
-                l = m + 1
-            else:
-                r = m
-        return l  # vec[l] >= target
-
-    def search_col(self, matrix, target, col, l, r):
-        # col 
-        while l < r:
-            m = r - ((r - l) >> 1)
-            if matrix[m][col] <= target:
-                l = m
-            else:
-                r = m - 1
-        return l  # vec[l] <= target
 
 
 """
-Time O(NlogM+MlogN)
+Time O(N+M)
 Space O(1)
 """
 
