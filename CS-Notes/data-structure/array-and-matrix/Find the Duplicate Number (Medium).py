@@ -19,18 +19,13 @@ Output: 3
 """
 class Solution:
     def findDuplicate(self, nums) -> int:
-        slow, fast = 0, nums[0]
-        while nums[slow] != nums[fast]:
+        slow, fast = 0, 0
+        while True:
             slow = nums[slow]
             fast = nums[nums[fast]]
-        cnt = 1
-        slow = nums[slow]
-        while nums[slow] != nums[fast]:
-            slow = nums[slow]
-            cnt += 1
-        slow, fast = 0, 0
-        for _ in range(cnt):
-            fast = nums[fast]
+            if nums[slow] == nums[fast]:
+                break 
+        slow = 0
         while nums[slow] != nums[fast]:
             slow = nums[slow]
             fast = nums[fast]
