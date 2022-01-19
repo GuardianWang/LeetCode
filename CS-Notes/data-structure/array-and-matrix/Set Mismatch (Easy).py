@@ -19,18 +19,16 @@ Output: [1,2]
 """
 class Solution:
     def findErrorNums(self, nums):
-        M = len(nums) + 1
-        for n in nums:
-            nums[n % M - 1] += M
-        res = [0, 0]
-        M2 = 2 * M
         for i, n in enumerate(nums):
-            if n < M:
-                res[1] = i + 1  # missing
-            elif n > M2:
-                res[0] = i + 1  # duplicate
-        return res
+            j = n - 1
+            while nums[j] != n:
+                nums[i], nums[j] = nums[j], nums[i]
+                n = nums[i]
+                j = n - 1
 
+        for i, n in enumerate(nums):
+            if i + 1 != n:
+                return [n, i + 1]
 
 """
 Time O(N)
