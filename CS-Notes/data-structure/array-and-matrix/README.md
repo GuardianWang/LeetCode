@@ -38,3 +38,4 @@
 ## Tricks
 
 - for 2D matrix finding element, start from lower left/upper right
+- when values are integers within index range, look on array as linked list, and values are next indices
