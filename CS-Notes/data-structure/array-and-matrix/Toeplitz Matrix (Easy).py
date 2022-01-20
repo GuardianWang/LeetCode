@@ -22,26 +22,9 @@ The diagonal "[1, 2]" has different elements.
 """
 class Solution:
     def isToeplitzMatrix(self, matrix) -> bool:
-        r, c = len(matrix) - 1, 0
-        while r >= 0:
-            if not self.isT(matrix, r, c):
-                return False 
-            r -= 1
-        r = 0
-        while c < len(matrix[0]):
-            if not self.isT(matrix, r, c):
-                return False 
-            c += 1
-        return True
-
-    def isT(self, matrix, r, c):
-        base = matrix[r][c]
-        while r < len(matrix) and c < len(matrix[0]):
-            if matrix[r][c] != base:
-                return False 
-            r += 1
-            c += 1
-        return True 
+        return all(matrix[r - 1][c - 1] == matrix[r][c]
+                   for r in range(1, len(matrix)) 
+                   for c in range(1, len(matrix[0])))
 
 
 """
