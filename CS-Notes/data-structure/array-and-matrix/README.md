@@ -27,6 +27,18 @@
 1. [Max Chunks To Make Sorted (Medium)](Max-Chunks-To-Make-Sorted-(Medium).py)
 [[LC769](https://leetcode.com/problems/max-chunks-to-make-sorted/description/)]
 
+## Pattern
+
+- array or matrix
+
+## Types
+
+- find subarray/subsequence w/ some property
+- find missing/duplicate values
+- find target in sorted matrix
+- modify the array to satisfy some property
+- use value as index of the next value: must form a loop
+
 ## Tricks
 
 - for 2D matrix finding element, start from lower left/upper right
