@@ -18,8 +18,8 @@
 [[LC287](https://leetcode.com/problems/find-the-duplicate-number/description/)]
 1. [Beautiful Arrangement II (Medium)]()
 [[LC667](https://leetcode.com/problems/beautiful-arrangement-ii/description/)]
-1. []()
-[[LC]()]
+1. [Degree of an Array (Easy)]()
+[[LC697](https://leetcode.com/problems/degree-of-an-array/description/)]
 1. []()
 [[LC]()]
 1. []()
