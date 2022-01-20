@@ -24,19 +24,13 @@
 [[LC766](https://leetcode.com/problems/toeplitz-matrix/description/)]
 1. [Array Nesting (Medium)]()
 [[LC565](https://leetcode.com/problems/array-nesting/description/)]
-1. []()
-[[LC]()]
-1. []()
-[[LC]()]
-1. []()
-[[LC]()]
-1. []()
-[[LC]()]
-1. []()
-[[LC]()]
+1. [Max Chunks To Make Sorted (Medium)]()
+[[LC769](https://leetcode.com/problems/max-chunks-to-make-sorted/description/)]
 
 ## Tricks
 
 - for 2D matrix finding element, start from lower left/upper right
 - when values are integers within index range, look on array as linked list, and values are next indices
 - all(), any()
+- use array to mark visited
+- use `if n is not None` instead of `if n` when n >= 0
