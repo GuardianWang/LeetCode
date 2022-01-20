@@ -26,14 +26,13 @@ Output: 1
 """
 class Solution:
     def arrayNesting(self, nums) -> int:
-        visited = set()
         ans = 0
-        for n in nums:
+        for i, n in enumerate(nums):
             cnt = 0
-            while n not in visited:
+            while n is not None:
                 cnt += 1
-                visited.add(n)
-                n = nums[n]
+                nums[i] = None
+                i, n = n, nums[n]
             ans = max(ans, cnt)
         return ans
 
