@@ -20,8 +20,8 @@
 [[LC667](https://leetcode.com/problems/beautiful-arrangement-ii/description/)]
 1. [Degree of an Array (Easy)]()
 [[LC697](https://leetcode.com/problems/degree-of-an-array/description/)]
-1. []()
-[[LC]()]
+1. [Toeplitz Matrix (Easy)]()
+[[LC766](https://leetcode.com/problems/toeplitz-matrix/description/)]
 1. []()
 [[LC]()]
 1. []()
