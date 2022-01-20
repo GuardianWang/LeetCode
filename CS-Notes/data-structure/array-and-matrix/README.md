@@ -22,8 +22,8 @@
 [[LC697](https://leetcode.com/problems/degree-of-an-array/description/)]
 1. [Toeplitz Matrix (Easy)]()
 [[LC766](https://leetcode.com/problems/toeplitz-matrix/description/)]
-1. []()
-[[LC]()]
+1. [Array Nesting (Medium)]()
+[[LC565](https://leetcode.com/problems/array-nesting/description/)]
 1. []()
 [[LC]()]
 1. []()
