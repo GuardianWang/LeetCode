@@ -19,19 +19,11 @@ Since there are two elements with the value 3, in total there are 2 elements hav
 """
 class Solution:
     def countElements(self, nums) -> int:
-        nums.sort()
-        l, r = 0, len(nums) - 1
-        while l + 1 < len(nums) and nums[l] == nums[l + 1]:
-            l += 1
-        l += 1
-        while r - 1 >= 0 and nums[r] == nums[r - 1]:
-            r -= 1
-        r -= 1
-        return max(r - l + 1, 0)
+        return max(0, len(nums) - nums.count(min(nums)) - nums.count(max(nums)))
 
 
 """
-Time O(NlogN)
-Space O(N)
+Time O(N)
+Space O(1)
 """
 
