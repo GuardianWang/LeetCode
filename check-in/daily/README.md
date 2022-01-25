@@ -12,5 +12,7 @@
 [[LC520](https://leetcode.com/problems/detect-capital/)]
 1. 24 [Valid Mountain Array (Easy)](Valid-Mountain-Array-(Easy).py)
 [[LC941](https://leetcode.com/problems/valid-mountain-array/)]
-1. 25 []()
+1. [Next Permutation](Next-Permutation-(Medium).py)
+[[LC31](https://leetcode.com/problems/next-permutation/)]
+1. []()
 [[]()]
