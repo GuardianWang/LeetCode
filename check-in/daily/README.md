@@ -14,8 +14,10 @@
 [[LC941](https://leetcode.com/problems/valid-mountain-array/)]
 1. [Next Permutation](Next-Permutation-(Medium).py)
 [[LC31](https://leetcode.com/problems/next-permutation/)]
-1. [All Elements in Two Binary Search Trees (Medium)](All-Elements-in-Two-Binary-Search-Trees-(Medium).py)
+1. 26 [All Elements in Two Binary Search Trees (Medium)](All-Elements-in-Two-Binary-Search-Trees-(Medium).py)
 [[LC1305](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)]
+1. 27 [Maximum XOR of Two Numbers in an Array (Medium)]()
+[[LC421](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)]
 
 1. []()
 [[]()]
