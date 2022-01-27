@@ -4,8 +4,8 @@
 
 1. [Climbing Stairs (Easy)]()
 [[LC70](https://leetcode.com/problems/climbing-stairs/description/)]
-1. []()
-[[LC]()]
+1. [House Robber (Medium)]()
+[[LC198](https://leetcode.com/problems/house-robber/description/)]
 1. []()
 [[LC]()]
 1. []()
