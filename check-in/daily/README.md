@@ -21,3 +21,7 @@
 
 1. []()
 [[]()]
+
+## Tricks
+
+1. `bin()` converts int to binary string 2 -> '0b10'
