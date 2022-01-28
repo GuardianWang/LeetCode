@@ -6,8 +6,8 @@
 [[LC70](https://leetcode.com/problems/climbing-stairs/description/)]
 1. [House Robber (Medium)]()
 [[LC198](https://leetcode.com/problems/house-robber/description/)]
-1. []()
-[[LC]()]
+1. [House Robber II (Medium)]()
+[[LC213](https://leetcode.com/problems/house-robber-ii/description/)]
 1. []()
 [[LC]()]
 1. []()
