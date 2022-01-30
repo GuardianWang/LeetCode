@@ -21,8 +21,8 @@
 
 [278](https://leetcode.com/contest/weekly-contest-278/) Rank: 562
 
-1. []()
-[[LC2154]()]
+1. [Keep Multiplying Found Values by Two (Easy)](Keep-Multiplying-Found-Values-by-Two-(Easy).py)
+[[LC2154](https://leetcode.com/contest/weekly-contest-278/problems/keep-multiplying-found-values-by-two/)]
 1. [All Divisions With the Highest Score of a Binary Array (Medium)](All-Divisions-With-the-Highest-Score-of-a-Binary-Array-(Medium).py)
 [[LC2155](https://leetcode.com/contest/weekly-contest-278/problems/all-divisions-with-the-highest-score-of-a-binary-array/)]
 1. [Find Substring With Given Hash Value (Medium)](Find-Substring-With-Given-Hash-Value-(Medium).py)
