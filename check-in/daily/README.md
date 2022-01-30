@@ -29,3 +29,4 @@
 ## Tricks
 
 1. `bin()` converts int to binary string 2 -> '0b10'
+2. swap partitions of an array by reverse (LC 189)
