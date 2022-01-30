@@ -18,8 +18,10 @@
 [[LC1305](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)]
 1. 27 [Maximum XOR of Two Numbers in an Array (Medium)]()
 [[LC421](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)]
-1. [Largest Rectangle in Histogram (Hard)](Largest-Rectangle-in-Histogram-(Hard).py)
+1. 28 [Largest Rectangle in Histogram (Hard)](Largest-Rectangle-in-Histogram-(Hard).py)
 [[LC84](https://leetcode.com/problems/largest-rectangle-in-histogram/)]
+1. 29 [Rotate Array (Medium)](Rotate-Array-(Medium).py)
+[[LC189](https://leetcode.com/problems/rotate-array/)]
 
 1. []()
 [[]()]
