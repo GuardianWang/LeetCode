@@ -22,11 +22,11 @@
 [278](https://leetcode.com/contest/weekly-contest-278/) Rank: 562
 
 1. []()
-[[]()]
+[[LC2154]()]
 1. []()
-[[]()]
-1. []()
-[[]()]
+[[LC2155]()]
+1. [Find Substring With Given Hash Value (Medium)](Find-Substring-With-Given-Hash-Value-(Medium).py)
+[[LC2156](https://leetcode.com/contest/weekly-contest-278/problems/find-substring-with-given-hash-value/)]
 1. [Groups of Strings (Hard)](Groups-of-Strings-(Hard).py)
 [[LC2157](https://leetcode.com/contest/weekly-contest-278/problems/groups-of-strings/)]
 
