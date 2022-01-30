@@ -23,8 +23,8 @@
 
 1. []()
 [[LC2154]()]
-1. []()
-[[LC2155]()]
+1. [All Divisions With the Highest Score of a Binary Array (Medium)](All-Divisions-With-the-Highest-Score-of-a-Binary-Array-(Medium).py)
+[[LC2155](https://leetcode.com/contest/weekly-contest-278/problems/all-divisions-with-the-highest-score-of-a-binary-array/)]
 1. [Find Substring With Given Hash Value (Medium)](Find-Substring-With-Given-Hash-Value-(Medium).py)
 [[LC2156](https://leetcode.com/contest/weekly-contest-278/problems/find-substring-with-given-hash-value/)]
 1. [Groups of Strings (Hard)](Groups-of-Strings-(Hard).py)
