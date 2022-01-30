@@ -28,7 +28,7 @@
 1. []()
 [[]()]
 1. [Groups of Strings (Hard)](Groups-of-Strings-(Hard).py)
-[[LC2157](https://leetcode.com/problems/groups-of-strings/)]
+[[LC2157](https://leetcode.com/contest/weekly-contest-278/problems/groups-of-strings/)]
 
 ##### Weekly Premium
 
