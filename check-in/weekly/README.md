@@ -19,6 +19,17 @@
 1. [Maximum Good People Based on Statements (Hard)](Maximum-Good-People-Based-on-Statements-(Hard).py)
 [[LC2151](https://leetcode.com/contest/weekly-contest-277/problems/maximum-good-people-based-on-statements/)]
 
+[278](https://leetcode.com/contest/weekly-contest-278/) Rank: 562
+
+1. []()
+[[]()]
+1. []()
+[[]()]
+1. []()
+[[]()]
+1. [Groups of Strings (Hard)](Groups-of-Strings-(Hard).py)
+[[LC2157](https://leetcode.com/problems/groups-of-strings/)]
+
 ##### Weekly Premium
 
 1. [Find Nearest Right Node in Binary Tree (Medium)](Find-Nearest-Right-Node-in-Binary-Tree-(Medium).py)
