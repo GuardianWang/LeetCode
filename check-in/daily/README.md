@@ -22,6 +22,8 @@
 [[LC84](https://leetcode.com/problems/largest-rectangle-in-histogram/)]
 1. 29 [Rotate Array (Medium)](Rotate-Array-(Medium).py)
 [[LC189](https://leetcode.com/problems/rotate-array/)]
+1. 30 [Richest Customer Wealth (Easy)](Richest-Customer-Wealth-(Easy).py)
+[[LC1672](https://leetcode.com/problems/richest-customer-wealth/)]
 
 1. []()
 [[]()]
