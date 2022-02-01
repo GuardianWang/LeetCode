@@ -24,6 +24,8 @@
 [[LC189](https://leetcode.com/problems/rotate-array/)]
 1. 30 [Richest Customer Wealth (Easy)](Richest-Customer-Wealth-(Easy).py)
 [[LC1672](https://leetcode.com/problems/richest-customer-wealth/)]
+1. 31 [Best Time to Buy and Sell Stock (Easy)](Best-Time-to-Buy-and-Sell-Stock-(Easy).py)
+[[LC121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)]
 
 1. []()
 [[]()]
