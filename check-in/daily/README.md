@@ -29,8 +29,10 @@
 
 #### Feb
 
-2. 1 [Find All Anagrams in a String (Medium)](Find-All-Anagrams-in-a-String-(Medium).py)
+1. 1 [Find All Anagrams in a String (Medium)](Find-All-Anagrams-in-a-String-(Medium).py)
 [[LC438](https://leetcode.com/problems/find-all-anagrams-in-a-string)]
+1. 2 [4Sum II (Medium)](4Sum-II-(Medium).py)
+[[LC454](https://leetcode.com/problems/4sum-ii/)]
 
 1. []()
 [[]()]
