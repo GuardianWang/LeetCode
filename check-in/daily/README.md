@@ -33,6 +33,8 @@
 [[LC438](https://leetcode.com/problems/find-all-anagrams-in-a-string)]
 1. 2 [4Sum II (Medium)](4Sum-II-(Medium).py)
 [[LC454](https://leetcode.com/problems/4sum-ii/)]
+1. 3 [Contiguous Array (Medium)](Contiguous-Array-(Medium).py)
+[[LC525](https://leetcode.com/problems/contiguous-array/)]
 
 1. []()
 [[]()]
