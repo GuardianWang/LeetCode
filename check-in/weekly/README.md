@@ -49,3 +49,8 @@
 [[LC5986](https://leetcode.com/contest/biweekly-contest-71/problems/minimum-cost-to-set-cooking-time/)]
 1. [Minimum Difference in Sums After Removal of Elements (Hard)](Minimum-Difference-in-Sums-After-Removal-of-Elements-(Hard).py)
 [[LC5987](https://leetcode.com/contest/biweekly-contest-71/problems/minimum-difference-in-sums-after-removal-of-elements/)]
+
+
+## Tricks
+
+1. divide and conquer: split array into left and right halves.
