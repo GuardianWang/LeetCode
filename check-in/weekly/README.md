@@ -39,7 +39,7 @@
 
 ##### [Biweekly Contest]
 
-[71](https://leetcode.com/contest/biweekly-contest-71/) Rank: 1809
+[71](https://leetcode.com/contest/biweekly-contest-71/) Rank: 1312
 
 1. [Minimum Sum of Four Digit Number After Splitting Digits (Easy)](Minimum-Sum-of-Four-Digit-Number-After-Splitting-Digits-(Easy).py)
 [[LC5984](https://leetcode.com/contest/biweekly-contest-71/problems/minimum-sum-of-four-digit-number-after-splitting-digits/)]

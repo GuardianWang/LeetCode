@@ -33,3 +33,42 @@ If we remove nums[2] = 5 and nums[3] = 8, the resultant array will be [7,9,1,3].
 To obtain the minimum difference, we should remove nums[1] = 9 and nums[4] = 1. The resultant array becomes [7,5,8,3]. The difference in sums of the two parts is (7+5) - (8+3) = 1.
 It can be shown that it is not possible to obtain a difference smaller than 1.
 """
+class Solution:
+    def minimumDifference(self, nums: List[int]) -> int:
+        n = len(nums) // 3
+        # find the split
+        # left is the smallest n in left
+        # right is the largest n in right
+        pq = [-nums[i] for i in range(n)]
+        heapify(pq)
+        s = -sum(pq)
+        left = [s]
+        for i in range(n, 2 * n):
+            if nums[i] >= -pq[0]:
+                left.append(s)
+                continue
+            s += heappop(pq)
+            s += nums[i]
+            heappush(pq, -nums[i])
+            left.append(s)
+            
+        pq = [nums[i] for i in range(2 * n, len(nums))]
+        heapify(pq)
+        s = sum(pq)
+        right = [s]
+        for i in reversed(range(n, 2 * n)):
+            if nums[i] <= pq[0]:
+                right.append(s)
+                continue
+            s -= heappop(pq)
+            s += nums[i]
+            heappush(pq, nums[i])
+            right.append(s)
+            
+        return min(map(lambda x: x[0] - x[1], zip(left, reversed(right))))
+            
+
+
+"""
+Time/Space O(N)
+"""
