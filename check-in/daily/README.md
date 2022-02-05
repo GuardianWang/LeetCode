@@ -35,6 +35,8 @@
 [[LC454](https://leetcode.com/problems/4sum-ii/)]
 1. 3 [Contiguous Array (Medium)](Contiguous-Array-(Medium).py)
 [[LC525](https://leetcode.com/problems/contiguous-array/)]
+1. 4 [Merge K Sorted Lists (Hard)](Merge-K-Sorted-Lists-(medium).py)
+[[LC23](https://leetcode.com/problems/merge-k-sorted-lists/)]
 
 1. []()
 [[]()]
