@@ -34,3 +34,18 @@
 
 1. [Find Nearest Right Node in Binary Tree (Medium)](Find-Nearest-Right-Node-in-Binary-Tree-(Medium).py)
 [[LC1602](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)]
+
+#### Feb
+
+##### [Biweekly Contest]
+
+[71](https://leetcode.com/contest/biweekly-contest-71/) Rank: 1809
+
+1. [Minimum Sum of Four Digit Number After Splitting Digits (Easy)](Minimum-Sum-of-Four-Digit-Number-After-Splitting-Digits-(Easy).py)
+[[LC5984](https://leetcode.com/contest/biweekly-contest-71/problems/minimum-sum-of-four-digit-number-after-splitting-digits/)]
+1. [Partition Array According to Given Pivot (Medium)](Partition-Array-According-to-Given-Pivot-(Medium).py)
+[[LC5985](https://leetcode.com/contest/biweekly-contest-71/problems/partition-array-according-to-given-pivot/)]
+1. [Minimum Cost to Set Cooking Time (Medium)](Minimum-Cost-to-Set-Cooking-Time-(Medium).py)
+[[LC5986](https://leetcode.com/contest/biweekly-contest-71/problems/minimum-cost-to-set-cooking-time/)]
+1. [Minimum Difference in Sums After Removal of Elements (Hard)](Minimum-Difference-in-Sums-After-Removal-of-Elements-(Hard).py)
+[[LC5987](https://leetcode.com/contest/biweekly-contest-71/problems/minimum-difference-in-sums-after-removal-of-elements/)]
