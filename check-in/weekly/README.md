@@ -50,7 +50,21 @@
 1. [Minimum Difference in Sums After Removal of Elements (Hard)](Minimum-Difference-in-Sums-After-Removal-of-Elements-(Hard).py)
 [[LC5987](https://leetcode.com/contest/biweekly-contest-71/problems/minimum-difference-in-sums-after-removal-of-elements/)]
 
+##### [Weekly Contest]
+
+[279](https://leetcode.com/contest/weekly-contest-279) Rank: 148
+
+1. [Sort Even and Odd Indices Independently (Easy)](Sort-Even-and-Odd-Indices-Independently-(Easy).py)
+[[LC6000](https://leetcode.com/contest/weekly-contest-279/problems/sort-even-and-odd-indices-independently/)]
+1. [Smallest Value of the Rearranged Number (Medium)](Smallest-Value-of-the-Rearranged-Number-(Medium).py)
+[[LC6001](https://leetcode.com/contest/weekly-contest-279/problems/smallest-value-of-the-rearranged-number/)]
+1. [Design Bitset (Medium)](Design-Bitset-(Medium).py)
+[[LC6002](https://leetcode.com/contest/weekly-contest-279/problems/design-bitset/)]
+1. [Minimum Time to Remove All Cars Containing Illegal Goods (Hard)](Minimum-Time-to-Remove-All-Cars-Containing-Illegal-Goods-(Hard).py)
+[[LC6003](https://leetcode.com/contest/weekly-contest-279/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)]
 
 ## Tricks
 
 1. divide and conquer: split array into left and right halves.
+2. `str.zfill(n)` fills leading zero
+3. `n ^ 1` reverse bits, `1 ^ 1` set to 0
