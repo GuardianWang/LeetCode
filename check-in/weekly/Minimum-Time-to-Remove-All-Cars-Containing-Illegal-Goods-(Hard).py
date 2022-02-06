@@ -81,4 +81,6 @@ class Solution:
 
 """
 Time/Space O(N)
+An O(1) space sol
+https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/discuss/1748477/Python-Easy-to-understand-solution-with-comments
 """
