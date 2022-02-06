@@ -37,6 +37,8 @@
 [[LC525](https://leetcode.com/problems/contiguous-array/)]
 1. 4 [Merge K Sorted Lists (Hard)](Merge-K-Sorted-Lists-(medium).py)
 [[LC23](https://leetcode.com/problems/merge-k-sorted-lists/)]
+1. [Remove Duplicates from Sorted Array II (Medium)](Remove-Duplicates-from-Sorted-Array-II-(Medium).py)
+[[LC80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)]
 
 1. []()
 [[]()]
