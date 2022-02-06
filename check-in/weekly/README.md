@@ -63,6 +63,12 @@
 1. [Minimum Time to Remove All Cars Containing Illegal Goods (Hard)](Minimum-Time-to-Remove-All-Cars-Containing-Illegal-Goods-(Hard).py)
 [[LC6003](https://leetcode.com/contest/weekly-contest-279/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)]
 
+
+##### Weekly Premium
+
+1. [The Earliest Moment When Everyone Become Friends (Medium)](The-Earliest-Moment-When-Everyone-Become-Friends-(Medium).py)
+[[LC1101](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)]
+
 ## Tricks
 
 1. divide and conquer: split array into left and right halves.
