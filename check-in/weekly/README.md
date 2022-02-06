@@ -52,7 +52,7 @@
 
 ##### [Weekly Contest]
 
-[279](https://leetcode.com/contest/weekly-contest-279) Rank: 148
+[279](https://leetcode.com/contest/weekly-contest-279) Rank: 276
 
 1. [Sort Even and Odd Indices Independently (Easy)](Sort-Even-and-Odd-Indices-Independently-(Easy).py)
 [[LC6000](https://leetcode.com/contest/weekly-contest-279/problems/sort-even-and-odd-indices-independently/)]
