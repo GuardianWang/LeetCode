@@ -68,6 +68,8 @@
 
 1. [The Earliest Moment When Everyone Become Friends (Medium)](The-Earliest-Moment-When-Everyone-Become-Friends-(Medium).py)
 [[LC1101](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)]
+1. [Number of Ships in a Rectangle (Hard)](Number-of-Ships-in-a-Rectangle-(Hard).py)
+[[LC1274](https://leetcode.com/problems/number-of-ships-in-a-rectangle/)]
 
 ## Tricks
 
