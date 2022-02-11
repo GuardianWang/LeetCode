@@ -19,7 +19,58 @@
 1. [Maximum Good People Based on Statements (Hard)](Maximum-Good-People-Based-on-Statements-(Hard).py)
 [[LC2151](https://leetcode.com/contest/weekly-contest-277/problems/maximum-good-people-based-on-statements/)]
 
+[278](https://leetcode.com/contest/weekly-contest-278/) Rank: 562
+
+1. [Keep Multiplying Found Values by Two (Easy)](Keep-Multiplying-Found-Values-by-Two-(Easy).py)
+[[LC2154](https://leetcode.com/contest/weekly-contest-278/problems/keep-multiplying-found-values-by-two/)]
+1. [All Divisions With the Highest Score of a Binary Array (Medium)](All-Divisions-With-the-Highest-Score-of-a-Binary-Array-(Medium).py)
+[[LC2155](https://leetcode.com/contest/weekly-contest-278/problems/all-divisions-with-the-highest-score-of-a-binary-array/)]
+1. [Find Substring With Given Hash Value (Medium)](Find-Substring-With-Given-Hash-Value-(Medium).py)
+[[LC2156](https://leetcode.com/contest/weekly-contest-278/problems/find-substring-with-given-hash-value/)]
+1. [Groups of Strings (Hard)](Groups-of-Strings-(Hard).py)
+[[LC2157](https://leetcode.com/contest/weekly-contest-278/problems/groups-of-strings/)]
+
 ##### Weekly Premium
 
 1. [Find Nearest Right Node in Binary Tree (Medium)](Find-Nearest-Right-Node-in-Binary-Tree-(Medium).py)
 [[LC1602](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)]
+
+#### Feb
+
+##### [Biweekly Contest]
+
+[71](https://leetcode.com/contest/biweekly-contest-71/) Rank: 1312
+
+1. [Minimum Sum of Four Digit Number After Splitting Digits (Easy)](Minimum-Sum-of-Four-Digit-Number-After-Splitting-Digits-(Easy).py)
+[[LC5984](https://leetcode.com/contest/biweekly-contest-71/problems/minimum-sum-of-four-digit-number-after-splitting-digits/)]
+1. [Partition Array According to Given Pivot (Medium)](Partition-Array-According-to-Given-Pivot-(Medium).py)
+[[LC5985](https://leetcode.com/contest/biweekly-contest-71/problems/partition-array-according-to-given-pivot/)]
+1. [Minimum Cost to Set Cooking Time (Medium)](Minimum-Cost-to-Set-Cooking-Time-(Medium).py)
+[[LC5986](https://leetcode.com/contest/biweekly-contest-71/problems/minimum-cost-to-set-cooking-time/)]
+1. [Minimum Difference in Sums After Removal of Elements (Hard)](Minimum-Difference-in-Sums-After-Removal-of-Elements-(Hard).py)
+[[LC5987](https://leetcode.com/contest/biweekly-contest-71/problems/minimum-difference-in-sums-after-removal-of-elements/)]
+
+##### [Weekly Contest]
+
+[279](https://leetcode.com/contest/weekly-contest-279) Rank: 276
+
+1. [Sort Even and Odd Indices Independently (Easy)](Sort-Even-and-Odd-Indices-Independently-(Easy).py)
+[[LC6000](https://leetcode.com/contest/weekly-contest-279/problems/sort-even-and-odd-indices-independently/)]
+1. [Smallest Value of the Rearranged Number (Medium)](Smallest-Value-of-the-Rearranged-Number-(Medium).py)
+[[LC6001](https://leetcode.com/contest/weekly-contest-279/problems/smallest-value-of-the-rearranged-number/)]
+1. [Design Bitset (Medium)](Design-Bitset-(Medium).py)
+[[LC6002](https://leetcode.com/contest/weekly-contest-279/problems/design-bitset/)]
+1. [Minimum Time to Remove All Cars Containing Illegal Goods (Hard)](Minimum-Time-to-Remove-All-Cars-Containing-Illegal-Goods-(Hard).py)
+[[LC6003](https://leetcode.com/contest/weekly-contest-279/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)]
+
+
+##### Weekly Premium
+
+1. [The Earliest Moment When Everyone Become Friends (Medium)](The-Earliest-Moment-When-Everyone-Become-Friends-(Medium).py)
+[[LC1101](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)]
+
+## Tricks
+
+1. divide and conquer: split array into left and right halves.
+2. `str.zfill(n)` fills leading zero
+3. `n ^ 1` reverse bits, `1 ^ 1` set to 0
