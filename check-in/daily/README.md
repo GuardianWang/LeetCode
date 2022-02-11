@@ -39,9 +39,11 @@
 [[LC23](https://leetcode.com/problems/merge-k-sorted-lists/)]
 1. [Remove Duplicates from Sorted Array II (Medium)](Remove-Duplicates-from-Sorted-Array-II-(Medium).py)
 [[LC80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)]
+1. [Permutation in String (Medium)](Permutation-in-String-(Medium).py)
+[[LC567](https://leetcode.com/problems/permutation-in-string/)]
 
 1. []()
-[[]()]
+[[LC]()]
 
 ## Tricks
 
