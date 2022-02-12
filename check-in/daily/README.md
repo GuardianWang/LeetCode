@@ -51,3 +51,4 @@
 
 1. `bin()` converts int to binary string 2 -> '0b10'
 2. swap partitions of an array by reverse (LC 189)
+3. when words differ by one letter and length is fixed, traverse each word and enumerate neighbors has better time complexity
