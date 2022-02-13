@@ -63,6 +63,16 @@
 1. [Minimum Time to Remove All Cars Containing Illegal Goods (Hard)](Minimum-Time-to-Remove-All-Cars-Containing-Illegal-Goods-(Hard).py)
 [[LC6003](https://leetcode.com/contest/weekly-contest-279/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)]
 
+[280](https://leetcode.com/contest/weekly-contest-280) Rank: 1782
+
+1. [Count Operations to Obtain Zero (Easy)](Count-Operations-to-Obtain-Zero-(Easy).py)
+[[LC6004](https://leetcode.com/contest/weekly-contest-280/problems/count-operations-to-obtain-zero/)]
+1. [Minimum Operations to Make the Array Alternating (Medium)](Minimum-Operations-to-Make-the-Array-Alternating-(Medium).py)
+[[LC6005](https://leetcode.com/contest/weekly-contest-280/problems/minimum-operations-to-make-the-array-alternating/)]
+1. [Removing Minimum Number of Magic Beans (Medium)](Removing-Minimum-Number-of-Magic-Beans-(Medium).py)
+[[LC6006](https://leetcode.com/contest/weekly-contest-280/problems/removing-minimum-number-of-magic-beans/)]
+1. [Maximum AND Sum of Array (Hard)](Maximum-AND-Sum-of-Array-(Hard).py)
+[[LC6007](https://leetcode.com/contest/weekly-contest-280/problems/maximum-and-sum-of-array/)]
 
 ##### Weekly Premium
 
