@@ -43,6 +43,8 @@
 [[LC567](https://leetcode.com/problems/permutation-in-string/)]
 1. 11 [Word Ladder (Hard)](Word-Ladder-(Hard).py)
 [[LC127](https://leetcode.com/problems/word-ladder/)]
+1. 13 [Maximum Depth of Binary Tree (Easy)](Maximum-Depth-of-Binary-Tree-(Easy).py)
+[[LC104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)]
 
 1. []()
 [[LC]()]
