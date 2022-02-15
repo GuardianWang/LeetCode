@@ -45,6 +45,8 @@
 [[LC127](https://leetcode.com/problems/word-ladder/)]
 1. 13 [Maximum Depth of Binary Tree (Easy)](Maximum-Depth-of-Binary-Tree-(Easy).py)
 [[LC104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)]
+1. 14 [Single Number (Easy)](Single-Number-(Easy).py)
+[[LC136](https://leetcode.com/problems/single-number/)]
 
 1. []()
 [[LC]()]
