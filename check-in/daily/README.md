@@ -47,6 +47,8 @@
 [[LC104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)]
 1. 14 [Single Number (Easy)](Single-Number-(Easy).py)
 [[LC136](https://leetcode.com/problems/single-number/)]
+1. 15 [Swap Nodes in Pairs (Medium)](Swap-Nodes-in-Pairs-(Medium).py)
+[[LC24](https://leetcode.com/problems/swap-nodes-in-pairs/)]
 
 1. []()
 [[LC]()]
