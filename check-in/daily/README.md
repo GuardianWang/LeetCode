@@ -51,12 +51,15 @@
 [[LC24](https://leetcode.com/problems/swap-nodes-in-pairs/)]
 1. 16 [Combination Sum (Medium)](Combination-Sum-(Medium).py)
 [[LC39](https://leetcode.com/problems/combination-sum/)]
+1. [Remove K Digits (Medium)](Remove-K-Digits-(Medium).py)
+[[LC402](https://leetcode.com/problems/remove-k-digits/)]
 
 1. []()
 [[LC]()]
 
 ## Tricks
 
-1. `bin()` converts int to binary string 2 -> '0b10'
+1. `bin()` converts int to binary string 2 -> '0b10', -2 -> '-0b10'
 2. swap partitions of an array by reverse (LC 189)
 3. when words differ by one letter and length is fixed, traverse each word and enumerate neighbors has better time complexity
+4. `str.lstrip()`
