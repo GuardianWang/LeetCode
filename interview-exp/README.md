@@ -6,6 +6,8 @@
 [[LC780](https://leetcode.com/problems/reaching-points/)]
 2. [Unique Paths (Medium)](Unique-Paths-(Medium).py)
 [[LC62](https://leetcode.com/problems/unique-paths/)]
+3. [Number of Sets of K Non-Overlapping Line Segments (Medium)](Number-of-Sets-of-K-Non-Overlapping-Line-Segments-(Medium).py)
+[[LC1621](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/)]
 
 # Tricks
 
