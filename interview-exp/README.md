@@ -12,6 +12,8 @@
 [[LC775](https://leetcode.com/problems/global-and-local-inversions/)]
 5. [Ancestral Names](Ancestral-Names.py)
 [[link](https://leetcode.com/discuss/general-discussion/851939/ancestor-problem)]
+6. [Design a Stack With Increment Operation (Medium)](Design-a-Stack-With-Increment-Operation-(Medium).py)
+[[LC1381](https://leetcode.com/problems/design-a-stack-with-increment-operation/)]
 
 # Tricks
 
