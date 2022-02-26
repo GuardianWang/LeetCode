@@ -4,15 +4,19 @@
 
 1. [Reaching Points (Hard)](Reaching-Points-(Hard).py)
 [[LC780](https://leetcode.com/problems/reaching-points/)]
+<!--
 2. [Unique Paths (Medium)](Unique-Paths-(Medium).py)
 [[LC62](https://leetcode.com/problems/unique-paths/)]
 3. [Number of Sets of K Non-Overlapping Line Segments (Medium)](Number-of-Sets-of-K-Non-Overlapping-Line-Segments-(Medium).py)
 [[LC1621](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/)]
 4. [Global and Local Inversions (Medium)](Global-and-Local-Inversions-(Medium).py)
 [[LC775](https://leetcode.com/problems/global-and-local-inversions/)]
-5. [Ancestral Names](Ancestral-Names.py)
+-->
+1. [Find Size 3 Inversions in a list](Find-Size-3-Inversions-in-a-list.py)
+[[link](https://leetcode.com/discuss/interview-question/777188/find-size-3-inversions-in-a-list)]
+1. [Ancestral Names](Ancestral-Names.py)
 [[link](https://leetcode.com/discuss/general-discussion/851939/ancestor-problem)]
-6. [Design a Stack With Increment Operation (Medium)](Design-a-Stack-With-Increment-Operation-(Medium).py)
+1. [Design a Stack With Increment Operation (Medium)](Design-a-Stack-With-Increment-Operation-(Medium).py)
 [[LC1381](https://leetcode.com/problems/design-a-stack-with-increment-operation/)]
 
 ## [Tiktok](https://www.1point3acres.com/bbs/thread-850122-1-1.html)
@@ -41,7 +45,6 @@
 [[LC1507](https://leetcode.com/problems/reformat-date/)]
 1. [Shared Interest](Shared-Interest.py)
 [[link](https://leetcode.com/discuss/interview-question/725801/amazon-shared-interest-problem)]
-
 
 1. []()
 [[]()]
