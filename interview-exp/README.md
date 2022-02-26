@@ -25,6 +25,8 @@
 [[link](https://www.geeksforgeeks.org/lexicographically-smallest-and-largest-substring-of-size-k/)]
 1. [Ancestral Names](Ancestral-Names.py)
 [[link](https://leetcode.com/discuss/general-discussion/851939/ancestor-problem)]
+1. [Count of Smaller Numbers After Self (Hard)](Count-of-Smaller-Numbers-After-Self-(Hard).py)
+[[LC315](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)]
 
 1. []()
 [[]()]
