@@ -51,8 +51,10 @@
 [[LC24](https://leetcode.com/problems/swap-nodes-in-pairs/)]
 1. 16 [Combination Sum (Medium)](Combination-Sum-(Medium).py)
 [[LC39](https://leetcode.com/problems/combination-sum/)]
-1. [Remove K Digits (Medium)](Remove-K-Digits-(Medium).py)
+1. 25 [Remove K Digits (Medium)](Remove-K-Digits-(Medium).py)
 [[LC402](https://leetcode.com/problems/remove-k-digits/)]
+1. 26 [Domino and Tromino Tiling (Medium)](Domino-and-Tromino-Tiling-(Medium).py)
+[[LC790](https://leetcode.com/problems/domino-and-tromino-tiling/)]
 
 1. []()
 [[LC]()]
