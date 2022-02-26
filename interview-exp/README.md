@@ -15,6 +15,16 @@
 6. [Design a Stack With Increment Operation (Medium)](Design-a-Stack-With-Increment-Operation-(Medium).py)
 [[LC1381](https://leetcode.com/problems/design-a-stack-with-increment-operation/)]
 
+## [Tiktok](https://www.1point3acres.com/bbs/thread-850122-1-1.html)
+
+1. [Design a Stack With Increment Operation (Medium)](Design-a-Stack-With-Increment-Operation-(Medium).py)
+[[LC1381](https://leetcode.com/problems/design-a-stack-with-increment-operation/)]
+1. [Circular Printer](Circular-Printer.py)
+[[link](https://leetcode.com/discuss/interview-question/1263982/thomson-reuters-oa-circular-printer)]
+
+1. []()
+[[]()]
+
 # Tricks
 
 1. [stars and bars](https://en.wikipedia.org/wiki/Stars_and_bars_(combinatorics))
