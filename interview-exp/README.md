@@ -8,6 +8,8 @@
 [[LC62](https://leetcode.com/problems/unique-paths/)]
 3. [Number of Sets of K Non-Overlapping Line Segments (Medium)](Number-of-Sets-of-K-Non-Overlapping-Line-Segments-(Medium).py)
 [[LC1621](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/)]
+4. [Global and Local Inversions (Medium)](Global-and-Local-Inversions-(Medium).py)
+[[LC775](https://leetcode.com/problems/global-and-local-inversions/)]
 
 # Tricks
 
