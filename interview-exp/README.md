@@ -39,6 +39,9 @@
 [[link](https://www.1point3acres.com/bbs/thread-835608-1-1.html)]
 1. [Reformat Date (Easy)](Reformat-Date-(Easy).py)
 [[LC1507](https://leetcode.com/problems/reformat-date/)]
+1. [Shared Interest](Shared-Interest.py)
+[[link](https://leetcode.com/discuss/interview-question/725801/amazon-shared-interest-problem)]
+
 
 1. []()
 [[]()]
