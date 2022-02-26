@@ -24,37 +24,36 @@ Output: [0,0]
 """
 class Solution:
     def countSmaller(self, nums: List[int]) -> List[int]:
-        for i, n in enumerate(nums):
-            nums[i] = [n, i, 0]
-        self.merge_sort(nums, 0, len(nums) - 1)
+        # binary index tree
+        # unique values
+        values = sorted(set(nums))
+        v2treeid = {v: i + 1 for i, v in enumerate(values)}
+        
+        bit = [0] * (len(values) + 1)  # want an 1-indexed array
+
+        def update(v):
+            treeid = v2treeid[v]
+            while treeid < len(bit):
+                bit[treeid] += 1
+                treeid += treeid & -treeid
+                
+        def query(v):
+            treeid = v2treeid[v]
+            ans = 0
+            while treeid > 0:
+                # query a smaller one
+                ans += bit[treeid]
+                treeid -= treeid & -treeid
+            return ans
+        
+        # get result
         ans = [0] * len(nums)
-        for _, idx, cnt in nums:
-            ans[idx] = cnt
+        for i in reversed(range(len(nums))):
+            n = nums[i]
+            update(n)
+            if v2treeid[n] > 1:
+                ans[i] = query(values[v2treeid[n] - 2])
         return ans
-        
-    def merge_sort(self, nums, l, r):
-        if l == r:
-            return
-        m = (l + r) >> 1
-        self.merge_sort(nums, l, m)
-        self.merge_sort(nums, m + 1, r)
-        
-        # merge
-        i, j = 0, 0
-        nums_l = nums[l: m + 1].copy()
-        nums_r = nums[m + 1: r + 1].copy()
-        inverse_cnt = 0  # count inverse
-        cur_id = l
-        while i < len(nums_l) or j < len(nums_r):
-            if j >= len(nums_r) or (i < len(nums_l) and nums_l[i][0] <= nums_r[j][0]):
-                nums[cur_id] = nums_l[i]
-                nums[cur_id][-1] += inverse_cnt
-                i += 1
-            else:
-                nums[cur_id] = nums_r[j]
-                j += 1
-                inverse_cnt += 1
-            cur_id += 1
 
 
 """
