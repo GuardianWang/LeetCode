@@ -10,6 +10,8 @@
 [[LC1621](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/)]
 4. [Global and Local Inversions (Medium)](Global-and-Local-Inversions-(Medium).py)
 [[LC775](https://leetcode.com/problems/global-and-local-inversions/)]
+5. [Ancestral Names](Ancestral-Names.py)
+[[link](https://leetcode.com/discuss/general-discussion/851939/ancestor-problem)]
 
 # Tricks
 
