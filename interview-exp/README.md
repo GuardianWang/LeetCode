@@ -35,8 +35,8 @@
 [[LC780](https://leetcode.com/problems/reaching-points/)]
 1. [Smallest Subarray with a given sum (easy)](Smallest-Subarray-with-a-given-sum-(easy).py)
 [[LC209](https://leetcode.com/problems/minimum-size-subarray-sum)]
-1. []()
-[[]()]
+1. [Dominos Tiling 3D](Dominos-Tiling-3D.py)
+[[link](https://www.1point3acres.com/bbs/thread-835608-1-1.html)]
 
 1. []()
 [[]()]
