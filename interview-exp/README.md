@@ -30,6 +30,14 @@
 1. [Find Size 3 Inversions in a list](Find-Size-3-Inversions-in-a-list.py)
 [[link](https://leetcode.com/discuss/interview-question/777188/find-size-3-inversions-in-a-list)]
 
+## [Tiktok](https://leetcode.com/discuss/interview-question/1710950/TikTok-OA-2022.1.22)
+1. [Reaching Points (Hard)](Reaching-Points-(Hard).py)
+[[LC780](https://leetcode.com/problems/reaching-points/)]
+1. [Smallest Subarray with a given sum (easy)](Smallest-Subarray-with-a-given-sum-(easy).py)
+[[LC209](https://leetcode.com/problems/minimum-size-subarray-sum)]
+1. []()
+[[]()]
+
 1. []()
 [[]()]
 
