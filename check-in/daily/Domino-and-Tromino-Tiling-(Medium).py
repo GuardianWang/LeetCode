@@ -31,7 +31,7 @@ class Solution:
         p = (0, 0)  # partial, upper right is vacant
         
         for _ in range(n - 1):
-            f, p = (f[1], (f[0] + f[1] + 2 * p[1]) % MOD), (p[0], (p[1] + f[0]) % MOD)
+            f, p = (f[1], (f[0] + f[1] + 2 * p[1]) % MOD), (p[1], (p[1] + f[0]) % MOD)
             # print(f, p)
         return f[-1]
 
