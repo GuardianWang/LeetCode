@@ -32,8 +32,10 @@ def sortAncestral(names):
     rom2num = {'I': 1, 'V': 5, 'X': 10, 'L': 50}
     names = [name.split() for name in names]
     for name in names:
-        name[1] = rom_to_num(rom2num, name[1])
-    names.sort()
+        name.append(rom_to_num(rom2num, name[1]))
+    names.sort(key=lambda x: (x[0], x[-1]))
+    for i, name in enumerate(names):
+        names[i] = ' '.join(name[:2])
     return names
     
     

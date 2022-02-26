@@ -23,7 +23,8 @@
 [[link](https://leetcode.com/discuss/interview-question/1263982/thomson-reuters-oa-circular-printer)]
 1. [Lexicographically smallest and largest substring of size k (Medium)](Lexicographically-smallest-and-largest-substring-of-size-k-(Medium).py)
 [[link](https://www.geeksforgeeks.org/lexicographically-smallest-and-largest-substring-of-size-k/)]
-
+1. [Ancestral Names](Ancestral-Names.py)
+[[link](https://leetcode.com/discuss/general-discussion/851939/ancestor-problem)]
 
 1. []()
 [[]()]
