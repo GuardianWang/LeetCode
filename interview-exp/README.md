@@ -36,3 +36,4 @@
 # Tricks
 
 1. [stars and bars](https://en.wikipedia.org/wiki/Stars_and_bars_(combinatorics))
+2. [binary index tree](https://www.youtube.com/watch?v=WbafSgetDDk)
