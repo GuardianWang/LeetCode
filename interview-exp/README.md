@@ -61,6 +61,8 @@
 [[LC1400](https://leetcode.com/problems/construct-k-palindrome-strings/)]
 1. [Merge Two Sorted Lists (Easy)](Merge-Two-Sorted-Lists-(Easy).py)
 [[LC21](https://leetcode.com/problems/merge-two-sorted-lists/)]
+1. [Find the Minimum Number of Fibonacci Numbers Whose Sum Is K (Medium)](Find-the-Minimum-Number-of-Fibonacci-Numbers-Whose-Sum-Is-K-(Medium).py)
+[[LC1414](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)]
 
 1. []()
 [[]()]
