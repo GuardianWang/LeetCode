@@ -71,11 +71,8 @@
 [[LC93](https://leetcode.com/problems/restore-ip-addresses/)]
 1. [Find Smallest Common Element in All Rows (Medium)](Find-Smallest-Common-Element-in-All-Rows-(Medium).py)
 [[LC1198](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/)]
-1. []()
-[[]()]
-
-1. []()
-[[]()]
+1. [Image Smoother (Easy)](Image-Smoother-(Easy).py)
+[[LC661](https://leetcode.com/problems/image-smoother/)]
 
 # Tricks
 
