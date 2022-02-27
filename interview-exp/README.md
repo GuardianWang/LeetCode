@@ -66,6 +66,14 @@
 1. [Binary Tree Right Side View (Medium)](Binary-Tree-Right-Side-View-(Medium).py)
 [[LC199](https://leetcode.com/problems/binary-tree-right-side-view/)]
 
+## [Verkada](https://www.1point3acres.com/bbs/thread-553715-1-1.html)
+1. [Restore IP Addresses (Medium)](Restore-IP-Addresses-(Medium).py)
+[[LC93](https://leetcode.com/problems/restore-ip-addresses/)]
+1. []()
+[[]()]
+1. []()
+[[]()]
+
 1. []()
 [[]()]
 
