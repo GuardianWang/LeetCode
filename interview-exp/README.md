@@ -66,3 +66,4 @@
 - `max(bisect_right(arr, v) - 1, 0)` closest value <= v
 - `min(bisect_left(arr, v), len(arr) - 1)` closest value >= v
 4. `min(generator, default=v)` default
+5. `(i for i in range(3))` in `()` is a generator
