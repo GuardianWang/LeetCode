@@ -37,6 +37,7 @@ class Solution:
             elif tx < ty:
                 ty %= tx
             else:
+                # tx != sx or ty != sy
                 return False
             
         return False
