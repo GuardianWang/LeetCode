@@ -59,6 +59,8 @@
 ## [Verkada](https://www.1point3acres.com/bbs/thread-811988-1-1.html)
 1. [Construct K Palindrome Strings (Medium)](Construct-K-Palindrome-Strings-(Medium).py)
 [[LC1400](https://leetcode.com/problems/construct-k-palindrome-strings/)]
+1. [Merge Two Sorted Lists (Easy)](Merge-Two-Sorted-Lists-(Easy).py)
+[[LC21](https://leetcode.com/problems/merge-two-sorted-lists/)]
 
 1. []()
 [[]()]
