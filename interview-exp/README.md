@@ -56,6 +56,9 @@
 1. [Subarray With Unique Elements](Subarray-With-Unique-Elements.py)
 [[link](https://www.1point3acres.com/bbs/thread-810255-1-1.html)]
 
+## [Verkada](https://www.1point3acres.com/bbs/thread-811988-1-1.html)
+1. [Construct K Palindrome Strings (Medium)](Construct-K-Palindrome-Strings-(Medium).py)
+[[LC1400](https://leetcode.com/problems/construct-k-palindrome-strings/)]
 
 1. []()
 [[]()]
