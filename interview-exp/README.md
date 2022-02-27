@@ -48,7 +48,9 @@
 1. [Shared Interest](Shared-Interest.py)
 [[link](https://leetcode.com/discuss/interview-question/725801/amazon-shared-interest-problem)]
 
-
+## [Verkada](https://www.1point3acres.com/bbs/thread-810255-1-1.html)
+1. [First Unique Character in a String (Easy)](First-Unique-Character-in-a-String-(Easy).py)
+[[LC387](https://leetcode.com/problems/first-unique-character-in-a-string/)]
 
 1. []()
 [[]()]
