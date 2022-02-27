@@ -4,6 +4,14 @@
 
 1. [Reaching Points (Hard)](Reaching-Points-(Hard).py)
 [[LC780](https://leetcode.com/problems/reaching-points/)]
+1. [Stars and Bars](Stars-and-Bars.py)
+[[link](https://leetcode.com/discuss/interview-question/1748177/ByteDance-(TikTok)-OA-or-FTE-or-University-Hiring-(USA))]
+1. [Find Size 3 Inversions in a list](Find-Size-3-Inversions-in-a-list.py)
+[[link](https://leetcode.com/discuss/interview-question/777188/find-size-3-inversions-in-a-list)]
+1. [Ancestral Names](Ancestral-Names.py)
+[[link](https://leetcode.com/discuss/general-discussion/851939/ancestor-problem)]
+1. [Design a Stack With Increment Operation (Medium)](Design-a-Stack-With-Increment-Operation-(Medium).py)
+[[LC1381](https://leetcode.com/problems/design-a-stack-with-increment-operation/)]
 <!--
 2. [Unique Paths (Medium)](Unique-Paths-(Medium).py)
 [[LC62](https://leetcode.com/problems/unique-paths/)]
@@ -12,12 +20,6 @@
 4. [Global and Local Inversions (Medium)](Global-and-Local-Inversions-(Medium).py)
 [[LC775](https://leetcode.com/problems/global-and-local-inversions/)]
 -->
-1. [Find Size 3 Inversions in a list](Find-Size-3-Inversions-in-a-list.py)
-[[link](https://leetcode.com/discuss/interview-question/777188/find-size-3-inversions-in-a-list)]
-1. [Ancestral Names](Ancestral-Names.py)
-[[link](https://leetcode.com/discuss/general-discussion/851939/ancestor-problem)]
-1. [Design a Stack With Increment Operation (Medium)](Design-a-Stack-With-Increment-Operation-(Medium).py)
-[[LC1381](https://leetcode.com/problems/design-a-stack-with-increment-operation/)]
 
 ## [Tiktok](https://www.1point3acres.com/bbs/thread-850122-1-1.html)
 
