@@ -48,6 +48,8 @@
 1. [Shared Interest](Shared-Interest.py)
 [[link](https://leetcode.com/discuss/interview-question/725801/amazon-shared-interest-problem)]
 
+
+
 1. []()
 [[]()]
 
@@ -61,3 +63,6 @@
 3. bisect: think of arr = [0, 1]
 - `bisect_right(arr, 0) == 1`
 - `bisect_left(arr, 0) == 0`
+- `max(bisect_right(arr, v) - 1, 0)` closest value <= v
+- `min(bisect_left(arr, v), len(arr) - 1)` closest value >= v
+4. `min(generator, default=v)` default
