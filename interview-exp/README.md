@@ -58,3 +58,6 @@
 - idx starts from 1
 - update: idx += idx & -idx
 - query: idx -= idx & -idx
+3. bisect: think of arr = [0, 1]
+- `bisect_right(arr, 0) == 1`
+- `bisect_left(arr, 0) == 0`
