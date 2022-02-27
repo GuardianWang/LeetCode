@@ -53,6 +53,8 @@
 [[LC387](https://leetcode.com/problems/first-unique-character-in-a-string/)]
 1. [Check if Array Is Sorted and Rotated (Easy)](Check-if-Array-Is-Sorted-and-Rotated-(Easy).py)
 [[LC1752](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)]
+1. [Subarray With Unique Elements](Subarray-With-Unique-Elements.py)
+[[link](https://www.1point3acres.com/bbs/thread-810255-1-1.html)]
 
 
 1. []()
