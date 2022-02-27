@@ -19,19 +19,13 @@ Output: 2
 """
 class Solution:
     def smallestCommonElement(self, mat: List[List[int]]) -> int:
-        for n in mat[0]:
-            for row in islice(mat, 1, len(mat)):
-                idx = bisect_left(row, n)
-                if idx == len(row):  # this value is too large
-                    return res or -1 
-                if row[idx] != n:
-                    break
-            else:
-                return n
-        return -1
+        s = set(mat[0])
+        for row in mat:
+            s = s.intersection(set(row))
+        return min(s, default=-1)
 
 
 """
-Time O(NMlogM)
-Space O(1)
+Time O(NM)
+Space O(M)
 """
