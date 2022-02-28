@@ -48,32 +48,6 @@
 1. [Shared Interest](Shared-Interest.py)
 [[link](https://leetcode.com/discuss/interview-question/725801/amazon-shared-interest-problem)]
 
-## [Verkada](https://www.1point3acres.com/bbs/thread-810255-1-1.html)
-1. [First Unique Character in a String (Easy)](First-Unique-Character-in-a-String-(Easy).py)
-[[LC387](https://leetcode.com/problems/first-unique-character-in-a-string/)]
-1. [Check if Array Is Sorted and Rotated (Easy)](Check-if-Array-Is-Sorted-and-Rotated-(Easy).py)
-[[LC1752](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)]
-1. [Subarray With Unique Elements](Subarray-With-Unique-Elements.py)
-[[link](https://www.1point3acres.com/bbs/thread-810255-1-1.html)]
-
-## [Verkada](https://www.1point3acres.com/bbs/thread-811988-1-1.html)
-1. [Construct K Palindrome Strings (Medium)](Construct-K-Palindrome-Strings-(Medium).py)
-[[LC1400](https://leetcode.com/problems/construct-k-palindrome-strings/)]
-1. [Merge Two Sorted Lists (Easy)](Merge-Two-Sorted-Lists-(Easy).py)
-[[LC21](https://leetcode.com/problems/merge-two-sorted-lists/)]
-1. [Find the Minimum Number of Fibonacci Numbers Whose Sum Is K (Medium)](Find-the-Minimum-Number-of-Fibonacci-Numbers-Whose-Sum-Is-K-(Medium).py)
-[[LC1414](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)]
-1. [Binary Tree Right Side View (Medium)](Binary-Tree-Right-Side-View-(Medium).py)
-[[LC199](https://leetcode.com/problems/binary-tree-right-side-view/)]
-
-## [Verkada](https://www.1point3acres.com/bbs/thread-553715-1-1.html)
-1. [Restore IP Addresses (Medium)](Restore-IP-Addresses-(Medium).py)
-[[LC93](https://leetcode.com/problems/restore-ip-addresses/)]
-1. [Find Smallest Common Element in All Rows (Medium)](Find-Smallest-Common-Element-in-All-Rows-(Medium).py)
-[[LC1198](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/)]
-1. [Image Smoother (Easy)](Image-Smoother-(Easy).py)
-[[LC661](https://leetcode.com/problems/image-smoother/)]
-
 # Tricks
 
 1. [stars and bars](https://en.wikipedia.org/wiki/Stars_and_bars_(combinatorics))
