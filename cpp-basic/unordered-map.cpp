@@ -6,8 +6,8 @@
 using namespace std;
 
 // reserve
-// emplace
 // size
+// count: 1 or 0
 // []
 // erase
 // find
@@ -24,8 +24,8 @@ int main()
     // counter
     string s = "aabbc";
     for (auto c : s) {
-        if (c2n.find(c) == c2n.end()) {
-            c2n.emplace(c, 0);
+        if (0 == c2n.count(c)) {
+            c2n[c] = 0;
         } 
         c2n[c] += 1;
     }
