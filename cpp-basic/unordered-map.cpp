@@ -1,3 +1,7 @@
+// hash map
+// https://en.cppreference.com/w/cpp/container/unordered_map
+// tree map
+// https://en.cppreference.com/w/cpp/container/map
 #include <iostream>
 #include <memory>
 #include <unordered_map>
@@ -12,6 +16,7 @@ using namespace std;
 // erase
 // find
 // clear
+// empty
 
 int main()
 {
@@ -39,6 +44,10 @@ int main()
                 c2n.erase(c);
             }
         }
+    }
+
+    if (c2n.empty()) {
+        cout << "s2 is larger" << endl;
     }
     
     for (auto p : c2n) { 
