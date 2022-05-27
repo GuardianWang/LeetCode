@@ -25,7 +25,7 @@ def find_minimum_depth(root):
                 return res 
             if n.left:
               level.append(n.left)
-            if n.right
+            if n.right:
               level.append(n.right)
 
 
