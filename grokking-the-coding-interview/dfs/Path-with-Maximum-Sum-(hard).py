@@ -36,7 +36,6 @@ class MaximumPathSum:
     return max_sum, single_sum
       
 
-
 def main():
   # 6, 31, -1, 4
   maximumPathSum = MaximumPathSum()
