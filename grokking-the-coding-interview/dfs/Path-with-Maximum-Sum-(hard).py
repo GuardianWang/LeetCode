@@ -22,16 +22,19 @@ class MaximumPathSum:
     return self.find_max(root)[0]
 
   def find_max(self, root):
+    # return: (max in sub tree, max starting from root)
     if not root:
       # in case meet negative values
-      return -float('inf'), 0
+      return -float('inf'), -float('inf')
     l_max_sum, l_single_sum = self.find_max(root.left)
     r_max_sum, r_single_sum = self.find_max(root.right)
     # similar to local sequence matching
     # need max(, 0) to allow starting from the current node 
     # when other branches are negative values
-    return max(l_max_sum, r_max_sum, max(l_single_sum, 0) + max(r_single_sum, 0) + root.val), \
-      max(l_single_sum, r_single_sum, 0) + root.val
+    single_sum = max(l_single_sum, r_single_sum, 0) + root.val
+    max_sum = max(l_max_sum, r_max_sum, l_single_sum + r_single_sum + root.val, single_sum)
+    return max_sum, single_sum
+      
 
 
 def main():
