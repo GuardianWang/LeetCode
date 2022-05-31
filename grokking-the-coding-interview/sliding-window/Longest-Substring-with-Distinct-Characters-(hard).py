@@ -27,6 +27,7 @@ def non_repeat_substring(str1):
         if c in c2endid:
             # if index is outside of the window, it will not have any influence
             # by using max()
+            # in "abba", l will become smaller w/o max()
             win_start = max(win_start, c2endid[c] + 1)
         c2endid[c] = win_end
         max_len = max(max_len, win_end - win_start + 1)
