@@ -21,6 +21,8 @@ Explanation: We can put 3 'B' in one basket and two 'C' in the other basket.
 This can be done if we start with the second letter: ['B', 'C', 'B', 'B', 'C']
 LC 904
 """
+from collections import defaultdict
+
 
 def fruits_into_baskets(fruits):
     if len(set(fruits)) <= 2:
