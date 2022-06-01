@@ -23,23 +23,23 @@ LC 904
 """
 
 def fruits_into_baskets(fruits):
-    win_start = 0
-    c2freq = dict()
+    if len(set(fruits)) <= 2:
+        return len(fruits)
+    
     max_len = 0
-    for win_end, c in enumerate(fruits):
-        if c not in c2freq:
-            c2freq[c] = 0
-        c2freq[c] += 1
-        n_basket = 2
-        if len(c2freq) <= n_basket:
-            max_len = max(max_len, win_end - win_start + 1)
-
-        while len(c2freq) > n_basket:
-            c2freq[fruits[win_start]] -= 1
-            if c2freq[fruits[win_start]] == 0:
-                del c2freq[fruits[win_start]]
-            win_start += 1
-            
+    l = 0
+    f2cnt = defaultdict(int)
+    
+    for r, v in enumerate(fruits):
+        f2cnt[v] += 1
+        if len(f2cnt) > 2:
+            lv = fruits[l]
+            f2cnt[lv] -= 1
+            l += 1
+            if f2cnt[lv] == 0:
+                del f2cnt[lv]
+        else:
+            max_len = max(max_len, r - l + 1)
     return max_len
 
 
