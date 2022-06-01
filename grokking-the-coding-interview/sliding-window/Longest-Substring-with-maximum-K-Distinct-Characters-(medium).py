@@ -23,27 +23,28 @@ Input: String="cbbebi", K=10
 Output: 6
 Explanation: The longest substring with no more than '10' distinct characters is "cbbebi".
 """
+from collections import defaultdict
+
 
 def longest_substring_with_k_distinct(str1, k):
-    if k >= len(str1):
+    if k >= len(set(str1)):
         return len(str1)
-    char2freq = dict()
-    win_start = 0
+    if k == 0:
+        return 0
+    
     max_len = 0
-    for win_end, char_end in enumerate(str1):
-        if char_end not in char2freq:
-            char2freq[char_end] = 0
-        char2freq[char_end] += 1
-
-        if len(char2freq) <= k:
-            max_len = max(max_len, win_end - win_start + 1)
+    c2cnt = defaultdict(int)
+    l = 0
+    
+    for r, c in enumerate(str1):
+        c2cnt[c] += 1
+        if len(c2cnt) > k:
+            c2cnt[str1[l]] -= 1
+            if c2cnt[str1[l]] == 0:
+                del c2cnt[str1[l]]
+            l += 1
         else:
-            # only keep track of the longest ever window
-            char2freq[str1[win_start]] -= 1
-            if char2freq[str1[win_start]] == 0:
-                del char2freq[str1[win_start]]
-            win_start += 1
-
+            max_len = max(max_len, r - l + 1)
     return max_len
 
 
