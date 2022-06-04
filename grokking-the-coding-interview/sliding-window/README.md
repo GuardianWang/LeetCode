@@ -46,6 +46,36 @@ for window_end, element in enumerate(arr):
         window_start += 1
 ```
 
+### permutation
+```python
+pattern_freq =  # dict
+pattern_char_set =  # dict 
+l = 0
+def add_char(char):
+    if char not in pattern_char_set:
+        return
+    pattern_freq[c] += 1
+    if not pattern_freq[c]:
+        del pattern_freq[c]
+
+def rm_char(char):
+    if char not in pattern_char_set:
+        return
+    pattern_freq[c] -= 1
+    if not pattern_freq[c]:
+        del pattern_freq[c]
+
+l = 0
+for r, char in enumerate(string):
+    rm_char(char)
+    if not char:
+        # current window is a permutation of pattern
+    if r >- len(pattern) - 1:
+        add_char(string[l])
+        l += 1
+
+```
+
 ## Tricks
 
 - use dict 
