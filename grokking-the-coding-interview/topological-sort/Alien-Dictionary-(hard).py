@@ -91,7 +91,7 @@ main()
 
 
 """
-Time O(N), N=char pairs
+Time O(N), N=#letters in words
 Space O(1), alphabet <= 26
 """
 

@@ -83,6 +83,7 @@ def build_map(prerequisites):
 
 
 def count_permutation(node2children, order, n):
+    # https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/discuss/2120091/Python-10-lines-Post-Order-with-thought-process-when-being-asked-during-interviews
     mod = int(1e9 + 7)
     factorial = list(chain([1], accumulate(range(1, n + 1), lambda x, y: mul(x, y) % mod)))
     factorial_inv = chain([pow(factorial[-1], mod - 2, mod)], reversed(range(1, n + 1)))
