@@ -26,6 +26,16 @@ Explanation: The sequences [3, 1, 5] and [1, 4, 2, 5] can uniquely reconstruct
 from collections import defaultdict
 
 
+def sequenceReconstruction(self, nums, sequences) -> bool:
+    n2pos = {x: i for i, x in enumerate(nums)}
+    former = set()
+    for seq in sequences:
+        for i in range(len(seq) - 1):
+            if n2pos[seq[i + 1]] - n2pos[seq[i]] == 1:
+                former.add(seq[i])
+    return len(former) == len(nums) - 1
+
+
 def can_construct(originalSeq, sequences):
     if len(set([y for x in sequences for y in x])) != len(originalSeq):
         return False
@@ -83,5 +93,9 @@ main()
 """
 Time O(V+E)
 Space O(V+E)
+
+sequenceReconstruction
+Time O(V+E)
+Space O(E)
 """
 
