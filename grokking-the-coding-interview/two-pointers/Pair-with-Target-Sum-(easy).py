@@ -35,3 +35,8 @@ def main():
 
 main()
 
+
+"""
+Time O(N)
+Space O(1)
+"""
