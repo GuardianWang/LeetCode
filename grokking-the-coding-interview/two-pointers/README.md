@@ -8,7 +8,7 @@
 [[LC26](https://leetcode.com/problems/remove-duplicates-from-sorted-array)]
 1. [Remove Element (easy)](Remove-Element-(easy).py)
 [[LC27](https://leetcode.com/problems/remove-element)]
-1. [Squaring a Sorted Array (easy)](Squaring-a-Sorted-Array-(easy).py)
+1. [**Squaring a Sorted Array (easy)**](Squaring-a-Sorted-Array-(easy).py)
 [[LC977](https://leetcode.com/problems/squares-of-a-sorted-array)]
 1. [Triplet Sum to Zero (medium)](Triplet-Sum-to-Zero-(medium).py)
 [[LC15](https://leetcode.com/problems/3sum)]
