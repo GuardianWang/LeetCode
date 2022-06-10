@@ -19,7 +19,7 @@
 [[LC567](https://leetcode.com/problems/permutation-in-string)]
 2. [String Anagrams (hard)](String-Anagrams-(hard).py)
 [[LC438](https://leetcode.com/problems/find-all-anagrams-in-a-string)]
-2. [Smallest Window containing Substring-(hard)](Smallest-Window-containing-Substring-(hard).py)
+2. [**Smallest Window containing Substring-(hard)**](Smallest-Window-containing-Substring-(hard).py)
 [[LC76](https://leetcode.com/problems/minimum-window-substring)]
 2. [Words Concatenation (hard)](Words-Concatenation-(hard).py)
 [[LC30](https://leetcode.com/problems/substring-with-concatenation-of-all-words)]

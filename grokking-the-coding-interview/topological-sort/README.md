@@ -10,7 +10,7 @@
 [[LC210](https://leetcode.com/problems/course-schedule-ii/)]
 1. [All Tasks Scheduling Orders (hard)](All-Tasks-Scheduling-Orders-(hard).py)
 [[LC1916](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/)]
-1. [Alien Dictionary (hard)](Alien-Dictionary-(hard).py)
+1. [**Alien Dictionary (hard)**](Alien-Dictionary-(hard).py)
 [[LC269](https://leetcode.com/problems/alien-dictionary/)]
 1. [Reconstructing a Sequence (hard)](Reconstructing-a-Sequence-(hard).py)
 [[LC444](https://leetcode.com/problems/sequence-reconstruction/)]
