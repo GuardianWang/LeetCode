@@ -17,15 +17,13 @@ Explanation: The first two elements after removing the duplicates will be [2, 11
 """
 
 
-def remove_duplicates(arr):
-    p_place = 0
-    last_n = float('inf')
-    for p_iter, n in enumerate(arr):
-        if n != last_n:
-            arr[p_place] = n 
-            last_n = n
-            p_place += 1
-    return p_place
+def remove_duplicates(nums):
+    next_put = 1
+    for i in range(1, len(nums)):
+        if nums[i] != nums[i - 1]:
+            nums[next_put] = nums[i]
+            next_put += 1
+    return next_put
 
 
 def main():
