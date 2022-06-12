@@ -16,7 +16,7 @@
 [[LC16](https://leetcode.com/problems/3sum-closest)]
 1. [**Triplets with Smaller Sum (medium)**](Triplets-with-Smaller-Sum-(medium).py)
 [[LC259](https://leetcode.com/problems/3sum-smaller)]
-1. [Subarrays with Product Less than a Target (medium)](Subarrays-with-Product-Less-than-a-Target-(medium).py)
+1. [**Subarrays with Product Less than a Target (medium)**](Subarrays-with-Product-Less-than-a-Target-(medium).py)
 [[LC713](https://leetcode.com/problems/subarray-product-less-than-k)]
 1. [Dutch National Flag Problem (medium)](Dutch-National-Flag-Problem-(medium).py)
 [[LC75](https://leetcode.com/problems/sort-colors)]
