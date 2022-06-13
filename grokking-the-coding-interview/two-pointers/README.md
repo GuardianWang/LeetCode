@@ -18,7 +18,7 @@
 [[LC259](https://leetcode.com/problems/3sum-smaller)]
 1. [**Subarrays with Product Less than a Target (medium)**](Subarrays-with-Product-Less-than-a-Target-(medium).py)
 [[LC713](https://leetcode.com/problems/subarray-product-less-than-k)]
-1. [Dutch National Flag Problem (medium)](Dutch-National-Flag-Problem-(medium).py)
+1. [**Dutch National Flag Problem (medium)**](Dutch-National-Flag-Problem-(medium).py)
 [[LC75](https://leetcode.com/problems/sort-colors)]
 1. [Quadruple Sum to Target (medium)](Quadruple-Sum-to-Target-(medium).py)
 [[LC18](https://leetcode.com/problems/4sum)]

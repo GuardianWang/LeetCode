@@ -30,14 +30,14 @@ def backspace_compare(str1, str2):
     # delete letter from right to left
     # so pointer begins from right
     p1, p2 = next_pos(str1, len(str1) - 1), next_pos(str2, len(str2) - 1)
-        while p1 >= 0 and p2 >= 0:
-            # check letters
-            if str1[p1] != str2[p2]:
-                return False
-            else:
-                p1 = next_pos(str1, p1 - 1)
-                p2 = next_pos(str2, p2 - 1)
-        return p1 < 0 and p2 < 0
+    while p1 >= 0 and p2 >= 0:
+        # check letters
+        if str1[p1] != str2[p2]:
+            return False
+        else:
+            p1 = next_pos(str1, p1 - 1)
+            p2 = next_pos(str2, p2 - 1)
+    return p1 < 0 and p2 < 0
 
 
 def next_pos(s, p):
