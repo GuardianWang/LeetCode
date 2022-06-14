@@ -24,7 +24,7 @@
 [[LC18](https://leetcode.com/problems/4sum)]
 1. [Comparing Strings containing Backspaces (medium)](Comparing-Strings-containing-Backspaces-(medium).py)
 [[LC844](https://leetcode.com/problems/backspace-string-compare)]
-1. [Minimum Window Sort (medium)](Minimum-Window-Sort-(medium).py)
+1. [**Minimum Window Sort (medium)**](Minimum-Window-Sort-(medium).py)
 [[LC581](https://leetcode.com/problems/shortest-unsorted-continuous-subarray)]
 
 ## Pattern

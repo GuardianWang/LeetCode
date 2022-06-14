@@ -25,6 +25,16 @@ Explanation: The whole array needs to be sorted.
 """
 
 
+"""     
+______________
+          /  
+-------------
+   /\    /
+  /  \  /
+ /    \/
+------------
+/_______________
+"""
 def shortest_window_sort(arr):
     m, M = float('inf'), -float('inf')
     for i in range(len(arr) - 1):
