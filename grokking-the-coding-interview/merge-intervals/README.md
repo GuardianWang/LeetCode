@@ -5,7 +5,7 @@
 1. [Merge Intervals (medium)](Merge-Intervals-(medium).py)
 [[LC56](https://leetcode.com/problems/merge-intervals/)]
 1. [Intervals Overlap (easy)](Intervals-Overlap-(easy).py)
-1. [Insert Interval (medium)](Insert-Interval-(medium).py)
+1. [**Insert Interval (medium)**](Insert-Interval-(medium).py)
 [[LC57](https://leetcode.com/problems/insert-interval/)]
 1. [Intervals Intersection (medium)](Intervals-Intersection-(medium).py)
 [[LC986](https://leetcode.com/problems/interval-list-intersections/)]
@@ -73,3 +73,4 @@ def intersect(in1, in2):
 - subsets are sorted: k-way merge sort by priority queue
 - to save objects in heapq, use tuple: heappush(heap, (key, object))
 - if key of heap is not unique, use some unique id as the other element to prevent comparision of incomparable objects
+- if want i to be len(arr) after a loop, use while loop instead of for loop: `while i < len(arr): i += 1`
