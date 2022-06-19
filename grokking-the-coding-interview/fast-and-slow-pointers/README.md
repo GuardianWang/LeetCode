@@ -5,7 +5,7 @@
 1. [LinkedList Cycle (easy)](LinkedList-Cycle-(easy).py)
 [[LC141](https://leetcode.com/problems/linked-list-cycle)]
 1. [LinkedList Cycle Length (easy)](LinkedList-Cycle-Length-(easy).py)
-1. [Start of LinkedList Cycle (medium)](Start-of-LinkedList-Cycle-(medium).py)
+1. [**Start of LinkedList Cycle (medium)**](Start-of-LinkedList-Cycle-(medium).py)
 [[LC142](https://leetcode.com/problems/linked-list-cycle-ii)]
 1. [Happy Number (medium)](Happy-Number-(medium).py)
 [[LC202](https://leetcode.com/problems/happy-number)]
@@ -44,6 +44,6 @@ while head is not None and head.next is not None:
 
 ## Tricks
 
-- can use `if slow sis not fast:`
+- can use `if slow is not fast:`
 - slow fast pointers first find a point within the cycle, then count the length of the cycle,
   then start from head and find the start of the cycle

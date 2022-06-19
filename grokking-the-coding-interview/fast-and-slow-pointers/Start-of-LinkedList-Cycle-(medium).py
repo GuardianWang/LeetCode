@@ -29,6 +29,9 @@ def find_cycle_start(head):
         if slow is fast:
             break
     # https://leetcode.com/problems/linked-list-cycle-ii/solution/
+    # note: F = h (mod C) because h = F % C
+    # they meet at C - h
+    # after F steps, C - h + F = 0 (mod C) because F = h (mod C)
     # don't need length of cycle
     # both start from head!
     slow = head
