@@ -33,5 +33,6 @@ main()
 """
 Time O(logN): next_num(N) is logN, and thus it takes logN time to reach < 1000, 
 then it takes < 1001 O(1) iterations.
+logn + loglogn + ... is logn
 Space O(1)
 """
