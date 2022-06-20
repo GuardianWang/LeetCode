@@ -29,20 +29,22 @@ class Node:
 
 
 def reorder(head):
+    if not head.next or not head.next.next:
+        return
     # middle or right middle 
     slow, fast = head, head 
+    pre = Node(0, next=head)
     while fast is not None and fast.next is not None:
         slow = slow.next 
+        pre = pre.next
         fast = fast.next.next 
+    pre.next = None
     # reverse 
     tail = reverse(slow)
     p1, p2 = head, tail
-    while p2 is not None and p2.next is not None and p1 is not p2:
-        # don't deal with the last element
-        p1_next, p2_next = p1.next, p2.next 
-        p2.next = p1_next
-        p1.next = p2 
-        p1, p2 = p1_next, p2_next
+    while p1 and p2:
+        # swap p1 and p2
+        p1.next, p2, p1 = p2, p1.next, p2
 
 
 def reverse(start):

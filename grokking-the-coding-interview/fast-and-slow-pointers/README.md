@@ -13,7 +13,7 @@
 [[LC876](https://leetcode.com/problems/middle-of-the-linked-list)]
 1. [Palindrome LinkedList (medium)](Palindrome-LinkedList-(medium).py)
 [[LC234](https://leetcode.com/problems/palindrome-linked-list)]
-1. [Rearrange a LinkedList (medium)](Rearrange-a-LinkedList-(medium).py)
+1. [**Rearrange a LinkedList (medium)**](Rearrange-a-LinkedList-(medium).py)
 [[LC143](https://leetcode.com/problems/reorder-list)]
 1. [Cycle in a Circular Array (hard)](Cycle-in-a-Circular-Array-(hard).py)
 [[LC457](https://leetcode.com/problems/circular-array-loop)]
